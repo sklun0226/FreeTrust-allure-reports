@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","test_login_failure[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","","test_login","",""
+"","1933","test_click_discovery[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","TestClickTab","test_home_page","",""
+"","0","test_login_success[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","","test_login","",""
+"","2581","test_click_square[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","TestClickTab","test_home_page","",""
+"","2233","test_click_circle[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","TestClickTab","test_home_page","",""
+"","1056","test_click_message[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","TestClickTab","test_home_page","",""
+"","819","test_click_profile[UQG0220509034218]","tests","2026-01-02","passed","2026-01-02","TestClickTab","test_home_page","",""

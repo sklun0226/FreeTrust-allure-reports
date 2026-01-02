@@ -1,0 +1,4 @@
+INFO: ❌ 发现 App com.frukj.freeuuu 已启动，正在关闭...
+INFO: ✅ App com.frukj.freeuuu 已成功关闭
+INFO: ✅ App com.frukj.freeuuu 初始化成功
+ERROR: ❌ 测试失败: test_click_square[UQG0220509034218], 截图已保存到: D:\FreeTrust\FreeU App\screenshots\test_click_square[UQG0220509034218]_20260102_221905.png

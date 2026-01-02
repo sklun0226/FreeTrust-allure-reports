@@ -1,0 +1,2 @@
+INFO     utils.logger:conftest.py:44 ✅ 准备关闭设备: UQG0220509034218
+INFO     utils.logger:conftest.py:46 ✅ 设备已关闭: UQG0220509034218
