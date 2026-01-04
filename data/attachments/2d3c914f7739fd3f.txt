@@ -1,0 +1,1 @@
+INFO: ✅ App com.frukj.freeuuu 未启动，跳过关闭步骤
