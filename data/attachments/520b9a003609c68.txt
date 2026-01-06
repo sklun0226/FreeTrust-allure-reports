@@ -1,0 +1,4 @@
+INFO     utils.logger:conftest.py:28 ❌ 发现 App com.frukj.freeuuu 已启动，正在关闭...
+INFO     utils.logger:conftest.py:31 ✅ App com.frukj.freeuuu 已成功关闭
+INFO     utils.logger:conftest.py:43 ✅ App com.frukj.freeuuu 初始化成功
+INFO     utils.logger:test_home_page.py:19 ✅ 进入广场TAB页成功

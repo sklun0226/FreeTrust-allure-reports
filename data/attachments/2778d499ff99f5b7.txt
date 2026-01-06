@@ -1,0 +1,1 @@
+ERROR: ❌ 测试失败: test_click_message[UQG0220509034218], 截图已保存到: D:\FreeTrust\FreeU App\screenshots\test_click_message[UQG0220509034218]_20260104_170132.png

@@ -1,0 +1,1 @@
+ERROR: ❌ 测试失败: test_click_square_two[UQG0220509034218], 截图已保存到: D:\FreeTrust\FreeU App\screenshots\test_click_square_two[UQG0220509034218]_20260104_170127.png
