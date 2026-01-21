@@ -1,0 +1,605 @@
+
+<view class="layout-container flex-column" data-sid="_DeK" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DeK" style="background: #292929; padding-top: 0;">
+  <view class="status-bar" data-sid="_DeL" id="_DeL" style="padding-top: 47px; background: transparent;">
+    <view class="nav-bar" data-sid="_DeM" id="_DeM" style="height: 40px; color: #000; justify-content: space-between;">
+      <view class="left-space" data-sid="_DeP" id="_DeP" style="">
+        <view class="flex-center" data-sid="_DeQ" id="_DeQ" style=""/>
+        <view class="system-user" data-sid="_DeW" id="_DeW" style="">
+          <view class="h5-view user-avatar" data-sid="_DeX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DeX" style="">
+            <image class="user-avatar--img" data-sid="_DeY" id="_DeY" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+          </view>
+          <view class="h5-view user-box user-box-dark" data-sid="_Dea" id="_Dea" style="">
+            <view class="user-box--name" data-sid="_Deb" id="_Deb" style="">邵昆仑测试环境</view>
+            <view class="user-box--tag" data-sid="_Ded" id="_Ded" style="">上海福芮柚科技有限公司</view>
+          </view>
+        </view>
+      </view>
+      <view class="title one-line-ellipsis" data-sid="_Def" id="_Def" style=""/>
+      <view class="right-icon" data-sid="_Deg" id="_Deg" style="padding-right: 87px;">
+        <view class="nut-badge" data-sid="_Dej" id="_Dej" style="">
+          <view class="nut-badge__icon" data-sid="_Dek" id="_Dek" style="top: 8px; right: 8px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <button app-parameter="" business-id="" class="h5-button icon-item icon-dark ml-20" data-sid="_Deq" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Deq" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="border-radius: 50%; width: 33px; padding: 0; z-index: 0;" type="" role="button" aria-disabled="false">
+            <image data-sid="_Der" id="_Der" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/comment-dark-icon.png" style="" role="img"/>
+          </button>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Dew" id="_Dew" style="top: 8px; right: 8px; z-index: 9; background: #F04134; display: ;"/>
+        </view>
+        <button app-parameter="" business-id="" class="h5-button icon-item icon-dark ml-20" data-sid="_Dex" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dex" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="border-radius: 50%; width: 33px; padding: 0; z-index: 0;" type="" role="button" aria-disabled="false">
+          <image data-sid="_Dey" id="_Dey" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/search-dark-icon.png" style="" role="img"/>
+        </button>
+      </view>
+    </view>
+  </view>
+  <scroll-view bounces="" class="layout-content" data-sid="_DfF" id="_DfF" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-threshold="45" scroll-into-view="" scroll-left="" scroll-top="0" scroll-with-animation="" scroll-y="" style="" upper-threshold="50">
+    <view class="friendship-edit" data-sid="_DfI" id="_DfI" style="padding-bottom: 145px; display: none;">
+      <view class="friendship-user" data-sid="_DfJ" id="_DfJ" style="">
+        <view class="user-header" data-sid="_DfK" id="_DfK" style="">
+          <view class="flex-center" data-sid="_DfL" id="_DfL" style="">
+            <view class="header-info" data-sid="_DfM" id="_DfM" style="">
+              <view class="header-info__status" data-sid="_DfN" id="_DfN" style="">
+                <image data-sid="_DfO" id="_DfO" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/icon_state.png" style="" role="img"/>
+                <text data-sid="_DfP" id="_DfP" space="" style=""/>
+              </view>
+            </view>
+            <button app-parameter="" business-id="" class="h5-button switch-button" data-sid="_DfS" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DfS" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+              <image data-sid="_DfT" id="_DfT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/switch-my.png" style="" role="img"/>
+              <text data-sid="_DfU" id="_DfU" space="" style=""/>
+            </button>
+          </view>
+        </view>
+        <view class="user-content" data-sid="_DfX" id="_DfX" style="">
+          <swiper autoplay="" circular="" class="user-swiper" current="0" data-sid="_DfY" display-multiple-items="1" duration="500" easing-function="default" id="_DfY" indicator-active-color="#000000" indicator-color="rgba(0, 0, 0, .3)" interval="2000" next-margin="0px" previous-margin="0px" style="" role="listbox"/>
+          <view class="user-info" data-sid="_Dfc" id="_Dfc" style="">
+            <view class="user-card" data-sid="_Dfe" id="_Dfe" style="">
+              <view class="header" data-sid="_Dfg" id="_Dfg" style="">
+                <view class="flex-center" data-sid="_Dfh" id="_Dfh" style="">
+                  <view class="name" data-sid="_Dfi" id="_Dfi" style=""/>
+                  <view class="gender" data-sid="_Dfj" id="_Dfj" style="">
+                    <image data-sid="_Dfk" id="_Dfk" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/icon_male.png" style="" role="img"/>
+                  </view>
+                </view>
+              </view>
+              <view class="h5-view signature flex-center" data-sid="_Dfq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dfq" style="">
+                <image class="mr-20" data-sid="_Dfr" id="_Dfr" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/edit-icon.png" style="display: none;" role="img"/>
+                <text data-sid="_Dfs" id="_Dfs" space="" style=""/>
+              </view>
+              <view class="tags select-scroll" data-sid="_Dfv" id="_Dfv" style=""/>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="friendship-dynamic" data-sid="_DgC" id="_DgC" style="">
+        <view class="flex-center-between pb-40" data-sid="_DgD" id="_DgD" style="">
+          <view class="info-title" data-sid="_DgE" id="_DgE" style="">
+            <image data-sid="_DgF" id="_DgF" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/icon_dynamic.png" style="" role="img"/>
+            <text data-sid="_DgG" id="_DgG" space="" style=""/>
+          </view>
+        </view>
+        <view data-sid="_DgJ" id="_DgJ" style="">
+          <view class="find-empty" data-sid="_DgK" id="_DgK" style="">
+            <image data-sid="_DgL" id="_DgL" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/find-empty.png" style="" role="img"/>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="business-status" data-sid="_DgM" id="_DgM" style="padding-bottom: 145px; display: ;">
+      <view class="status-business-bar" data-sid="_DgN" id="_DgN" style="">
+        <view class="title" data-sid="_DgO" id="_DgO" style="">
+          <view class="title-box" data-sid="_DgP" id="_DgP" style="">
+            <view class="h5-view title-left" data-sid="_DgQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DgQ" style="">
+              <view class="title-top" data-sid="_DgR" id="_DgR" style="">
+                <image class="title-icon" data-sid="_DgS" id="_DgS" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/icon_business.png" style="" role="img"/>
+                <text class="title-name" data-sid="_DgT" id="_DgT" space="" style=""/>
+              </view>
+            </view>
+            <view class="title-middle" data-sid="_DgW" id="_DgW" style="">
+              <view class="h5-view" data-sid="_DgX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DgX" style="">
+                <image class="title-middle-icon" data-sid="_DgY" id="_DgY" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/switch-my.png" style="" role="img"/>
+                <text class="title-middle-name" data-sid="_DgZ" id="_DgZ" space="" style=""/>
+              </view>
+            </view>
+          </view>
+          <button app-parameter="" business-id="" class="h5-button title-right" data-sid="_Dqr" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dqr" lang="" open-type="share" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image class="title-right-icon" data-sid="_Dqs" id="_Dqs" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/分享.png" style="" role="img"/>
+          </button>
+        </view>
+      </view>
+      <view class="digital-card2" data-sid="_Dgd" id="_Dgd" style="">
+        <view class="digital-card--img" data-sid="_Dge" id="_Dge" style="background-image: url(https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/template/C-C9.png);">
+          <view class="B-style" data-sid="_Dgf" id="_Dgf" style="">
+            <view class="card-location" data-sid="_Dgg" id="_Dgg" style="">
+              <text data-sid="_Dqt" id="_Dqt" space="" style=""/>
+              <text class="one-line-ellipsis" data-sid="_Dqv" id="_Dqv" space="" style=""/>
+            </view>
+            <image class="B-style--icon" data-sid="_Dgj" id="_Dgj" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/prod/portrait/20251017/9746e8e29f5c640552929ddbcdf8c948e7c8dfb59757ae1f8036f892e82f5097.png" style="" role="img"/>
+            <view class="B-style--intro" data-sid="_Dgk" id="_Dgk" style="">
+              <view data-sid="_Dgl" id="_Dgl" style="">
+                <view class="h5-view flex-center" data-sid="_Dgm" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dgm" style="">
+                  <text class="B-style--name" data-sid="_Dgn" id="_Dgn" space="" style=""/>
+                  <image class="B-style--phone" data-sid="_Dqy" id="_Dqy" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/icon-tel.png" style="" role="img"/>
+                </view>
+                <view class="h5-view one-line-ellipsis" data-sid="_Dgr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dgr" style="">研发</view>
+                <view class="h5-view one-line-ellipsis" data-sid="_Dgv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dgv" style="">上海福芮柚科技有限公司</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="personal-intro" data-sid="_DhA" id="_DhA" style="">
+        <view class="title" data-sid="_DhB" id="_DhB" style="">
+          <view class="title-left" data-sid="_DhC" id="_DhC" style="">
+            <image class="title-intro" data-sid="_DhD" id="_DhD" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/个人简介.png" style="" role="img"/>
+            <text class="title-label" data-sid="_DhE" id="_DhE" space="" style=""/>
+          </view>
+        </view>
+        <view class="h5-view card-intro" data-sid="_DhL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DhL" style="">
+          <text class="card-intro__text" data-sid="_DhN" id="_DhN" space="" style=""/>
+        </view>
+        <view data-sid="_DhP" id="_DhP" style="">
+          <view class="nut-overlay" data-sid="_DhQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DhQ" style="transition-duration: 0.3s; z-index: 9999; display: none;"/>
+           
+          <view class="h5-view nut-popup round nut-popup--bottom bottom-popup" data-sid="_DhU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DhU" style="z-index: 9999; transition-duration: 0.3s; display: none;">
+            <view class="popup-header" data-sid="_DhX" id="_DhX" style="">
+              <text data-sid="_DhY" id="_DhY" space="" style=""/>
+              <text class="popup-header--title" data-sid="_Dha" id="_Dha" space="" style=""/>
+              <text data-sid="_Dhc" id="_Dhc" space="" style=""/>
+            </view>
+            <view class="popup-content" data-sid="_Dhe" id="_Dhe" style="">
+              <view class="personIntro-text" data-sid="_Dhh" id="_Dhh" style="">
+                <view class="fu-textarea text-padding" data-sid="_Dhi" id="_Dhi" style="">
+                  <textarea auto-height="" class="h5-textarea" confirm-type="return" cursor="-1" data-sid="_Dhj" focus="0" id="_Dhj" maxlength="300" name="" placeholder="👋🏻 FreeU｜X年行业经验【介绍】   🎨 产品｜设计｜iOS 开发【角色】   🫶 做好产品，交好朋友【当前在做/擅长什么】   🏛️ 想为文明留下些事物【爱好、小坚持】" placeholder-class="custom-placeholder" placeholder-style="font-size: 28rpx;color: #C6C6C8;" selection-end="-1" selection-start="-1" style="min-height: 156px; height: 21px;" value="">👋🏻 FreeU｜X年行业经验【介绍】
+
+ 🎨 产品｜设计｜iOS 开发【角色】
+
+ 🫶 做好产品，交好朋友【当前在做/擅长什么】
+
+ 🏛️ 想为文明留下些事物【爱好、小坚持】a</textarea>
+                  <view class="limit-text flex-center-between" data-sid="_Dhl" id="_Dhl" style="">
+                    <text data-sid="_Dhm" id="_Dhm" space="" style=""/>
+                    <image class="ai-image" data-sid="_Dhq" id="_Dhq" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/card/start-btn.png" style="" role="img"/>
+                  </view>
+                </view>
+              </view>
+            </view>
+             
+          </view>
+        </view>
+        <view class="business-labels" data-sid="_Dhv" id="_Dhv" style="">
+          <view class="select-scroll pt-20" data-sid="_DrU" id="_DrU" style="">
+            <view class="label-text" data-sid="_DrY" id="_DrY" style="">
+              <image class="h5-img" data-sid="_DrZ" id="_DrZ" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/icon_zidingyi.png" style="" role="img"/>
+              <text data-sid="_Dra" id="_Dra" space="" style=""/>
+            </view>
+            <view class="label-text" data-sid="_Drc" id="_Drc" style="">
+              <image class="h5-img" data-sid="_Drd" id="_Drd" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/icon_zidingyi.png" style="" role="img"/>
+              <text data-sid="_Dre" id="_Dre" space="" style=""/>
+            </view>
+            <view class="label-text" data-sid="_Drg" id="_Drg" style="">
+              <image class="h5-img" data-sid="_Drh" id="_Drh" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/icon_zidingyi.png" style="" role="img"/>
+              <text data-sid="_Dri" id="_Dri" space="" style=""/>
+            </view>
+            <view class="label-text" data-sid="_Drk" id="_Drk" style="">
+              <image class="h5-img" data-sid="_Drl" id="_Drl" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/icon_zidingyi.png" style="" role="img"/>
+              <text data-sid="_Drm" id="_Drm" space="" style=""/>
+            </view>
+            <view class="label-text" data-sid="_Dro" id="_Dro" style="">
+              <image class="h5-img" data-sid="_Drp" id="_Drp" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/icon_zidingyi.png" style="" role="img"/>
+              <text data-sid="_Drq" id="_Drq" space="" style=""/>
+            </view>
+            <view class="label-text" data-sid="_Drs" id="_Drs" style="">
+              <image class="h5-img" data-sid="_Drt" id="_Drt" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/icon_zidingyi.png" style="" role="img"/>
+              <text data-sid="_Dru" id="_Dru" space="" style=""/>
+            </view>
+          </view>
+        </view>
+        <view data-sid="_Dhx" id="_Dhx" style="">
+          <view class="nut-overlay" data-sid="_Dhy" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dhy" style="transition-duration: 0.3s; z-index: 9999; display: none;"/>
+           
+          <view class="h5-view nut-popup round nut-popup--bottom bottom-popup" data-sid="_DiC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DiC" style="z-index: 9999; transition-duration: 0.3s; display: none;">
+            <view class="popup-header" data-sid="_DiF" id="_DiF" style="">
+              <text data-sid="_DiG" id="_DiG" space="" style=""/>
+              <text class="popup-header--title" data-sid="_DiI" id="_DiI" space="" style=""/>
+              <text data-sid="_DiK" id="_DiK" space="" style=""/>
+            </view>
+            <view class="popup-content" data-sid="_DiM" id="_DiM" style="">
+              <view class="label-business-box" data-sid="_DiP" id="_DiP" style="">
+                <view class="label-text" data-sid="_DiQ" id="_DiQ" style="">我的标签</view>
+                <view class="my-label" data-sid="_DiS" id="_DiS" style="">
+                  <view data-sid="_DiT" id="_DiT" style="">
+                    <view class="h5-view my-label__custom" data-sid="_DiU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DiU" style="">
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-uploader" data-sid="_DiV" id="_DiV" space="" style="color: #000; font-size: 12px; width: 12px; height: 12px;"/>
+                      <text data-sid="_DiW" id="_DiW" space="" style=""/>
+                    </view>
+                  </view>
+                  <view class="my-label__have" data-sid="_DiY" id="_DiY" style="display: none;"/>
+                </view>
+                <view class="label-text" data-sid="_Dib" id="_Dib" style="">全部标签</view>
+                <view class="all-label" data-sid="_Did" id="_Did" style=""/>
+              </view>
+            </view>
+             
+          </view>
+        </view>
+      </view>
+      <view class="ai-analysis" data-sid="_DrA" id="_DrA" style="">
+        <image class="ai-analysis-bg" data-sid="_DrB" id="_DrB" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/ai解析边框.png" style="" role="img"/>
+        <image data-sid="_DrC" id="_DrC" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/AI解析.png" style="" role="img"/>
+        <view class="business-ai" data-sid="_DrD" id="_DrD" style="">
+          <view class="business-ai-content" data-sid="_DrE" id="_DrE" style="">
+            <text data-sid="_DrF" id="_DrF" space="" style=""/>
+             对方是研
+          </view>
+          <view class="business-ai-content mt-18" data-sid="_DrI" id="_DrI" style="">
+            <text data-sid="_DrJ" id="_DrJ" space="" style=""/>
+             
+          </view>
+          <view class="business-ai-content mt-18" data-sid="_DrM" id="_DrM" style="">
+            <text data-sid="_DrN" id="_DrN" space="" style=""/>
+             
+          </view>
+        </view>
+      </view>
+      <view class="business-social" data-sid="_Din" id="_Din" style="display: none;">
+        <view class="title-left" data-sid="_Dio" id="_Dio" style="">
+          <text class="title-label" data-sid="_Dip" id="_Dip" space="" style=""/>
+        </view>
+        <view class="h5-view title-right" data-sid="_Dir" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dir" style="">
+          <image class="rightArrowIcon" data-sid="_Diu" id="_Diu" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/businessStatus/右箭头.png" style="" role="img"/>
+        </view>
+      </view>
+      <view class="list-tabs" data-sid="_Diw" id="_Diw" style="">
+        <view class="business-status-tab" data-sid="_Dix" id="_Dix" style="">
+          <view class="h5-view business-status-tab-item business-status-tab-active" data-sid="_DjA" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DjA" style="">
+            <view data-sid="_DjB" id="_DjB" style="margin-right: 31px;">
+              <view class="business-status-tab-title" data-sid="_DjC" id="_DjC" style="">业务介绍</view>
+              <view class="business-status-tab-line" data-sid="_DjE" id="_DjE" style=""/>
+            </view>
+          </view>
+          <view class="h5-view business-status-tab-item" data-sid="_DjF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DjF" style="">
+            <view data-sid="_DrQ" id="_DrQ" style="margin-right: 31px;">
+              <view class="business-status-tab-title" data-sid="_DrR" id="_DrR" style="">商务动态</view>
+              <view class="business-status-tab-line" data-sid="_DrT" id="_DrT" style=""/>
+            </view>
+          </view>
+          <view class="h5-view business-status-tab-item" data-sid="_DjH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DjH" style="">
+            <view data-sid="_DjI" id="_DjI" style="margin-right: 0px;">
+              <view class="business-status-tab-title" data-sid="_DjJ" id="_DjJ" style="">过往经历</view>
+              <view class="business-status-tab-line" data-sid="_DjL" id="_DjL" style=""/>
+            </view>
+          </view>
+        </view>
+        <scroll-view bounces="" class="list-my" data-sid="_DjQ" id="_DjQ" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-threshold="45" scroll-into-view="" scroll-left="" scroll-top="" scroll-y="" style="" upper-threshold="50">
+          <view class="h5-view" data-sid="_Drw" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Drw" style="">
+            <view class="intro-content" data-sid="_Drx" id="_Drx" style="">
+              <view data-sid="_DsA" id="_DsA" style="">
+                <view class="intro-info" data-sid="_DsB" id="_DsB" style="">哈哈</view>
+              </view>
+              <view data-sid="_DsD" id="_DsD" style="">
+                <image data-sid="_DsE" id="_DsE" mode="widthFix" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/prod/20251201/29e07ff1cab3a7c5ac0f09fd7ed9aad53a8dc9044bad0ea2ab5cdb2dfe79491c.jpg" style="height: 592.68px;" role="img"/>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="tabBar-container" data-sid="_DjX" id="_DjX" style="">
+    <view class="h5-view tab-btns dark" data-sid="_Djc" id="_Djc" style="">
+      <button app-parameter="" business-id="" class="h5-button minor-btn" data-sid="_Djd" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Djd" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+        <text data-sid="_Dje" id="_Dje" space="" style=""/>
+        <text data-sid="_Djg" id="_Djg" space="" style=""/>
+      </button>
+      <button app-parameter="" business-id="" class="h5-button primary-btn ml-20" data-sid="_Dji" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dji" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+        <text data-sid="_Djj" id="_Djj" space="" style=""/>
+        <text data-sid="_Djl" id="_Djl" space="" style=""/>
+      </button>
+    </view>
+    <view class="h5-view tab-bar-wrapper tab-bar-wrapper-black" data-sid="_Djn" id="tabBar" style="padding-bottom: env(safe-area-inset-bottom);">
+      <view class="h5-view tab-bar flex-column-center" data-sid="_Djq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Djq" style="">
+        <view class="nut-badge" data-sid="_Djr" id="_Djr" style="">
+          <view class="nut-badge__icon" data-sid="_Djs" id="_Djs" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_Djy" id="_Djy" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/businessStatus-active.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_DkA" id="_DkA" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text class="active-text" data-sid="_DkB" id="_DkB" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_DkD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DkD" style="">
+        <view class="nut-badge" data-sid="_DkE" id="_DkE" style="">
+          <view class="nut-badge__icon" data-sid="_DkF" id="_DkF" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_DkL" id="_DkL" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/find-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_DkN" id="_DkN" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_DkO" id="_DkO" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_DkQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DkQ" style="">
+        <view class="nut-badge" data-sid="_DkR" id="_DkR" style="">
+          <view class="nut-badge__icon" data-sid="_DkS" id="_DkS" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-ai" data-sid="_DkY" id="_DkY" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/create-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Dka" id="_Dka" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_Dkb" id="_Dkb" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_Dkc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dkc" style="">
+        <view class="nut-badge" data-sid="_Dkd" id="_Dkd" style="">
+          <view class="nut-badge__icon" data-sid="_Dke" id="_Dke" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_Dkk" id="_Dkk" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/card-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Dkm" id="_Dkm" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_Dkn" id="_Dkn" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_Dkp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dkp" style="">
+        <view class="nut-badge" data-sid="_Dkq" id="_Dkq" style="">
+          <view class="nut-badge__icon" data-sid="_Dkr" id="_Dkr" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_Dkx" id="_Dkx" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/circle-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Dkz" id="_Dkz" style="top: 4px; right: 0px; z-index: 9; background: #F04134;"/>
+        </view>
+        <text data-sid="_DlA" id="_DlA" space="" style=""/>
+      </view>
+    </view>
+  </view>
+  <view data-sid="_DlC" id="_DlC" style="">
+    <view class="nut-overlay" data-sid="_DlD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DlD" style="transition-duration: 0.3s; z-index: 2101; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_DlH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DlH" style="z-index: 2101; transition-duration: 0.3s; display: none;">
+      <view class="line-icon" data-sid="_DlK" id="_DlK" style=""/>
+      <view class="control-box" data-sid="_DlN" id="_DlN" style="">
+        <view class="flex-center-between" data-sid="_DlQ" id="_DlQ" style="border-top: 0;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_DlR" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DlR" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_DlS" id="_DlS" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/business-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_DlT" id="_DlT" style="">
+              <text data-sid="_DlU" id="_DlU" space="" style=""/>
+            </view>
+          </button>
+          <button app-parameter="" business-id="" class="h5-button open-memberPro" data-sid="_DlZ" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DlZ" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 开通Pro会员 </button>
+        </view>
+        <view class="flex-center-between" data-sid="_Dlb" id="_Dlb" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_Dlc" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dlc" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_Dld" id="_Dld" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/dynamic-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_Dle" id="_Dle" style="">
+              <text data-sid="_Dlf" id="_Dlf" space="" style=""/>
+            </view>
+          </button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+  <view data-sid="_Dlo" id="_Dlo" style="">
+    <view class="nut-overlay" data-sid="_Dlp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dlp" style="transition-duration: 0.3s; z-index: 9999; display: none;"/>
+     
+    <view class="h5-view nut-popup nut-popup--left pop-left" data-sid="_Dlt" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dlt" style="z-index: 9999; transition-duration: 0.3s; display: none;">
+      <view class="user-left" data-sid="_Dlw" id="_Dlw" style="">
+        <view class="flex-center-between pb-10" data-sid="_Dlx" id="_Dlx" style="">
+          <view class="user-avatar" data-sid="_Dly" id="_Dly" style="">
+            <image class="user-avatar--img" data-sid="_Dlz" id="_Dlz" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+          </view>
+          <image class="user-mood" data-sid="_DmB" id="_DmB" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/mood-light-icon.png" style="" role="img"/>
+        </view>
+        <view class="user-auth" data-sid="_DmC" id="_DmC" style="">
+          <view class="user-name" data-sid="_DmD" id="_DmD" style="">邵昆仑测试环境</view>
+          <view class="auth-box" data-sid="_DmF" id="_DmF" style="">
+            <view class="flex-center" data-sid="_DmG" id="_DmG" style="">
+              <view class="auth-cell person-auth" data-sid="_DmH" id="_DmH" style="">
+                <image data-sid="_DmI" id="_DmI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/friendship/person-auth.png" style="" role="img"/>
+                <text class="auth--text" data-sid="_DmJ" id="_DmJ" space="" style=""/>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="user-tag" data-sid="_DmL" id="_DmL" style="">
+          <text class="tag tag1" data-sid="_DmM" id="_DmM" space="" style=""/>
+          <text class="dot" data-sid="_DmO" id="_DmO" space="" style=""/>
+          <text class="tag tag2" data-sid="_DmQ" id="_DmQ" space="" style=""/>
+        </view>
+      </view>
+      <view class="home-visit flex-center-between mt-10" data-sid="_DmU" id="_DmU" style="">
+        <view class="flex-center-between" data-sid="_DmV" id="_DmV" style="">
+          <view class="h5-view home-visit__item" data-sid="_DmY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DmY" style="">
+            <view class="nut-badge" data-sid="_DmZ" id="_DmZ" style="">
+              <view class="nut-badge__icon" data-sid="_Dma" id="_Dma" style="top: 0px; right: 8px; z-index: 9; background: #f04134; display: none;"/>
+               
+              <view class="home-visit__item--num" data-sid="_Dmg" id="_Dmg" style="">275</view>
+               
+              <view class="nut-badge__content nut-badge__content--sup" data-sid="_Dmj" id="_Dmj" style="top: 0px; right: 8px; z-index: 9; background: #f04134; display: none;">0</view>
+            </view>
+            <view class="home-visit__item--text" data-sid="_Dml" id="_Dml" style="">柚子信用分</view>
+          </view>
+        </view>
+      </view>
+      <view class="h5-view member" data-sid="_Dmo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dmo" style="background-image: url(https://obs.freeuuu.com/public/freeu-card/member/common-member.png);">
+        <view class="look-member" data-sid="_Dmp" id="_Dmp" style="">查看权益</view>
+        <view class="member-info" data-sid="_Dmr" id="_Dmr" style="">
+          <text class="member-info--text" data-sid="_Dms" id="_Dms" space="" style=""/>
+          <button app-parameter="" business-id="" class="h5-button" data-sid="_Dmu" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dmu" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <text data-sid="_Dmv" id="_Dmv" space="" style=""/>
+            <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right ml-10" data-sid="_Dmx" id="_Dmx" space="" style="color: #406F0A; font-size: 8px; width: 8px; height: 8px;"/>
+          </button>
+        </view>
+      </view>
+      <view class="function-box" data-sid="_DnA" id="_DnA" style="">
+        <view class="h5-view function-box__item" data-sid="_DnD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DnD" style="">
+          <image data-sid="_DnE" id="_DnE" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/share-gift.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DnF" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DnF" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">邀请有礼</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DnH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DnH" style="">
+          <image data-sid="_DnI" id="_DnI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/yun-pan.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DnJ" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DnJ" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">网盘</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DnL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DnL" style="">
+          <image data-sid="_DnM" id="_DnM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/ai-image.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DnN" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DnN" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">AI形象照</button>
+        </view>
+      </view>
+      <view class="function-box" data-sid="_DnP" id="_DnP" style="">
+        <view class="h5-view function-box__item" data-sid="_DnS" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DnS" style="">
+          <image data-sid="_DnT" id="_DnT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-1.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DnU" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DnU" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">动态</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DnW" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DnW" style="">
+          <image data-sid="_DnX" id="_DnX" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-2.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DnY" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DnY" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">收藏</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dna" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dna" style="">
+          <image data-sid="_Dnb" id="_Dnb" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-3.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dnc" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dnc" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">圈子</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dne" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dne" style="">
+          <image data-sid="_Dnf" id="_Dnf" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-9.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dng" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dng" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">圈活动</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dni" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dni" style="">
+          <image data-sid="_Dnj" id="_Dnj" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-10.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dnk" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dnk" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">钱包</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dnm" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dnm" style="">
+          <image data-sid="_Dnn" id="_Dnn" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-14.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dno" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dno" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">日程管理</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dnq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dnq" style="">
+          <image data-sid="_Dnr" id="_Dnr" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/20251225-140505.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dns" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dns" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">柚企信</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dnu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dnu" style="">
+          <image data-sid="_Dnv" id="_Dnv" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-11.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dnw" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dnw" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">访客</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_Dny" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dny" style="">
+          <image data-sid="_Dnz" id="_Dnz" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-12.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DoA" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DoA" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">浏览</button>
+        </view>
+      </view>
+      <view class="function-box" data-sid="_DoC" id="_DoC" style="">
+        <view class="h5-view function-box__item" data-sid="_DoF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DoF" style="">
+          <image data-sid="_DoG" id="_DoG" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-4.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DoH" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DoH" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">认证中心</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DoJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DoJ" style="">
+          <image data-sid="_DoK" id="_DoK" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-5.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DoL" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DoL" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">账号管理</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DoN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DoN" style="">
+          <image data-sid="_DoO" id="_DoO" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-6.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DoP" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DoP" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">隐私设置</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DoR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DoR" style="">
+          <image data-sid="_DoS" id="_DoS" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-7.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DoT" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DoT" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">用户反馈</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DoV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DoV" style="">
+          <image data-sid="_DoW" id="_DoW" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/icon-8.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_DoX" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DoX" lang="" open-type="contact" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">客服中心</button>
+        </view>
+        <view class="h5-view function-box__item" data-sid="_DoZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DoZ" style="">
+          <image data-sid="_Doa" id="_Doa" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/doc-file.png" style="" role="img"/>
+          <button app-parameter="" business-id="" class="h5-button function-box__item--text" data-sid="_Dob" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dob" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" show-message-card="" size="default" style="" type="" role="button" aria-disabled="false">协议规则</button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+  <view class="nut-overlay flex-column-center" data-sid="_Dog" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dog" style="transition-duration: 0.3s; z-index: 99991; background-color: rgba(0, 0, 0, .8); padding-top: 99.48px; display: none;">
+    <view class="poster" data-sid="_Doj" id="_Doj" style="">
+      <view class="poster-title" data-sid="_Dok" id="_Dok" style=""> 🥰滑动可切换你喜欢的图片 </view>
+      <swiper circular="" class="swiper-list" current="0" data-sid="_Dom" display-multiple-items="1" duration="500" easing-function="default" id="_Dom" indicator-active-color="#000000" indicator-color="rgba(0, 0, 0, .3)" interval="5000" next-margin="0px" previous-margin="0px" style="height: 556px;" role="listbox"/>
+    </view>
+    <view class="poster-btns" data-sid="_Dop" id="_Dop" style="">
+      <view class="poster-btns__info" data-sid="_Doq" id="_Doq" style="">
+        <text data-sid="_Dor" id="_Dor" space="" style=""/>
+        <view class="h5-view nut-switch nut-switch-open nut-switch-base" data-sid="_Dot" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dot" style="background-color: #223006;">
+          <view class="nut-switch-button" data-sid="_Dou" id="_Dou" style=""> </view>
+        </view>
+      </view>
+      <view class="h5-view poster-btns__share" data-sid="_Doy" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Doy" style="">
+        <text data-sid="_Doz" id="_Doz" space="" style=""/>
+        <image data-sid="_DpB" id="_DpB" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/pan/send-icon.png" style="" role="img"/>
+      </view>
+    </view>
+  </view>
+  <view data-sid="_DpC" id="_DpC" style="">
+     
+    <view class="h5-view nut-popup nut-popup--center fu-toast" data-sid="_DpF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DpF" style="z-index: 2000; transition-duration: 0.3s; background-color: transparent; display: none;">
+      <view class="toast-content vertical" data-sid="_DpI" id="_DpI" style="">
+        <image data-sid="_DpJ" id="_DpJ" mode="scaleToFill" src="" style="display: none;" role="img"/>
+        <view class="toast-text" data-sid="_DpK" id="_DpK" style=""/>
+      </view>
+       
+    </view>
+  </view>
+  <view data-sid="_DpN" id="_DpN" style="">
+    <view class="nut-overlay" data-sid="_DpO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DpO" style="transition-duration: 0.3s; z-index: 2110; display: none;"/>
+     
+    <view class="h5-view nut-popup nut-popup--center" data-sid="_DpS" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_DpS" style="z-index: 2110; transition-duration: 0.3s; background-color: transparent; display: none;">
+      <view class="flex-column-center" data-sid="_DpV" id="_DpV" style="">
+        <view class="code-content" data-sid="_DpW" id="_DpW" style="">
+          <image class="qrcode-img" data-sid="_DpX" id="_DpX" mode="scaleToFill" show-menu-by-longpress="" src="https://obs.freeuuu.com/public/qcord/qrcode_for_gh_youying.jpg" style="" role="img"/>
+          <view class="code-content--title" data-sid="_DpY" id="_DpY" style="">长按二维码 关注公众号获取通知</view>
+        </view>
+        <text class="h5-i nutui-iconfont nut-icon nut-icon-circle-close close-icon" data-sid="_Dpa" id="_Dpa" space="" style="color: #ffff; font-size: 30px; width: 30px; height: 30px;"/>
+      </view>
+       
+    </view>
+  </view>
+  <view data-sid="_Dpd" id="_Dpd" style="">
+    <view class="nut-overlay" data-sid="_Dpe" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dpe" style="transition-duration: 0.3s; z-index: 2199; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_Dpi" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dpi" style="z-index: 2199; transition-duration: 0.3s; display: none;">
+      <view class="line-icon" data-sid="_Dpl" id="_Dpl" style=""/>
+      <view class="control-box" data-sid="_Dpo" id="_Dpo" style="">
+        <view class="flex-center-between" data-sid="_Dpr" id="_Dpr" style="border-top: 0;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_Dps" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dps" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_Dpt" id="_Dpt" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/circle/share-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_Dpu" id="_Dpu" style="">
+              <text data-sid="_Dpv" id="_Dpv" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_DqA" id="_DqA" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_DqB" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DqB" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_DqC" id="_DqC" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/icon-picture.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_DqD" id="_DqD" style="">
+              <text data-sid="_DqE" id="_DqE" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_DqJ" id="_DqJ" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_DqK" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DqK" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_DqL" id="_DqL" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/edit-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_DqM" id="_DqM" style="">
+              <text data-sid="_DqN" id="_DqN" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_DqS" id="_DqS" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item item-delete" data-sid="_DqT" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_DqT" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_DqU" id="_DqU" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/delete-info.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_DqV" id="_DqV" style="">
+              <text data-sid="_DqW" id="_DqW" space="" style=""/>
+            </view>
+          </button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+  <view class="nut-overlay overlay-complete" data-sid="_Dqd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Dqd" style="transition-duration: 0.3s; z-index: 2199; display: none;">
+    <view class="overlay-complete__box" data-sid="_Dqg" id="_Dqg" style="">
+      <view class="overlay-complete__box-tip" data-sid="_Dqh" id="_Dqh" style="">
+        <view data-sid="_Dqi" id="_Dqi" style="">欢迎加入！</view>
+        <view data-sid="_Dqk" id="_Dqk" style=""> 补全头像、昵称和兴趣标签，让我们更快认识你，推荐更合心意的人～ </view>
+      </view>
+      <button app-parameter="" business-id="" class="h5-button primary-btn" data-sid="_Dqm" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Dqm" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 完善资料 </button>
+    </view>
+    <image class="overlay-code__img" data-sid="_Dqo" id="_Dqo" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/delete-file.png" style="" role="img"/>
+  </view>
+</view>

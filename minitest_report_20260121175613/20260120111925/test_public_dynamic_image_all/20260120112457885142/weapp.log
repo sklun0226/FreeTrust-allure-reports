@@ -1,0 +1,12 @@
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:24:58"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:24:58"}
+{"type": "log", "args": ["🚀 ~ handler ~ params:", "SUPPLY_DEMAND"], "dt": "2026-01-20 11:25:02"}
+{"type": "log", "args": ["🚀 ~ handler ~ currentBans:", null], "dt": "2026-01-20 11:25:02"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-20 11:25:11"}
+{"type": "error", "args": ["跳转异常:", {"errMsg": "navigateTo:fail timeout"}], "dt": "2026-01-20 11:25:12"}

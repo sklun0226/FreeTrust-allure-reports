@@ -1,0 +1,14 @@
+[I 2026-01-19 22:07:34,680 minium minitest#432 _miniSetUp] =========Current case: test_myhome_friendship_create_others_ai_image=========
+[I 2026-01-19 22:07:34,680 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: MyHomeTest.test_myhome_friendship_create_others_ai_image
+[I 2026-01-19 22:07:34,681 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-19 22:07:34,681 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-19 22:07:34,682 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-19 22:07:34,682 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-19 22:07:34,683 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-19 22:07:34,683 minium minitest#897 capture] capture setup.png
+[I 2026-01-19 22:07:34,853 minium minitest#487 _miniSetUp] =========case: test_myhome_friendship_create_others_ai_image start=========
+[I 2026-01-19 22:07:34,853 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-19 22:07:34,854 minium minitest#796 _callTestMethod] end test method
+[I 2026-01-19 22:07:34,854 minium minitest#897 capture] capture teardown.png
+[I 2026-01-19 22:07:35,033 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-19 22:07:35,034 minium basenative#63 wrapper] call BaseNative.get_start_up end 

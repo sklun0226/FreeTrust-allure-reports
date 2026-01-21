@@ -1,0 +1,23 @@
+[I 2026-01-19 21:32:56,906 minium minitest#432 _miniSetUp] =========Current case: test_myhome_business_status_change=========
+[I 2026-01-19 21:32:56,906 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: MyHomeTest.test_myhome_business_status_change
+[I 2026-01-19 21:32:56,907 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-19 21:32:56,907 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-19 21:32:56,907 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-19 21:32:56,908 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-19 21:32:56,908 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-19 21:32:56,909 minium minitest#897 capture] capture setup.png
+[I 2026-01-19 21:32:57,084 minium minitest#487 _miniSetUp] =========case: test_myhome_business_status_change start=========
+[I 2026-01-19 21:32:57,084 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-19 21:32:57,085 minium minitest#897 capture] capture 跳转至广场页前_213257.png.png
+[I 2026-01-19 21:32:57,256 minium minitest#897 capture] capture 跳转至广场页后_213257.png.png
+[I 2026-01-19 21:32:57,413 minium page#716 _get_elements_by_css] try to get elements: button[class='h5-button switch-button']
+[I 2026-01-19 21:32:57,417 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x00000201D05805F0>]
+[I 2026-01-19 21:33:09,845 minium page#716 _get_elements_by_css] try to get elements: button[class='h5-button switch-button']
+[I 2026-01-19 21:33:09,849 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x00000201D01C4C30>]
+[I 2026-01-19 21:33:12,832 minium.App9264 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages5/completeInfo/index', 'query': {}, 'openType': 'navigateTo', 'timeStamp': 1768829592827, 'webviewId': 18, 'routeEventId': '18_1768829592733', 'renderer': 'webview'}, 1768829592828]}
+[I 2026-01-19 21:33:15,261 minium minitest#897 capture] capture 个人说明书已切换至商务状态_213315.png.png
+[I 2026-01-19 21:33:15,703 minium minitest#897 capture] capture 个人说明书切换商务状态_213315.png.png
+[I 2026-01-19 21:33:17,850 minium minitest#796 _callTestMethod] end test method
+[I 2026-01-19 21:33:17,852 minium minitest#897 capture] capture teardown.png
+[I 2026-01-19 21:33:18,101 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-19 21:33:18,102 minium basenative#63 wrapper] call BaseNative.get_start_up end 

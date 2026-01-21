@@ -1,0 +1,18 @@
+[I 2026-01-20 11:27:49,324 minium minitest#432 _miniSetUp] =========Current case: test_myhome_friendship_create_others_ai_image=========
+[I 2026-01-20 11:27:49,325 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: MyHomeTest.test_myhome_friendship_create_others_ai_image
+[I 2026-01-20 11:27:49,325 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-20 11:27:49,325 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-20 11:27:49,325 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-20 11:27:49,325 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-20 11:27:49,326 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-20 11:27:49,326 minium minitest#897 capture] capture setup.png
+[W 2026-01-20 11:27:51,335 minium.App6800 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[W 2026-01-20 11:27:51,336 minium minitest#929 capture] D:\FreeTrust\FreeU_WX_Minium\outputs\20260120111925\test_myhome_friendship_create_others_ai_image\20260120112749324155\images\setup.png not exists
+[I 2026-01-20 11:27:51,337 minium minitest#487 _miniSetUp] =========case: test_myhome_friendship_create_others_ai_image start=========
+[I 2026-01-20 11:27:51,337 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-20 11:27:51,337 minium minitest#796 _callTestMethod] end test method
+[I 2026-01-20 11:27:51,338 minium minitest#897 capture] capture teardown.png
+[W 2026-01-20 11:27:53,351 minium.App6800 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[W 2026-01-20 11:27:53,352 minium minitest#929 capture] D:\FreeTrust\FreeU_WX_Minium\outputs\20260120111925\test_myhome_friendship_create_others_ai_image\20260120112749324155\images\teardown.png not exists
+[I 2026-01-20 11:27:53,353 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-20 11:27:53,354 minium basenative#63 wrapper] call BaseNative.get_start_up end 

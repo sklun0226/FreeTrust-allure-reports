@@ -1,0 +1,31 @@
+[I 2026-01-20 12:35:48,946 minium minitest#432 _miniSetUp] =========Current case: test_check_sdk=========
+[I 2026-01-20 12:35:48,947 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.demo, case info: TestSDKVersion.test_check_sdk
+[I 2026-01-20 12:35:48,948 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-20 12:35:48,948 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-20 12:35:48,949 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-20 12:35:48,950 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-20 12:35:48,950 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[D 2026-01-20 12:35:48,951 minium.Conn9872 connection#427 _safely_send] SEND > [1949883799872]{"id":"2047c18b-e072-45b5-905c-0b864e2be951","method":"App.callWxMethod","params":{"method":"getLaunchOptionsSync","args":[]}}
+[D 2026-01-20 12:35:48,956 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"id":"2047c18b-e072-45b5-905c-0b864e2be951","result":{"result":{"path":"pages/index/index","query":{},"scene":1001,"referrerInfo":{},"mode":"default","apiCategory":"default"}}}
+[I 2026-01-20 12:35:48,957 minium.App4576 app#950 relaunch] ReLaunch: /pages/index/index
+[D 2026-01-20 12:35:48,958 minium.Conn9872 connection#427 _safely_send] ASYNC_SEND > [1949883799872]{"id":"3dc801d7-5094-4d49-97fc-371769d533ea","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-20 12:35:48,962 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"method":"App.bindingCalled","params":{"name":"reLaunch_before_global","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-20 12:35:48,967 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"id":"3dc801d7-5094-4d49-97fc-371769d533ea","result":{"result":{"errMsg":"reLaunch:ok"}}}
+[I 2026-01-20 12:35:48,968 minium.Conn9872 connection#704 _handle_async_msg] received async msg: 3dc801d7-5094-4d49-97fc-371769d533ea
+[D 2026-01-20 12:35:49,906 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"path":"pages/home/index","query":{},"openType":"switchTab","timeStamp":1768883749900,"webviewId":2,"routeEventId":"2_1768883749365","renderer":"webview"},1768883749902]}}
+[I 2026-01-20 12:35:49,908 minium.App4576 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/home/index', 'query': {}, 'openType': 'switchTab', 'timeStamp': 1768883749900, 'webviewId': 2, 'routeEventId': '2_1768883749365', 'renderer': 'webview'}, 1768883749902]}
+[W 2026-01-20 12:35:49,908 minium.App4576 app#953 relaunch] ReLaunch(/pages/index/index) but(/pages/home/index)
+[I 2026-01-20 12:35:49,911 minium minitest#897 capture] capture setup.png
+[D 2026-01-20 12:35:49,912 minium.Conn9872 connection#427 _safely_send] SEND > [1949883799872]{"id":"bd3b2647-a47d-42c7-8705-a07066b22e14","method":"App.captureScreenshot","params":{}}
+[D 2026-01-20 12:35:50,109 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"id":"bd3b2647-a47d-42c7-8705-a07066b22e14","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAYYAAANMCAIAAADXDp1JAAAAAXNSR0IArs4c6QAACtRJREFUeJzt1DEBACAMwDDAv+dxIoEeiYJe3TOzABrO7wCAx5KAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLA
+[I 2026-01-20 12:35:50,111 minium minitest#487 _miniSetUp] =========case: test_check_sdk start=========
+[I 2026-01-20 12:35:50,111 minium minitest#788 _callTestMethod] call test method
+[D 2026-01-20 12:35:50,112 minium.Conn9872 connection#427 _safely_send] SEND > [1949883799872]{"id":"192e8bd3-3acf-42aa-b194-37ed07436b41","method":"App.callWxMethod","params":{"method":"getSystemInfoSync","args":[]}}
+[D 2026-01-20 12:35:50,123 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"id":"192e8bd3-3acf-42aa-b194-37ed07436b41","result":{"result":{"batteryLevel":100,"benchmarkLevel":-1,"brand":"devtools","memorySize":2048,"model":"iPhone 12/13 (Pro)","system":"iOS 10.0.1","platform":"devtools","pixelRatio":3,"safeArea":{"top":47,"left":0,"right":390,"bottom":810,"width":390,"height":763},"screenWidth":390,"screenHeight":844,"screenTop":0,"windowWidth":390,"windowHeight":844,"statusBarHeight":47,"version":"8.0.5","language":"zh_CN","SDKVersion":"3.8.9","enableDebug":false,"fontSizeScaleF
+[I 2026-01-20 12:35:50,124 minium minitest#796 _callTestMethod] end test method
+[D 2026-01-20 12:35:50,125 minium minitest#799 _miniTearDown] =========Current case Down: test_check_sdk=========
+[I 2026-01-20 12:35:50,126 minium minitest#897 capture] capture teardown.png
+[D 2026-01-20 12:35:50,127 minium.Conn9872 connection#427 _safely_send] SEND > [1949883799872]{"id":"29cbbf4d-0138-4608-91f2-2c586d6de4f0","method":"App.captureScreenshot","params":{}}
+[D 2026-01-20 12:35:50,246 minium.Conn9872 connection#660 __on_message] RECV < [1949883799872]{"id":"29cbbf4d-0138-4608-91f2-2c586d6de4f0","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAYYAAANMCAIAAADXDp1JAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVlwHdd9/3mW3vvuG3ABEABBAtxBkBQ3kbQki5YcO/+S40q8JI4qUzU1nkrVP++Z5DkP8zQPeYhraqqSVKU8U/HfVimOZFvy35JMLdRCkSAJkgBI7MDd9977nDMPx7qBKYkESVAE5fN5Ahp9u083ur/3t53fga7rAoFAINgCQAjRox6DQCAQ/BdCkgQCwRZCSJJAINhCCEkSCARbCCFJAoFgCyEkSSAQbCGEJAkEgi2EkCSBQLCFEJIkEAi2EEKSBALBFkJIkkAg2EIISRIIBFsIIUkCgWALISRJIBBsIYQkCQSCLYSQJIFAsIUQkiQQCLYQQpIEAsEWQkiSQCDYQghJEggEWwghSQKBYAshJEkgEGwhhCQJB
+[I 2026-01-20 12:35:50,249 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-20 12:35:50,249 minium basenative#63 wrapper] call BaseNative.get_start_up end 

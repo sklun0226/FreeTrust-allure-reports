@@ -1,0 +1,106 @@
+[E 2026-01-21 10:17:13,561 minium test_home_page#1614 test_myhome_business_create_others_manual] 文字转名片创建个人说明书失败：[b02a8f29-ba86-4302-bedd-42f76ccef247][call Page.getElements] receive from remote timeout
+[E 2026-01-21 10:17:13,669 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 1597, in test_myhome_business_create_others_manual
+    create_btn = self.page.get_element(home_create_other_manual_btn_element,max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 291, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 369, in get_element
+    r = self.get_elements(
+        _selector,
+        max_timeout,
+        auto_fix=auto_fix
+    )
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 452, in get_elements
+    return self._get_elements_by_css(_selector, max_timeout, index=_selector.index, auto_fix=auto_fix)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 719, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 64, in wrapper
+    r = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 711, in search_elements
+    return self.__search_child(
+           ~~~~~~~~~~~~~~~~~~~^
+        _selectors[0:], index=index
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # __search_child回pop元素，第一次search失败后重试会有问题，copy一份
+    ^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 670, in __search_child
+    els = self.__get_elements(_selector)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 90, in wrapper
+    ret = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 648, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector.css})
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 637, in _send
+    self.connection.send(cmd)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 457, in send
+    return self._receive_response(cmd)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 501, in _receive_response
+    raise MiniTimeoutError(
+        f"[{cmd.id}][{cmd.desc}] receive from remote timeout"
+    )
+minium.framework.exception.MiniTimeoutError: [b02a8f29-ba86-4302-bedd-42f76ccef247][call Page.getElements] receive from remote timeout
+[E 2026-01-21 10:17:13,870 minium assertbase#390 _get_stack_info] <bound method MyHomeTest.test_myhome_business_create_others_manual of <test.test_home_page.MyHomeTest testMethod=test_myhome_business_create_others_manual>>
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 43, in testPartExecutor
+    yield
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 125, in run
+    self._callTestMethod(testMethod)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 1597, in test_myhome_business_create_others_manual
+    create_btn = self.page.get_element(home_create_other_manual_btn_element,max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 291, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 369, in get_element
+    r = self.get_elements(
+        _selector,
+        max_timeout,
+        auto_fix=auto_fix
+    )
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 452, in get_elements
+    return self._get_elements_by_css(_selector, max_timeout, index=_selector.index, auto_fix=auto_fix)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 719, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 64, in wrapper
+    r = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 711, in search_elements
+    return self.__search_child(
+           ~~~~~~~~~~~~~~~~~~~^
+        _selectors[0:], index=index
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # __search_child回pop元素，第一次search失败后重试会有问题，copy一份
+    ^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 670, in __search_child
+    els = self.__get_elements(_selector)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 90, in wrapper
+    ret = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 648, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector.css})
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 637, in _send
+    self.connection.send(cmd)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 457, in send
+    return self._receive_response(cmd)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 501, in _receive_response
+    raise MiniTimeoutError(
+        f"[{cmd.id}][{cmd.desc}] receive from remote timeout"
+    )
+minium.framework.exception.MiniTimeoutError: [b02a8f29-ba86-4302-bedd-42f76ccef247][call Page.getElements] receive from remote timeout

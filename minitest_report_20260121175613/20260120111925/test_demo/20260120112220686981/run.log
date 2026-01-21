@@ -1,0 +1,65 @@
+[I 2026-01-20 11:22:20,690 minium minitest#432 _miniSetUp] =========Current case: test_demo=========
+[I 2026-01-20 11:22:20,690 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_demo, case info: DemoTest.test_demo
+[I 2026-01-20 11:22:20,691 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-20 11:22:20,691 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-20 11:22:20,691 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-20 11:22:20,691 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-20 11:22:20,692 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-20 11:22:20,692 minium minitest#897 capture] capture setup.png
+[I 2026-01-20 11:22:21,214 minium minitest#487 _miniSetUp] =========case: test_demo start=========
+[I 2026-01-20 11:22:21,214 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-20 11:22:21,215 minium minitest#897 capture] capture 跳转至广场页前_112221.png.png
+[I 2026-01-20 11:22:22,017 minium minitest#897 capture] capture 跳转至广场页后_112222.png.png
+[I 2026-01-20 11:22:22,326 minium page#716 _get_elements_by_css] try to get elements: view[class='h5-view user-avatar']
+[I 2026-01-20 11:22:22,769 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7967D6F90>]
+[I 2026-01-20 11:22:24,084 minium page#716 _get_elements_by_css] try to get elements: button[class='h5-button function-box__item--text']
+[I 2026-01-20 11:22:24,419 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796727D90>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796727890>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7967775C0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796777230>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7967DFBF0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7967AEF10>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7967AEE00>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796796950>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796796B50>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F79679AE40>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796798D70>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7967A1630>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796850D70>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F79678AF70>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F796834A10>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F7968341D0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F79673B540>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F79673B5F0>]
+[I 2026-01-20 11:22:32,410 minium minitest#897 capture] capture 日程管理后_112232.png.png
+[I 2026-01-20 11:23:02,176 minium page#716 _get_elements_by_css] try to get elements: image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']
+[W 2026-01-20 11:23:11,327 minium page#747 _get_elements_by_css] Could not found any element 'image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']' you need
+[E 2026-01-20 11:23:11,327 minium test_demo#39 test_demo] 日程管理失败：element[image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']] not found
+[I 2026-01-20 11:23:11,327 minium minitest#897 capture] capture 日程管理失败_112311.png.png
+[E 2026-01-20 11:23:12,462 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_demo.py", line 34, in test_demo
+    create_btn = self.page.get_element(home_user_schedule_create_btn_element, max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 291, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 375, in get_element
+    raise MiniElementNotFoundError(_selector)
+minium.framework.exception.MiniElementNotFoundError: element[image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']] not found
+[I 2026-01-20 11:23:12,469 minium minitest#796 _callTestMethod] end test method
+[I 2026-01-20 11:23:12,471 minium minitest#897 capture] capture teardown.png
+[I 2026-01-20 11:23:12,603 minium page#716 _get_elements_by_css] try to get elements: page
+[I 2026-01-20 11:23:12,610 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000001F7967D6F90>]
+[I 2026-01-20 11:23:12,652 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-20 11:23:12,652 minium basenative#63 wrapper] call BaseNative.get_start_up end 
+[E 2026-01-20 11:23:12,654 minium utils#166 wrapper] catch error: 'gbk' codec can't decode byte 0x83 in position 1182: illegal multibyte sequence
+[E 2026-01-20 11:23:12,655 minium assertbase#390 _get_stack_info] <bound method DemoTest.test_demo of <test.test_demo.DemoTest testMethod=test_demo>>
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 43, in testPartExecutor
+    yield
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 125, in run
+    self._callTestMethod(testMethod)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_demo.py", line 34, in test_demo
+    create_btn = self.page.get_element(home_user_schedule_create_btn_element, max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 291, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 375, in get_element
+    raise MiniElementNotFoundError(_selector)
+minium.framework.exception.MiniElementNotFoundError: element[image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']] not found
+[W 2026-01-20 11:23:12,656 minium assertbase#354 _log_info_when_error] config: {'debug': False, 'base_dir': 'D:\\FreeTrust\\FreeU_WX_Minium', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'ide', 'close_ide': False, 'auto_capture': 'auto', 'check_mp_foreground': True, 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'D:\\FreeTrust\\FreeU_WX_Minium\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'D:/FreeTrust/Project/fu-taro-card', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'enable_h5': True, 'autofix': False, 'launch_path': '/pages/find/index', 'framework_capture': True, 'error_capture': False, 'assert_capture': True, 'create_time': '20260120111925', 'case_output': 'D:\\FreeTrust\\FreeU_WX_Minium\\outputs\\20260120111925\\test_demo\\20260120112220686981'}
+[W 2026-01-20 11:23:12,656 minium assertbase#355 _log_info_when_error] build info: {'version': '1.6.0', 'revision': '33ce5b50b34ec18c51c054a7cc1bdfb3ab0a451b', 'branch': 'master', 'update_at': '2024-10-09 21:08:56'}
+[W 2026-01-20 11:23:12,657 minium minitest#1029 _log_info_when_error] mini: 基础库3.8.0, 开发者工具2.01.2510260
+[W 2026-01-20 11:23:12,657 minium minitest#1031 _log_info_when_error] native: <minium.native.wx_native.idenative.IdeNative object at 0x000001F7967D46E0>

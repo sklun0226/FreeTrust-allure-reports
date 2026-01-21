@@ -1,0 +1,88 @@
+[E 2026-01-21 11:05:48,516 minium.Conn4912 connection#642 _on_error] [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+[E 2026-01-21 11:05:52,870 minium.Conn4912 connection#642 _on_error] [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[E 2026-01-21 11:06:02,126 minium.Conn4912 connection#642 _on_error] [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[E 2026-01-21 11:06:11,380 minium.Conn4912 connection#642 _on_error] [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+[E 2026-01-21 11:06:11,427 minium.Conn4912 connection#739 destroy] 断开连接
+[E 2026-01-21 11:06:11,428 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 387, in _send
+    self._client.send(message)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\websocket\_app.py", line 203, in send
+    if not self.sock or self.sock.send(data, opcode) == 0:
+                        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\websocket\_core.py", line 278, in send
+    return self.send_frame(frame)
+           ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\websocket\_core.py", line 306, in send_frame
+    l = self._send(data)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\websocket\_core.py", line 520, in _send
+    return send(self.sock, data)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\websocket\_socket.py", line 143, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 1060, in test_myhome_business_create_others_manual
+    self.test_myhome_business_status_change()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 126, in test_myhome_business_status_change
+    current_business_status = self.page.element_is_exists(myhome_friendship_status_element,
+                                                          max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 279, in element_is_exists
+    return _element_is_exists()
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 64, in wrapper
+    r = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 271, in _element_is_exists
+    return self._current_page._element_is_exists(selector=selector,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+        xpath=xpath,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        text_contains=text_contains,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 787, in _element_is_exists
+    if self.get_elements_by_xpath(xpath, 0, index=0, **kwargs)
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 535, in get_elements_by_xpath
+    els = search_elements()
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 64, in wrapper
+    r = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 533, in search_elements
+    return self._get_elements_by_xpath(_selector)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\utils\utils.py", line 90, in wrapper
+    ret = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 876, in _get_elements_by_xpath
+    ret = self._send("Page.getElementsByXpath", {"selector": _selector.to_selector()})
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 637, in _send
+    self.connection.send(cmd)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 456, in send
+    self._safely_send(cmd)
+    ~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 428, in _safely_send
+    if not self._send(message) and not self._is_connected:
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 390, in _send
+    if self.reconnect(time.time()):
+       ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\connection.py", line 547, in reconnect
+    if not self._is_reconnecting.acquire(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        timeout=MAX_RETRY * MAX_WAIT_TIMEOUT + 10
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):  # 理论上应该能获取到锁的
+    ^
+KeyboardInterrupt

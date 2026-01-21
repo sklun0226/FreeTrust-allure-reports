@@ -1,0 +1,5 @@
+{"type": "log", "args": ["🚀 ~ handler ~ params:", "COMMERCE"], "dt": "2026-01-21 11:02:47"}
+{"type": "log", "args": ["🚀 ~ handler ~ currentBans:", null], "dt": "2026-01-21 11:02:47"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-21 11:02:48"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-21 11:02:48"}
+{"type": "error", "args": ["跳转异常:", {"errMsg": "navigateTo:fail timeout"}], "dt": "2026-01-21 11:02:57"}

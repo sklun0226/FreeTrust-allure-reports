@@ -1,0 +1,106 @@
+[I 2026-01-20 11:10:25,319 minium minitest#432 _miniSetUp] =========Current case: test_myhome_friendship_status_change=========
+[I 2026-01-20 11:10:25,319 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: MyHomeTest.test_myhome_friendship_status_change
+[I 2026-01-20 11:10:25,319 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-20 11:10:25,319 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-20 11:10:25,319 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-20 11:10:25,320 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-20 11:10:25,320 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-20 11:10:25,320 minium minitest#897 capture] capture setup.png
+[I 2026-01-20 11:10:25,511 minium minitest#487 _miniSetUp] =========case: test_myhome_friendship_status_change start=========
+[I 2026-01-20 11:10:25,511 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-20 11:10:25,511 minium minitest#897 capture] capture 跳转至广场页前_111025.png.png
+[I 2026-01-20 11:10:25,687 minium minitest#897 capture] capture 跳转至广场页后_111025.png.png
+[I 2026-01-20 11:10:25,910 minium page#716 _get_elements_by_css] try to get elements: button[class='h5-button switch-button']
+[I 2026-01-20 11:10:25,916 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001454DF85770>]
+[I 2026-01-20 11:10:25,917 minium page#716 _get_elements_by_css] try to get elements: button[class='h5-button switch-button']
+[I 2026-01-20 11:10:25,921 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001454DF84FF0>]
+[I 2026-01-20 11:10:30,982 minium page#716 _get_elements_by_css] try to get elements: text.title-name
+[I 2026-01-20 11:10:30,986 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001454DF856D0>]
+[I 2026-01-20 11:10:30,986 minium page#716 _get_elements_by_css] try to get elements: text.title-name
+[I 2026-01-20 11:10:30,990 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001454DF85B30>]
+[I 2026-01-20 11:10:30,991 minium page#716 _get_elements_by_css] try to get elements: text.title-name
+[I 2026-01-20 11:10:30,994 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001454DF856D0>]
+[E 2026-01-20 11:10:31,076 minium.Conn6576 connection#668 __on_message] [b8fc5325-8ae0-4d09-8f27-67b093a56cab]: no such element
+[E 2026-01-20 11:10:32,084 minium.Conn6576 connection#668 __on_message] [2660ba58-d32a-469e-98b4-3ffd4de89230]: no such element
+[E 2026-01-20 11:10:33,091 minium.Conn6576 connection#668 __on_message] [04e44d51-a3d7-4aff-b6dc-a26a35ed2324]: no such element
+[E 2026-01-20 11:10:34,100 minium.Conn6576 connection#668 __on_message] [abd658a8-7f9a-4738-bf48-05107f9c48f9]: no such element
+[E 2026-01-20 11:10:35,107 minium.Conn6576 connection#668 __on_message] [c576dfb3-f50a-4989-a2bd-88603e011300]: no such element
+[E 2026-01-20 11:10:36,114 minium.Conn6576 connection#668 __on_message] [28edf8c5-2be9-4f7c-8d39-55771a2ddcdc]: no such element
+[E 2026-01-20 11:10:37,120 minium.Conn6576 connection#668 __on_message] [a2f6cdca-3d1c-458b-b126-e164f302614d]: no such element
+[E 2026-01-20 11:10:38,127 minium.Conn6576 connection#668 __on_message] [15516551-acfa-473d-a259-b90aa1eac3d9]: no such element
+[E 2026-01-20 11:10:39,133 minium.Conn6576 connection#668 __on_message] [8c1362be-b4fb-417c-89aa-1b1945780a52]: no such element
+[E 2026-01-20 11:10:40,141 minium.Conn6576 connection#668 __on_message] [73107305-6c0a-42c7-8680-123a3b0574fa]: no such element
+[E 2026-01-20 11:10:40,141 minium test_home_page#101 test_myhome_friendship_status_change] 个人说明书状态 休闲 切换失败：element[/view[2]/view[5]/view[2]/view[1]] not found
+[I 2026-01-20 11:10:40,142 minium minitest#897 capture] capture 个人说明书切换休闲状态_111040.png.png
+[E 2026-01-20 11:10:40,333 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 90, in test_myhome_friendship_status_change
+    current_status = self.page.get_element(myhome_select_friendship_status_element,
+                                           max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 291, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 363, in get_element
+    return self.get_element_by_xpath(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        _selector,
+        ^^^^^^^^^^
+        max_timeout=max_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        auto_fix=auto_fix
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 613, in get_element_by_xpath
+    raise MiniElementNotFoundError(_selector)
+minium.framework.exception.MiniElementNotFoundError: element[/view[2]/view[5]/view[2]/view[1]] not found
+[I 2026-01-20 11:10:40,335 minium minitest#796 _callTestMethod] end test method
+[I 2026-01-20 11:10:40,336 minium minitest#897 capture] capture teardown.png
+[I 2026-01-20 11:10:40,538 minium page#716 _get_elements_by_css] try to get elements: page
+[I 2026-01-20 11:10:40,544 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.CustomElement object at 0x000001454D7536F0>]
+[I 2026-01-20 11:10:40,597 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-20 11:10:40,598 minium basenative#63 wrapper] call BaseNative.get_start_up end 
+[E 2026-01-20 11:10:40,600 minium utils#166 wrapper] catch error: 'gbk' codec can't decode byte 0x83 in position 1202: illegal multibyte sequence
+[E 2026-01-20 11:10:40,602 minium assertbase#390 _get_stack_info] <bound method MyHomeTest.test_myhome_friendship_status_change of <test.test_home_page.MyHomeTest testMethod=test_myhome_friendship_status_change>>
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 43, in testPartExecutor
+    yield
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 125, in run
+    self._callTestMethod(testMethod)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 90, in test_myhome_friendship_status_change
+    current_status = self.page.get_element(myhome_select_friendship_status_element,
+                                           max_timeout=max_timeout)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\app.py", line 291, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 363, in get_element
+    return self.get_element_by_xpath(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        _selector,
+        ^^^^^^^^^^
+        max_timeout=max_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        auto_fix=auto_fix
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 148, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\miniprogram\base_driver\page\page.py", line 613, in get_element_by_xpath
+    raise MiniElementNotFoundError(_selector)
+minium.framework.exception.MiniElementNotFoundError: element[/view[2]/view[5]/view[2]/view[1]] not found
+[W 2026-01-20 11:10:40,603 minium assertbase#354 _log_info_when_error] config: {'debug': False, 'base_dir': 'D:\\FreeTrust\\FreeU_WX_Minium', 'platform': 'ide', 'app': 'wx', 'debug_mode': 'ide', 'close_ide': False, 'auto_capture': 'auto', 'check_mp_foreground': True, 'auto_relaunch': False, 'device_desire': {}, 'account_info': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'request_timeout': 60, 'use_push': True, 'full_reset': False, 'outputs': 'D:\\FreeTrust\\FreeU_WX_Minium\\outputs', 'enable_app_log': True, 'enable_network_panel': False, 'project_path': 'D:/FreeTrust/Project/fu-taro-card', 'dev_tool_path': 'C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat', 'test_port': 9420, 'mock_native_modal': {}, 'mock_request': [], 'auto_authorize': False, 'audits': None, 'teardown_snapshot': False, 'mock_images_dir': '', 'mock_images': {}, 'need_perf': False, 'appid': None, 'enable_h5': True, 'autofix': False, 'launch_path': '/pages/find/index', 'framework_capture': True, 'error_capture': False, 'assert_capture': True, 'create_time': '20260120110520', 'case_output': 'D:\\FreeTrust\\FreeU_WX_Minium\\outputs\\20260120110520\\test_myhome_friendship_status_change\\20260120111025317763'}
+[W 2026-01-20 11:10:40,604 minium assertbase#355 _log_info_when_error] build info: {'version': '1.6.0', 'revision': '33ce5b50b34ec18c51c054a7cc1bdfb3ab0a451b', 'branch': 'master', 'update_at': '2024-10-09 21:08:56'}
+[W 2026-01-20 11:10:40,604 minium minitest#1029 _log_info_when_error] mini: 基础库3.8.0, 开发者工具2.01.2510260
+[W 2026-01-20 11:10:40,604 minium minitest#1031 _log_info_when_error] native: <minium.native.wx_native.idenative.IdeNative object at 0x000001454D7B46E0>

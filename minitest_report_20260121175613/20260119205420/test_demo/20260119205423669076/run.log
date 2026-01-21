@@ -1,0 +1,35 @@
+[I 2026-01-19 20:54:23,669 minium minitest#432 _miniSetUp] =========Current case: test_demo=========
+[I 2026-01-19 20:54:23,670 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_demo, case info: DemoTest.test_demo
+[I 2026-01-19 20:54:23,670 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-19 20:54:23,670 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-19 20:54:23,670 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-19 20:54:23,670 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-19 20:54:23,670 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-19 20:54:23,670 minium minitest#897 capture] capture setup.png
+[I 2026-01-19 20:54:23,764 minium minitest#487 _miniSetUp] =========case: test_demo start=========
+[I 2026-01-19 20:54:23,764 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-19 20:54:23,764 minium minitest#897 capture] capture 跳转至广场页前_205423.png.png
+[I 2026-01-19 20:54:23,887 minium home_tab_page#48 goto_home_page] 第1次尝试跳转到广场页...
+[I 2026-01-19 20:54:23,887 minium.App7344 app#950 relaunch] ReLaunch: /pages/home/index
+[I 2026-01-19 20:54:27,468 minium.App7344 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch', 'timeStamp': 1768827267455, 'webviewId': 66, 'routeEventId': '', 'renderer': 'webview'}, 1768827267456]}
+[I 2026-01-19 20:54:27,483 minium.Conn2640 connection#704 _handle_async_msg] received async msg: 40e75b14-ad69-4de1-b432-f00b15a8f6a3
+[I 2026-01-19 20:54:27,484 minium home_tab_page#56 goto_home_page] 进入广场页成功！
+[I 2026-01-19 20:54:27,484 minium page#716 _get_elements_by_css] try to get elements: view[class='h5-view user-avatar']
+[I 2026-01-19 20:54:27,654 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A6A270>]
+[I 2026-01-19 20:54:27,654 minium home_tab_page#76 goto_home_page] 进入广场页成功
+[I 2026-01-19 20:54:27,655 minium page#716 _get_elements_by_css] try to get elements: view[class='h5-view user-avatar']
+[I 2026-01-19 20:54:28,016 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001A0589BBB10>]
+[I 2026-01-19 20:54:28,017 minium minitest#897 capture] capture 跳转至广场页后_205428.png.png
+[I 2026-01-19 20:54:28,142 minium page#716 _get_elements_by_css] try to get elements: view[class='h5-view user-avatar']
+[I 2026-01-19 20:54:28,241 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001A0589BBB10>]
+[I 2026-01-19 20:54:29,461 minium page#716 _get_elements_by_css] try to get elements: button[class='h5-button function-box__item--text']
+[I 2026-01-19 20:54:29,465 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A05810>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A05940>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A05797D5B0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A26BE0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A26AD0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A44D50>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A44B50>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A3A7B0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A388C0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A3D630>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A3DC50>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A12270>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A059040050>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A059040110>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A0589CBAC0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058FEEC50>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A5F7F0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A5EFD0>]
+[I 2026-01-19 20:54:30,570 minium.App7344 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages6/schedules/index', 'query': {}, 'openType': 'navigateTo', 'timeStamp': 1768827270557, 'webviewId': 67, 'routeEventId': '67_1768827269915', 'renderer': 'webview'}, 1768827270558]}
+[I 2026-01-19 20:54:30,667 minium minitest#897 capture] capture 日程管理后_205430.png.png
+[I 2026-01-19 20:54:31,752 minium page#716 _get_elements_by_css] try to get elements: image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']
+[I 2026-01-19 20:54:31,763 minium page#749 _get_elements_by_css] find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001A058A5FF70>]
+[I 2026-01-19 20:54:33,397 minium.App7344 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages6/schedules/create', 'query': {'type': 'SCHEDULE'}, 'openType': 'navigateTo', 'timeStamp': 1768827273393, 'webviewId': 68, 'routeEventId': '68_1768827272638', 'renderer': 'webview'}, 1768827273394]}
+[I 2026-01-19 20:54:34,918 minium minitest#796 _callTestMethod] end test method
+[I 2026-01-19 20:54:34,918 minium minitest#897 capture] capture teardown.png
+[I 2026-01-19 20:54:35,000 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-19 20:54:35,000 minium basenative#63 wrapper] call BaseNative.get_start_up end 

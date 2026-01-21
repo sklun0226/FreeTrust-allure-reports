@@ -1,0 +1,9 @@
+[E 2026-01-21 10:17:24,077 minium.Conn6464 connection#668 __on_message] [c57bbb65-f91f-4737-8bca-19495fbde14e]: timeout
+[E 2026-01-21 10:17:39,087 minium home_tab_page#75 goto_home_page] 第1次跳转失败：
+[E 2026-01-21 10:17:50,117 minium.Conn6464 connection#668 __on_message] [71d26f68-a9b6-4ed3-ae08-536eeff3b01e]: timeout
+[E 2026-01-21 10:18:05,125 minium home_tab_page#75 goto_home_page] 第2次跳转失败：
+[E 2026-01-21 10:18:16,152 minium.Conn6464 connection#668 __on_message] [f0bf5e7c-1825-4056-bbb6-cdb7d5afa5aa]: timeout
+[E 2026-01-21 10:18:31,155 minium home_tab_page#75 goto_home_page] 第3次跳转失败：
+[E 2026-01-21 10:18:42,187 minium.Conn6464 connection#668 __on_message] [2a7f81b6-0820-4d00-9637-e8987fc3307b]: timeout
+[E 2026-01-21 10:18:57,194 minium home_tab_page#75 goto_home_page] 第4次跳转失败：
+[E 2026-01-21 10:18:57,194 minium home_tab_page#84 goto_home_page] 进入广场页失败（已重试3次）...

@@ -1,0 +1,28 @@
+[E 2026-01-20 17:22:25,923 minium test_home_page#112 test_myhome_friendship_status_change] 个人说明书状态 休闲 切换失败：list index out of range
+[E 2026-01-20 17:22:26,106 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 92, in test_myhome_friendship_status_change
+    current_status = self.page.get_elements(myhome_current_select_status_element,
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           max_timeout=max_timeout)[0]
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[E 2026-01-20 17:22:26,255 minium assertbase#390 _get_stack_info] <bound method MyHomeTest.test_myhome_friendship_status_change of <test.test_home_page.MyHomeTest testMethod=test_myhome_friendship_status_change>>
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 43, in testPartExecutor
+    yield
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 125, in run
+    self._callTestMethod(testMethod)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 92, in test_myhome_friendship_status_change
+    current_status = self.page.get_elements(myhome_current_select_status_element,
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           max_timeout=max_timeout)[0]
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
