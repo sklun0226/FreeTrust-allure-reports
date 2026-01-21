@@ -1,0 +1,291 @@
+
+<view class="layout-container flex-column" data-sid="_Oj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Oj" style="background-image: url(https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/card/icon/schedule_bg.png); background-color: #F8F8F8; background-size: 100% 194px; padding-top: 0;">
+  <view class="status-bar" data-sid="_Ok" id="_Ok" style="padding-top: 47px; background: transparent;">
+    <view class="nav-bar" data-sid="_Ol" id="_Ol" style="height: 40px; color: #000; justify-content: space-between;">
+      <view class="left-space" data-sid="_Oo" id="_Oo" style="">
+        <view class="flex-center" data-sid="_Op" id="_Op" style="">
+          <image class="layout-left" data-sid="_Oq" id="_Oq" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/layout-left.png" style="z-index: 1;" role="img"/>
+        </view>
+      </view>
+      <view class="title one-line-ellipsis" data-sid="_Ov" id="_Ov" style="">日程管理</view>
+      <view class="space" data-sid="_Ox" id="_Ox" style=""/>
+    </view>
+  </view>
+  <scroll-view bounces="" class="layout-content" data-sid="_PB" id="_PB" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-threshold="45" scroll-into-view="" scroll-left="" scroll-top="" scroll-with-animation="" scroll-y="" style="" upper-threshold="50">
+    <view class="schedules-page" data-sid="_PE" id="_PE" style="">
+      <view class="nut-tabs horizontal schedules-tabs" data-sid="_PF" id="_PF" style="">
+        <scroll-view bounces="" class="nut-tabs__titles line normal" data-sid="_PG" enable-flex="" id="nut-tabs__titles_55reotgs" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-threshold="45" scroll-into-view="" scroll-left="-90.5" scroll-top="0" show-scrollbar="" style="background: unset;" upper-threshold="50" scroll-with-animation="">
+          <view class="nut-tabs__list" data-sid="_PJ" id="_PJ" style="">
+            <view class="h5-view nut-tabs__titles-item taro active" data-sid="_Wh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Wh" style="">
+              <view class="nut-tabs__titles-item__line" data-sid="_Wi" id="_Wi" style=""/>
+                
+              <view class="nut-tabs__titles-item__text ellipsis" data-sid="_Wm" id="_Wm" style="">我的日程</view>
+            </view>
+            <view class="h5-view nut-tabs__titles-item taro" data-sid="_Wo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Wo" style="">
+              <view class="nut-tabs__titles-item__line" data-sid="_Wp" id="_Wp" style=""/>
+                
+              <view class="nut-tabs__titles-item__text ellipsis" data-sid="_Wt" id="_Wt" style="">我的提醒</view>
+            </view>
+             
+          </view>
+        </scroll-view>
+         
+        <view class="h5-view nut-tabs__content" data-sid="_PR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabsContentRef-55reotgs" style="transform: translate3d(-0%, 0, 0); transition-duration: 300ms;">
+          <view class="nut-tab-pane" data-sid="_PU" id="_PU" style=""/>
+          <view class="nut-tab-pane" data-sid="_PX" id="_PX" style=""/>
+        </view>
+      </view>
+      <view class="calendar" data-sid="_Pa" id="_Pa" style="">
+        <view class="calendar-header" data-sid="_Pc" id="_Pc" style="">
+          <view class="h5-view header-btn" data-sid="_Pd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Pd" style="">
+            <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-left" data-sid="_Pe" id="_Pe" space="" style="color: #333333; font-size: 18px; width: 18px; height: 18px;"/>
+          </view>
+          <view class="h5-view header-title-container" data-sid="_Pf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Pf" style="">
+            <text class="header-title" data-sid="_Pg" id="_Pg" space="" style=""/>
+            <text class="h5-i nutui-iconfont nut-icon nut-icon-triangle-down" data-sid="_Pi" id="_Pi" space="" style="color: #333333; font-size: 12px; width: 12px; height: 12px;"/>
+          </view>
+          <view class="h5-view header-btn" data-sid="_Pj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Pj" style="">
+            <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_Pk" id="_Pk" space="" style="color: #333333; font-size: 18px; width: 18px; height: 18px;"/>
+          </view>
+        </view>
+        <view class="week-row" data-sid="_Pm" id="_Pm" style="">
+          <text class="week-item" data-sid="_Pp" id="_Pp" space="" style=""/>
+          <text class="week-item" data-sid="_Pr" id="_Pr" space="" style=""/>
+          <text class="week-item" data-sid="_Pt" id="_Pt" space="" style=""/>
+          <text class="week-item" data-sid="_Pv" id="_Pv" space="" style=""/>
+          <text class="week-item" data-sid="_Px" id="_Px" space="" style=""/>
+          <text class="week-item" data-sid="_Pz" id="_Pz" space="" style=""/>
+          <text class="week-item" data-sid="_QB" id="_QB" space="" style=""/>
+        </view>
+        <view class="days-grid" data-sid="_QE" id="_QE" style="">
+          <view class="h5-view day-cell out" data-sid="_QH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_QH" style=""/>
+          <view class="h5-view day-cell out" data-sid="_QL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_QL" style=""/>
+          <view class="h5-view day-cell out" data-sid="_QP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_QP" style=""/>
+          <view class="h5-view day-cell out" data-sid="_QT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_QT" style=""/>
+          <view class="h5-view day-cell" data-sid="_QX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_QX" style="">
+            <text class="day-num" data-sid="_QY" id="_QY" space="" style=""/>
+            <view class="dot past" data-sid="_Wv" id="_Wv" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Qc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Qc" style="">
+            <text class="day-num" data-sid="_Qd" id="_Qd" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Qh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Qh" style="">
+            <text class="day-num" data-sid="_Qi" id="_Qi" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Qm" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Qm" style="">
+            <text class="day-num" data-sid="_Qn" id="_Qn" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Qr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Qr" style="">
+            <text class="day-num" data-sid="_Qs" id="_Qs" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Qw" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Qw" style="">
+            <text class="day-num" data-sid="_Qx" id="_Qx" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_RB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_RB" style="">
+            <text class="day-num" data-sid="_RC" id="_RC" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_RG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_RG" style="">
+            <text class="day-num" data-sid="_RH" id="_RH" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_RL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_RL" style="">
+            <text class="day-num" data-sid="_RM" id="_RM" space="" style=""/>
+            <view class="dot past" data-sid="_Ww" id="_Ww" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_RQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_RQ" style="">
+            <text class="day-num" data-sid="_RR" id="_RR" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_RV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_RV" style="">
+            <text class="day-num" data-sid="_RW" id="_RW" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Ra" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ra" style="">
+            <text class="day-num" data-sid="_Rb" id="_Rb" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Rf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Rf" style="">
+            <text class="day-num" data-sid="_Rg" id="_Rg" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Rk" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Rk" style="">
+            <text class="day-num" data-sid="_Rl" id="_Rl" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Rp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Rp" style="">
+            <text class="day-num" data-sid="_Rq" id="_Rq" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Ru" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ru" style="">
+            <text class="day-num" data-sid="_Rv" id="_Rv" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Rz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Rz" style="">
+            <text class="day-num" data-sid="_SA" id="_SA" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_SE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_SE" style="">
+            <text class="day-num" data-sid="_SF" id="_SF" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_SJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_SJ" style="">
+            <text class="day-num" data-sid="_SK" id="_SK" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_SO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_SO" style="">
+            <text class="day-num" data-sid="_SP" id="_SP" space="" style=""/>
+            <view class="dot past" data-sid="_Wx" id="_Wx" style=""/>
+          </view>
+          <view class="h5-view day-cell today selected" data-sid="_ST" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ST" style="">
+            <text class="day-num" data-sid="_SU" id="_SU" space="" style=""/>
+            <view class="dot" data-sid="_Wy" id="_Wy" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_SY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_SY" style="">
+            <text class="day-num" data-sid="_SZ" id="_SZ" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Sd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Sd" style="">
+            <text class="day-num" data-sid="_Se" id="_Se" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Si" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Si" style="">
+            <text class="day-num" data-sid="_Sj" id="_Sj" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Sn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Sn" style="">
+            <text class="day-num" data-sid="_So" id="_So" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Ss" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ss" style="">
+            <text class="day-num" data-sid="_St" id="_St" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_Sx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Sx" style="">
+            <text class="day-num" data-sid="_Sy" id="_Sy" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_TC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_TC" style="">
+            <text class="day-num" data-sid="_TD" id="_TD" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_TH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_TH" style="">
+            <text class="day-num" data-sid="_TI" id="_TI" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_TM" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_TM" style="">
+            <text class="day-num" data-sid="_TN" id="_TN" space="" style=""/>
+          </view>
+          <view class="h5-view day-cell" data-sid="_TR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_TR" style="">
+            <text class="day-num" data-sid="_TS" id="_TS" space="" style=""/>
+            <view class="dot" data-sid="_Wz" id="_Wz" style=""/>
+          </view>
+        </view>
+        <view data-sid="_TX" id="_TX" style="">
+          <view class="nut-overlay" data-sid="_TY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_TY" style="transition-duration: 0.3s; z-index: 2000; display: none;"/>
+           
+          <view class="h5-view nut-popup round nut-popup--bottom" data-sid="_Tc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Tc" style="z-index: 2000; transition-duration: 0.3s; height: 45%; display: none;">
+            <view class="datetime-picker-wrap" data-sid="_Tf" id="_Tf" style="">
+              <view class="datetime-picker-header" data-sid="_Tg" id="_Tg" style="">
+                <view class="h5-view datetime-picker-header-option cancel" data-sid="_Th" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Th" style="">取消</view>
+                <view class="datetime-picker-header-title" data-sid="_Tj" id="_Tj" style="">时间</view>
+                <view class="h5-view datetime-picker-header-option confirm" data-sid="_Tl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Tl" style="">保存</view>
+              </view>
+              <view class="datetime-picker-content" data-sid="_Tn" id="_Tn" style="">
+                <view class="nut-picker" data-sid="_To" id="_To" style="">
+                    
+                  <picker-view data-sid="_Tu" id="_Tu" immediate-change="" indicator-class="" indicator-style="height:36px" mask-class="" mask-style="" name="" style="height: 252px; --lineHeight: 36px;" value="[0,0,0]">
+                    <picker-view-column data-sid="_Tx" id="_Tx" style="" aria-label="上下滚动进行选择">
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UA" id="_UA" style="line-height: 36px;">2026年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UC" id="_UC" style="line-height: 36px;">2027年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UE" id="_UE" style="line-height: 36px;">2028年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UG" id="_UG" style="line-height: 36px;">2029年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UI" id="_UI" style="line-height: 36px;">2030年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UK" id="_UK" style="line-height: 36px;">2031年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UM" id="_UM" style="line-height: 36px;">2032年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UO" id="_UO" style="line-height: 36px;">2033年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UQ" id="_UQ" style="line-height: 36px;">2034年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_US" id="_US" style="line-height: 36px;">2035年</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UU" id="_UU" style="line-height: 36px;">2036年</view>
+                    </picker-view-column>
+                    <picker-view-column data-sid="_UW" id="_UW" style="" aria-label="上下滚动进行选择">
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_UZ" id="_UZ" style="line-height: 36px;">01月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Ub" id="_Ub" style="line-height: 36px;">02月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Ud" id="_Ud" style="line-height: 36px;">03月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Uf" id="_Uf" style="line-height: 36px;">04月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Uh" id="_Uh" style="line-height: 36px;">05月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Uj" id="_Uj" style="line-height: 36px;">06月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Ul" id="_Ul" style="line-height: 36px;">07月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Un" id="_Un" style="line-height: 36px;">08月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Up" id="_Up" style="line-height: 36px;">09月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Ur" id="_Ur" style="line-height: 36px;">10月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Ut" id="_Ut" style="line-height: 36px;">11月</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_Uv" id="_Uv" style="line-height: 36px;">12月</view>
+                    </picker-view-column>
+                    <picker-view-column data-sid="_Ux" id="_Ux" style="" aria-label="上下滚动进行选择">
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VA" id="_VA" style="line-height: 36px;">21日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VC" id="_VC" style="line-height: 36px;">22日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VE" id="_VE" style="line-height: 36px;">23日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VG" id="_VG" style="line-height: 36px;">24日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VI" id="_VI" style="line-height: 36px;">25日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VK" id="_VK" style="line-height: 36px;">26日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VM" id="_VM" style="line-height: 36px;">27日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VO" id="_VO" style="line-height: 36px;">28日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VQ" id="_VQ" style="line-height: 36px;">29日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VS" id="_VS" style="line-height: 36px;">30日</view>
+                      <view class="nut-picker-roller-item-tarotile" data-sid="_VU" id="_VU" style="line-height: 36px;">31日</view>
+                    </picker-view-column>
+                  </picker-view>
+                    
+                </view>
+              </view>
+            </view>
+             
+          </view>
+        </view>
+      </view>
+      <view class="schedules-list" data-sid="_XA" id="_XA" style="">
+        <view class="h5-view schedule-wrapper" data-sid="_XD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_XD" style="">
+          <view class="swipe-wrap" data-sid="_XF" id="_XF" style="">
+            <view class="h5-view nut-swipe" data-sid="_XG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_XG" style="transform: translate3d(0px, 0, 0);">
+              <view class="h5-view nut-swipe__left" data-sid="_XH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="leftRef-hf4huixb" style=""/>
+               
+              <view class="h5-view nut-swipe__content" data-sid="_XL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_XL" style="">
+                <view class="schedule-item grabbed" data-sid="_XO" id="_XO" style="">
+                  <view class="schedule-item__title" data-sid="_XP" id="_XP" style="">
+                    <view class="schedule-item__title-text" data-sid="_XQ" id="_XQ" style="">嗨嗨嗨</view>
+                    <view class="schedule-item__status" data-sid="_XS" id="_XS" style="">已结束</view>
+                  </view>
+                  <view class="schedule-item__time" data-sid="_XU" id="_XU" style="">
+                    <text data-sid="_XV" id="_XV" space="" style=""/>
+                    <text class="time-dot__line" data-sid="_XX" id="_XX" space="" style=""/>
+                    <text data-sid="_XZ" id="_XZ" space="" style=""/>
+                  </view>
+                  <view class="schedule-item__location" data-sid="_Xb" id="_Xb" style=""/>
+                  <view class="schedule-item__address" data-sid="_Xc" id="_Xc" style=""/>
+                  <button app-parameter="" business-id="" class="h5-button primary-btn" data-sid="_Xd" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Xd" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 导航 </button>
+                </view>
+              </view>
+               
+              <view class="h5-view nut-swipe__right" data-sid="_Xg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="rightRef-hf4huixb" style="">
+                <view class="h5-view delete-btn" data-sid="_Xj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Xj" style="">
+                  <image class="delete-btn__icon" data-sid="_Xk" id="_Xk" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/del-icon.png" style="" role="img"/>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="h5-view add-btn" data-sid="_Vr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Vr" style="">
+      <image data-sid="_Vs" id="_Vs" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png" style="" role="img"/>
+    </view>
+  </scroll-view>
+  <view data-sid="_Vu" id="_Vu" style="">
+    <view class="nut-overlay" data-sid="_Vv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Vv" style="transition-duration: 0.3s; z-index: 2101; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_Vz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Vz" style="z-index: 2101; transition-duration: 0.3s; display: none;">
+      <view class="line-icon" data-sid="_WC" id="_WC" style=""/>
+      <view class="control-box" data-sid="_WF" id="_WF" style="">
+        <view class="flex-center-between" data-sid="_WI" id="_WI" style="border-top: 0;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_WJ" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_WJ" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_WK" id="_WK" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/business-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_WL" id="_WL" style="">
+              <text data-sid="_WM" id="_WM" space="" style=""/>
+            </view>
+          </button>
+          <button app-parameter="" business-id="" class="h5-button open-memberPro" data-sid="_WR" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_WR" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 开通Pro会员 </button>
+        </view>
+        <view class="flex-center-between" data-sid="_WT" id="_WT" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_WU" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_WU" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_WV" id="_WV" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/dynamic-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_WW" id="_WW" style="">
+              <text data-sid="_WX" id="_WX" space="" style=""/>
+            </view>
+          </button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+</view>

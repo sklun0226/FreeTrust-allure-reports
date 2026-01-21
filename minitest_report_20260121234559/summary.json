@@ -1,0 +1,33 @@
+{
+    "test_num": 19,
+    "errors": [
+        {
+            "module": "DemoTest",
+            "error_type": "test_case",
+            "case_name": "test_demo",
+            "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 43, in testPartExecutor\n    yield\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\minitest.py\", line 789, in _callTestMethod\n    method()\n    ~~~~~~^^\n  File \"D:\\FreeTrust\\FreeU_WX_Minium\\test\\test_demo.py\", line 34, in test_demo\n    create_btn = self.page.get_element(home_user_schedule_create_btn_element, max_timeout=max_timeout)\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 291, in wrapper\n    return func(*args, **kwargs)\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 148, in wrapper\n    result = func(*args, **kwargs)\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\miniprogram\\base_driver\\page\\page.py\", line 375, in get_element\n    raise MiniElementNotFoundError(_selector)\nminium.framework.exception.MiniElementNotFoundError: element[image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']] not found\n"
+        },
+        {
+            "module": "DemoTest",
+            "error_type": "test_case",
+            "case_name": "test_demo",
+            "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 43, in testPartExecutor\n    yield\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\minitest.py\", line 789, in _callTestMethod\n    method()\n    ~~~~~~^^\n  File \"D:\\FreeTrust\\FreeU_WX_Minium\\test\\test_demo.py\", line 34, in test_demo\n    create_btn = self.page.get_element(home_user_schedule_create_btn_element, max_timeout=max_timeout)\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 291, in wrapper\n    return func(*args, **kwargs)\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 148, in wrapper\n    result = func(*args, **kwargs)\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\miniprogram\\base_driver\\page\\page.py\", line 375, in get_element\n    raise MiniElementNotFoundError(_selector)\nminium.framework.exception.MiniElementNotFoundError: element[image[src='https://obs.freeuuu.com/public/freeu-card/new-tabs/publish-btn.png']] not found\n"
+        }
+    ],
+    "failures": [
+        {
+            "module": "HomeTest",
+            "error_type": "test_case",
+            "case_name": "test_home_status_change",
+            "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 43, in testPartExecutor\n    yield\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\minitest.py\", line 789, in _callTestMethod\n    method()\n    ~~~~~~^^\n  File \"D:\\FreeTrust\\FreeU_WX_Minium\\test\\test_home_page.py\", line 206, in test_home_status_change\n    assert current_status.text == home_tab_title_friendship_name,f\"\u5e7f\u573a\u72b6\u6001\u5207\u6362\u5931\u8d25\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: \u5e7f\u573a\u72b6\u6001\u5207\u6362\u5931\u8d25\n"
+        },
+        {
+            "module": "HomeTest",
+            "error_type": "test_case",
+            "case_name": "test_home_status_change",
+            "exception": "Traceback (most recent call last):\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 43, in testPartExecutor\n    yield\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Mandy\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\minium\\framework\\minitest.py\", line 789, in _callTestMethod\n    method()\n    ~~~~~~^^\n  File \"D:\\FreeTrust\\FreeU_WX_Minium\\test\\test_home_page.py\", line 206, in test_home_status_change\n    assert current_status.text == home_tab_title_friendship_name,f\"\u5e7f\u573a\u72b6\u6001\u5207\u6362\u5931\u8d25\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: \u5e7f\u573a\u72b6\u6001\u5207\u6362\u5931\u8d25\n"
+        }
+    ],
+    "class_errors": [],
+    "class_failures": []
+}

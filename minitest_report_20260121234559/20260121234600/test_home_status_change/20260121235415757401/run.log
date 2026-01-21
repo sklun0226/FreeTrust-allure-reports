@@ -1,0 +1,24 @@
+[E 2026-01-21 23:54:21,356 minium test_home_page#209 test_home_status_change] 广场切换状态失败：广场状态切换失败
+[E 2026-01-21 23:54:21,428 minium minitest#793 _callTestMethod] test exception
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 206, in test_home_status_change
+    assert current_status.text == home_tab_title_friendship_name,f"广场状态切换失败"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 广场状态切换失败
+[E 2026-01-21 23:54:21,533 minium assertbase#390 _get_stack_info] <bound method HomeTest.test_home_status_change of <test.test_home_page.HomeTest testMethod=test_home_status_change>>
+Traceback (most recent call last):
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 43, in testPartExecutor
+    yield
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\libs\unittest\case.py", line 125, in run
+    self._callTestMethod(testMethod)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Mandy\AppData\Local\Programs\Python\Python313\Lib\site-packages\minium\framework\minitest.py", line 789, in _callTestMethod
+    method()
+    ~~~~~~^^
+  File "D:\FreeTrust\FreeU_WX_Minium\test\test_home_page.py", line 206, in test_home_status_change
+    assert current_status.text == home_tab_title_friendship_name,f"广场状态切换失败"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 广场状态切换失败
