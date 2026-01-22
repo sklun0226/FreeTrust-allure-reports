@@ -1,0 +1,26 @@
+{"type": "warn", "args": ["hook pageRouter succ"], "dt": "2026-01-22 23:22:22"}
+{"type": "log", "args": ["🚀 ~ result:", {"query": ""}], "dt": "2026-01-22 23:22:22"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:24"}
+{"type": "warn", "args": ["hook pageRouter succ"], "dt": "2026-01-22 23:22:25"}
+{"type": "log", "args": ["🚀 ~ handler ~ params:", "COMMERCE"], "dt": "2026-01-22 23:22:30"}
+{"type": "log", "args": ["🚀 ~ handler ~ currentBans:", null], "dt": "2026-01-22 23:22:30"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:32"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:32"}
+{"type": "warn", "args": ["hook pageRouter succ"], "dt": "2026-01-22 23:22:32"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["hook pageRouter succ"], "dt": "2026-01-22 23:22:39"}
+{"type": "warn", "args": ["[debug]fs.stat success"], "dt": "2026-01-22 23:22:55"}
+{"type": "debug", "args": ["release target"], "dt": "2026-01-22 23:22:55"}

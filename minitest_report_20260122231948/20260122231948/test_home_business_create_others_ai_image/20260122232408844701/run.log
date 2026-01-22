@@ -1,0 +1,26 @@
+[I 2026-01-22 23:24:08,845 minium minitest#432 _miniSetUp] =========Current case: test_home_business_create_others_ai_image=========
+[I 2026-01-22 23:24:08,846 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: HomeTest.test_home_business_create_others_ai_image
+[I 2026-01-22 23:24:08,846 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-22 23:24:08,847 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-22 23:24:08,847 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-22 23:24:08,848 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-22 23:24:08,848 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-22 23:24:08,851 minium.App6224 app#950 relaunch] ReLaunch: /pages/index/index
+[D 2026-01-22 23:24:08,851 minium.Conn9168 connection#427 _safely_send] ASYNC_SEND > [2454296709168]{"id":"3e50d343-cd47-4e28-89eb-a36701fd176b","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-22 23:24:08,854 minium.Conn9168 connection#660 __on_message] RECV < [2454296709168]{"method":"App.bindingCalled","params":{"name":"reLaunch_before_global","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-22 23:24:10,716 minium.Conn9168 connection#660 __on_message] RECV < [2454296709168]{"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"path":"pages/index/index","query":{},"openType":"reLaunch","timeStamp":1769095450505,"webviewId":22,"routeEventId":"22_1769095449871","renderer":"webview"},1769095450507]}}
+[I 2026-01-22 23:24:10,718 minium.App6224 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/index/index', 'query': {}, 'openType': 'reLaunch', 'timeStamp': 1769095450505, 'webviewId': 22, 'routeEventId': '22_1769095449871', 'renderer': 'webview'}, 1769095450507]}
+[D 2026-01-22 23:24:10,724 minium.Conn9168 connection#660 __on_message] RECV < [2454296709168]{"id":"3e50d343-cd47-4e28-89eb-a36701fd176b","result":{"result":{"errMsg":"reLaunch:ok"}}}
+[I 2026-01-22 23:24:10,725 minium.Conn9168 connection#704 _handle_async_msg] received async msg: 3e50d343-cd47-4e28-89eb-a36701fd176b
+[I 2026-01-22 23:24:10,727 minium minitest#897 capture] capture setup.png
+[D 2026-01-22 23:24:10,728 minium.Conn9168 connection#427 _safely_send] SEND > [2454296709168]{"id":"f7a903f1-b228-4d05-a717-1c1b900da500","method":"App.captureScreenshot","params":{}}
+[D 2026-01-22 23:24:10,852 minium.Conn9168 connection#660 __on_message] RECV < [2454296709168]{"id":"f7a903f1-b228-4d05-a717-1c1b900da500","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAYYAAANMCAIAAADXDp1JAAAAAXNSR0IArs4c6QAACtRJREFUeJzt1DEBACAMwDDAv+dxIoEeiYJe3TOzABrO7wCAx5KAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLA
+[I 2026-01-22 23:24:10,854 minium minitest#487 _miniSetUp] =========case: test_home_business_create_others_ai_image start=========
+[I 2026-01-22 23:24:10,854 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-22 23:24:10,855 minium minitest#796 _callTestMethod] end test method
+[D 2026-01-22 23:24:10,855 minium minitest#799 _miniTearDown] =========Current case Down: test_home_business_create_others_ai_image=========
+[I 2026-01-22 23:24:10,856 minium minitest#897 capture] capture teardown.png
+[D 2026-01-22 23:24:10,856 minium.Conn9168 connection#427 _safely_send] SEND > [2454296709168]{"id":"89f9dd86-d36d-443d-a066-9810d77cbc06","method":"App.captureScreenshot","params":{}}
+[D 2026-01-22 23:24:10,990 minium.Conn9168 connection#660 __on_message] RECV < [2454296709168]{"id":"89f9dd86-d36d-443d-a066-9810d77cbc06","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAYYAAANMCAIAAADXDp1JAAAAAXNSR0IArs4c6QAACtRJREFUeJzt1DEBACAMwDDAv+dxIoEeiYJe3TOzABrO7wCAx5KAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLAkIsCQixJCDEkoAQSwJCLAkIsSQgxJKAEEsCQiwJCLEkIMSSgBBLA
+[I 2026-01-22 23:24:10,994 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-22 23:24:10,996 minium basenative#63 wrapper] call BaseNative.get_start_up end 

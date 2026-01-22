@@ -1,0 +1,981 @@
+
+<view class="layout-container flex-column" data-sid="_Aql" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Aql" style="background: #F8F8F8; padding-top: 0;">
+  <view class="status-bar" data-sid="_Aqm" id="_Aqm" style="padding-top: 47px; background: #fff;">
+    <view class="nav-bar" data-sid="_Aqn" id="_Aqn" style="height: 40px; color: #000; justify-content: space-between;">
+      <view class="left-space" data-sid="_Aqq" id="_Aqq" style="">
+        <view class="flex-center" data-sid="_Aqr" id="_Aqr" style=""/>
+        <view class="page-title" data-sid="_Aqx" id="_Aqx" style=""> 发现 </view>
+      </view>
+      <view class="title one-line-ellipsis" data-sid="_Aqz" id="_Aqz" style=""/>
+      <view class="right-icon" data-sid="_ArA" id="_ArA" style="padding-right: 87px;">
+        <button app-parameter="" business-id="" class="h5-button icon-item icon-light" data-sid="_ArD" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_ArD" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="border-radius: 50%; width: 33px; padding: 0; z-index: 0;" type="" role="button" aria-disabled="false">
+          <image data-sid="_ArE" id="_ArE" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/search-icon.png" style="" role="img"/>
+        </button>
+      </view>
+    </view>
+  </view>
+  <scroll-view bounces="" class="layout-content" data-sid="_ArL" id="_ArL" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-enabled="" refresher-threshold="45" scroll-into-view="" scroll-left="" scroll-top="0" scroll-with-animation="" scroll-y="" style="" upper-threshold="50">
+    <view class="find-container" data-sid="_ArO" id="_ArO" style="padding-bottom: 93px;">
+      <view class="find-tab" data-sid="_ArP" id="findTab" style="">
+        <view class="h5-view find-tab-item find-tab-active" data-sid="_ArQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ArQ" style="">
+          <view class="find-tab-title" data-sid="_ArR" id="_ArR" style="">商务</view>
+          <view class="find-tab-line" data-sid="_ArT" id="_ArT" style=""/>
+        </view>
+        <view class="h5-view find-tab-item" data-sid="_ArU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ArU" style="">
+          <view class="find-tab-title" data-sid="_ArV" id="_ArV" style="">推荐</view>
+          <view class="find-tab-line" data-sid="_ArX" id="_ArX" style=""/>
+        </view>
+        <view class="h5-view find-tab-item" data-sid="_ArY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ArY" style="">
+          <view data-sid="_ArZ" id="_ArZ" style="">
+            <view class="nut-badge" data-sid="_Ara" id="_Ara" style="">
+              <view class="nut-badge__icon" data-sid="_Arb" id="_Arb" style="top: 2px; right: 10px; z-index: 9; background: #F04134; display: none;"/>
+               
+              <view class="find-tab-title" data-sid="_Arh" id="_Arh" style="">人脉</view>
+               
+              <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Ark" id="_Ark" style="top: 2px; right: 10px; z-index: 9; background: #F04134; display: none;"/>
+            </view>
+            <view class="find-tab-line" data-sid="_Arl" id="_Arl" style=""/>
+          </view>
+        </view>
+      </view>
+      <view class="loading-data" data-sid="_Arm" id="_Arm" style="height: auto; background: transparent; padding-top: 156px; display: none;">
+        <text class="h5-i nutui-iconfont nut-icon nut-icon-loading1" data-sid="_Arn" id="_Arn" space="" style="color: #333;"/>
+      </view>
+      <view data-sid="_Aro" id="_Aro" style="display: ;">
+        <view class="business-list" data-sid="_Arp" id="_Arp" style="display: ;">
+          <view class="business-list__box" data-sid="_Arr" id="_Arr" style="">
+            <view class="business-tabs" data-sid="_Ars" id="businessTabs" style="">
+              <scroll-view bounces="" class="top-menu" data-sid="_Art" enable-flex="" id="_Art" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-threshold="45" scroll-into-view="tabNum1" scroll-left="" scroll-top="" scroll-with-animation="" scroll-x="" style="" upper-threshold="50">
+                <view class="h5-view menu-view" data-sid="_Arw" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum1" style="">
+                  <view class="menu-view__box" data-sid="_Arx" id="_Arx" style="">
+                    <view class="menu-text menu-text-active" data-sid="_Ary" id="_Ary" style="">推荐</view>
+                    <view class="menu-bottom" data-sid="_AsA" id="_AsA" style=""/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_AsB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum2" style="">
+                  <view class="menu-view__box" data-sid="_AsC" id="_AsC" style="">
+                    <view class="menu-text" data-sid="_AsD" id="_AsD" style="">甲方需求</view>
+                    <view class="menu-bottom" data-sid="_AsF" id="_AsF" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_AsG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum3" style="">
+                  <view class="menu-view__box" data-sid="_AsH" id="_AsH" style="">
+                    <view class="menu-text" data-sid="_AsI" id="_AsI" style="">异业合作</view>
+                    <view class="menu-bottom" data-sid="_AsK" id="_AsK" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_AsL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum4" style="">
+                  <view class="menu-view__box" data-sid="_AsM" id="_AsM" style="">
+                    <view class="menu-text" data-sid="_AsN" id="_AsN" style="">项目招商</view>
+                    <view class="menu-bottom" data-sid="_AsP" id="_AsP" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_AsQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum5" style="">
+                  <view class="menu-view__box" data-sid="_AsR" id="_AsR" style="">
+                    <view class="menu-text" data-sid="_AsS" id="_AsS" style="">项目合作</view>
+                    <view class="menu-bottom" data-sid="_AsU" id="_AsU" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_AsV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum6" style="">
+                  <view class="menu-view__box" data-sid="_AsW" id="_AsW" style="">
+                    <view class="menu-text" data-sid="_AsX" id="_AsX" style="">找投融资</view>
+                    <view class="menu-bottom" data-sid="_AsZ" id="_AsZ" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_Asa" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum7" style="">
+                  <view class="menu-view__box" data-sid="_Asb" id="_Asb" style="">
+                    <view class="menu-text" data-sid="_Asc" id="_Asc" style="">找合伙人</view>
+                    <view class="menu-bottom" data-sid="_Ase" id="_Ase" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_Asf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum8" style="">
+                  <view class="menu-view__box" data-sid="_Asg" id="_Asg" style="">
+                    <view class="menu-text" data-sid="_Ash" id="_Ash" style="">代理加盟</view>
+                    <view class="menu-bottom" data-sid="_Asj" id="_Asj" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_Ask" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum9" style="">
+                  <view class="menu-view__box" data-sid="_Asl" id="_Asl" style="">
+                    <view class="menu-text" data-sid="_Asm" id="_Asm" style="">供应链资源</view>
+                    <view class="menu-bottom" data-sid="_Aso" id="_Aso" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_Asp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum10" style="">
+                  <view class="menu-view__box" data-sid="_Asq" id="_Asq" style="">
+                    <view class="menu-text" data-sid="_Asr" id="_Asr" style="">场地资源</view>
+                    <view class="menu-bottom" data-sid="_Ast" id="_Ast" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_Asu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum11" style="">
+                  <view class="menu-view__box" data-sid="_Asv" id="_Asv" style="">
+                    <view class="menu-text" data-sid="_Asw" id="_Asw" style="">企业服务资源</view>
+                    <view class="menu-bottom" data-sid="_Asy" id="_Asy" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_Asz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum12" style="">
+                  <view class="menu-view__box" data-sid="_AtA" id="_AtA" style="">
+                    <view class="menu-text" data-sid="_AtB" id="_AtB" style="">营销推广资源</view>
+                    <view class="menu-bottom" data-sid="_AtD" id="_AtD" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="spacer" data-sid="_AtE" id="_AtE" style=""/>
+              </scroll-view>
+            </view>
+            <view class="list-box" data-sid="_AtF" id="_AtF" style="min-height: 615px;">
+              <view data-sid="_BYx" id="_BYx" style="">
+                <view class="h5-view list-box__item" data-sid="_BZA" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BZA" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BZB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BZB" style="">
+                    <view class="list-box__item--user__img" data-sid="_BZC" id="_BZC" style="">
+                      <image class="user-avatar" data-sid="_BZD" id="_BZD" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BZF" id="_BZF" style="">
+                      <view class="flex-center-between" data-sid="_BZG" id="_BZG" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BZH" id="_BZH" style="">
+                          <text data-sid="_BZI" id="_BZI" space="" style=""/>
+                          <view class="h5-view" data-sid="_BZK" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BZK" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BZM" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BZM" style="">
+                          <image data-sid="_BZN" id="_BZN" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BZO" id="_BZO" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BZP" id="_BZP" style="">
+                          <text data-sid="_BZQ" id="_BZQ" space="" style=""/>
+                          <text data-sid="_BZS" id="_BZS" space="" style=""/>
+                          <text data-sid="_BZU" id="_BZU" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BZW" id="_BZW" style="">
+                          <text data-sid="_BZX" id="_BZX" space="" style=""/>
+                          <text data-sid="_BZZ" id="_BZZ" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BZb" id="_BZb" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BZe" id="_BZe" style="">
+                    <view class="list-box__item--header__img" data-sid="_BZf" id="_BZf" style="">
+                      <image data-sid="_BZg" id="_BZg" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                      <text data-sid="_BZh" id="_BZh" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BZj" id="_BZj" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BZk" id="_BZk" style="">测动态排序</view>
+                      <view data-sid="_BZm" id="_BZm" style="">
+                        <view class="header__info-text" data-sid="_BZn" id="_BZn" style=""> 合作区域：天津市/河北省</view>
+                        <view class="header__info-text" data-sid="_BZp" id="_BZp" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_BZr" id="_BZr" style=""> 有效时间：14天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BZt" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BZt" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BZu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BZu" style="">
+                    <view class="list-box__item--user__img" data-sid="_BZv" id="_BZv" style="">
+                      <image class="user-avatar" data-sid="_BZw" id="_BZw" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BZy" id="_BZy" style="">
+                      <view class="flex-center-between" data-sid="_BZz" id="_BZz" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BaA" id="_BaA" style="">
+                          <text data-sid="_BaB" id="_BaB" space="" style=""/>
+                          <view class="h5-view" data-sid="_BaD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BaD" style="">
+                            <image data-sid="_BaE" id="_BaE" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BaF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BaF" style="">
+                          <image data-sid="_BaG" id="_BaG" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BaH" id="_BaH" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BaI" id="_BaI" style="">
+                          <text data-sid="_BaJ" id="_BaJ" space="" style=""/>
+                          <text data-sid="_BaL" id="_BaL" space="" style=""/>
+                          <text data-sid="_BaN" id="_BaN" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BaP" id="_BaP" style="">
+                          <text data-sid="_BaQ" id="_BaQ" space="" style=""/>
+                          <text data-sid="_BaS" id="_BaS" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BaU" id="_BaU" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BaX" id="_BaX" style="">
+                    <view class="list-box__item--header__img" data-sid="_BaY" id="_BaY" style="">
+                      <image data-sid="_BaZ" id="_BaZ" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                      <text data-sid="_Baa" id="_Baa" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_Bac" id="_Bac" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_Bad" id="_Bad" style="">测试动态下评论的回复，回复列表按时间正序排列</view>
+                      <view data-sid="_Baf" id="_Baf" style="">
+                        <view class="header__info-text" data-sid="_Bag" id="_Bag" style=""> 合作区域：不限区域</view>
+                        <view class="header__info-text" data-sid="_Bai" id="_Bai" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_Bak" id="_Bak" style=""> 有效时间：3天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_Bam" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bam" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_Ban" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ban" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bao" id="_Bao" style="">
+                      <image class="user-avatar" data-sid="_Bap" id="_Bap" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_Bar" id="_Bar" style="">
+                      <view class="flex-center-between" data-sid="_Bas" id="_Bas" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bat" id="_Bat" style="">
+                          <text data-sid="_Bau" id="_Bau" space="" style=""/>
+                          <view class="h5-view" data-sid="_Baw" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Baw" style="">
+                            <image data-sid="_Bax" id="_Bax" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bay" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bay" style="">
+                          <image data-sid="_Baz" id="_Baz" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BbA" id="_BbA" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BbB" id="_BbB" style="">
+                          <text data-sid="_BbC" id="_BbC" space="" style=""/>
+                          <text data-sid="_BbE" id="_BbE" space="" style=""/>
+                          <text data-sid="_BbG" id="_BbG" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BbI" id="_BbI" style="">
+                          <text data-sid="_BbJ" id="_BbJ" space="" style=""/>
+                          <text data-sid="_BbL" id="_BbL" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BbN" id="_BbN" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BbQ" id="_BbQ" style="">
+                    <view class="list-box__item--header__img" data-sid="_BbR" id="_BbR" style="">
+                      <image data-sid="_BbS" id="_BbS" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                      <text data-sid="_BbT" id="_BbT" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BbV" id="_BbV" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BbW" id="_BbW" style="">测试动态下评论排序，点赞一样，回复一样，创建时间倒序排列。</view>
+                      <view data-sid="_BbY" id="_BbY" style="">
+                        <view class="header__info-text" data-sid="_BbZ" id="_BbZ" style=""> 合作区域：不限区域</view>
+                        <view class="header__info-text" data-sid="_Bbb" id="_Bbb" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_Bbd" id="_Bbd" style=""> 有效时间：3天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_Bbf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bbf" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_Bbg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bbg" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bbh" id="_Bbh" style="">
+                      <image class="user-avatar" data-sid="_Bbi" id="_Bbi" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_Bbk" id="_Bbk" style="">
+                      <view class="flex-center-between" data-sid="_Bbl" id="_Bbl" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bbm" id="_Bbm" style="">
+                          <text data-sid="_Bbn" id="_Bbn" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bbp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bbp" style="">
+                            <image data-sid="_Bbq" id="_Bbq" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bbr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bbr" style="">
+                          <image data-sid="_Bbs" id="_Bbs" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bbt" id="_Bbt" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Bbu" id="_Bbu" style="">
+                          <text data-sid="_Bbv" id="_Bbv" space="" style=""/>
+                          <text data-sid="_Bbx" id="_Bbx" space="" style=""/>
+                          <text data-sid="_Bbz" id="_Bbz" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BcB" id="_BcB" style="">
+                          <text data-sid="_BcC" id="_BcC" space="" style=""/>
+                          <text data-sid="_BcE" id="_BcE" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BcG" id="_BcG" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BcJ" id="_BcJ" style="">
+                    <view class="list-box__item--header__img" data-sid="_BcK" id="_BcK" style="">
+                      <image data-sid="_BcL" id="_BcL" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                      <text data-sid="_BcM" id="_BcM" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BcO" id="_BcO" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BcP" id="_BcP" style="">测试动态下评论排序，点赞一样，回复高排前面</view>
+                      <view data-sid="_BcR" id="_BcR" style="">
+                        <view class="header__info-text" data-sid="_BcS" id="_BcS" style=""> 合作区域：不限区域</view>
+                        <view class="header__info-text" data-sid="_BcU" id="_BcU" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_BcW" id="_BcW" style=""> 有效时间：3天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BcY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BcY" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BcZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BcZ" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bca" id="_Bca" style="">
+                      <image class="user-avatar" data-sid="_Bcb" id="_Bcb" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_Bcd" id="_Bcd" style="">
+                      <view class="flex-center-between" data-sid="_Bce" id="_Bce" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bcf" id="_Bcf" style="">
+                          <text data-sid="_Bcg" id="_Bcg" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bci" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bci" style="">
+                            <image data-sid="_Bcj" id="_Bcj" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bck" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bck" style="">
+                          <image data-sid="_Bcl" id="_Bcl" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bcm" id="_Bcm" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Bcn" id="_Bcn" style="">
+                          <text data-sid="_Bco" id="_Bco" space="" style=""/>
+                          <text data-sid="_Bcq" id="_Bcq" space="" style=""/>
+                          <text data-sid="_Bcs" id="_Bcs" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Bcu" id="_Bcu" style="">
+                          <text data-sid="_Bcv" id="_Bcv" space="" style=""/>
+                          <text data-sid="_Bcx" id="_Bcx" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Bcz" id="_Bcz" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BdC" id="_BdC" style="">
+                    <view class="list-box__item--header__img" data-sid="_BdD" id="_BdD" style="">
+                      <image data-sid="_BdE" id="_BdE" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                      <text data-sid="_BdF" id="_BdF" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BdH" id="_BdH" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BdI" id="_BdI" style="">测试动态下评论排序，点赞高的排前面</view>
+                      <view data-sid="_BdK" id="_BdK" style="">
+                        <view class="header__info-text" data-sid="_BdL" id="_BdL" style=""> 合作区域：不限区域</view>
+                        <view class="header__info-text" data-sid="_BdN" id="_BdN" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_BdP" id="_BdP" style=""> 有效时间：3天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BdR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BdR" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BdS" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BdS" style="">
+                    <view class="list-box__item--user__img" data-sid="_BdT" id="_BdT" style="">
+                      <image class="user-avatar" data-sid="_BdU" id="_BdU" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BdW" id="_BdW" style="">
+                      <view class="flex-center-between" data-sid="_BdX" id="_BdX" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BdY" id="_BdY" style="">
+                          <text data-sid="_BdZ" id="_BdZ" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bdb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bdb" style="">
+                            <image data-sid="_Bdc" id="_Bdc" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bdd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bdd" style="">
+                          <image data-sid="_Bde" id="_Bde" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bdf" id="_Bdf" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Bdg" id="_Bdg" style="">
+                          <text data-sid="_Bdh" id="_Bdh" space="" style=""/>
+                          <text data-sid="_Bdj" id="_Bdj" space="" style=""/>
+                          <text data-sid="_Bdl" id="_Bdl" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Bdn" id="_Bdn" style="">
+                          <text data-sid="_Bdo" id="_Bdo" space="" style=""/>
+                          <text data-sid="_Bdq" id="_Bdq" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Bds" id="_Bds" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Bdv" id="_Bdv" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bdw" id="_Bdw" style="">
+                      <image data-sid="_Bdx" id="_Bdx" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/a6f696077435b28525f7130a09e7094787f5c4aac6c942eebffc41b96b6b9bd8.png" style="" role="img"/>
+                      <text data-sid="_Bdy" id="_Bdy" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BeA" id="_BeA" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BeB" id="_BeB" style="">c鲜2一春香风戊醋橙V高鱼甜口六丙腥v油</view>
+                      <view data-sid="_BeD" id="_BeD" style="">
+                        <view class="header__info-text" data-sid="_BeE" id="_BeE" style=""> 合作区域：安徽省/内蒙古自治区/湖南省/新疆维吾尔自治区/山东省/天津市</view>
+                        <view class="header__info-text" data-sid="_BeG" id="_BeG" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_BeI" id="_BeI" style=""> 有效时间：14天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BeK" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BeK" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BeL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BeL" style="">
+                    <view class="list-box__item--user__img" data-sid="_BeM" id="_BeM" style="">
+                      <image class="user-avatar" data-sid="_BeN" id="_BeN" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com:443/public/app/4644/64911362-ba38-438f-b6e7-887bff3db023/1B396253-D289-4D.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BeP" id="_BeP" style="">
+                      <view class="flex-center-between" data-sid="_BeQ" id="_BeQ" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BeR" id="_BeR" style="">
+                          <text data-sid="_BeS" id="_BeS" space="" style=""/>
+                          <view class="h5-view" data-sid="_BeU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BeU" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BeW" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BeW" style="">
+                          <image data-sid="_BeX" id="_BeX" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BeY" id="_BeY" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BeZ" id="_BeZ" style="">
+                          <text data-sid="_Bea" id="_Bea" space="" style=""/>
+                          <text data-sid="_Bec" id="_Bec" space="" style=""/>
+                          <text data-sid="_Bee" id="_Bee" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Beg" id="_Beg" style="">
+                          <text data-sid="_Beh" id="_Beh" space="" style=""/>
+                          <text data-sid="_Bej" id="_Bej" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Bel" id="_Bel" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Beo" id="_Beo" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bep" id="_Bep" style="">
+                      <image data-sid="_Beq" id="_Beq" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com:443/public/app/4644/64911362-ba38-438f-b6e7-887bff3db023/1B396253-D289-4D.jpg" style="" role="img"/>
+                      <text data-sid="_Ber" id="_Ber" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_Bet" id="_Bet" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_Beu" id="_Beu" style="">哈哈</view>
+                      <view data-sid="_Bew" id="_Bew" style="">
+                        <view class="header__info-text" data-sid="_Bex" id="_Bex" style=""> 合作区域：北京市/天津市/河北省</view>
+                        <view class="header__info-text" data-sid="_Bez" id="_Bez" style=""> 需求类型：供应链资源</view>
+                        <view class="header__info-text" data-sid="_BfB" id="_BfB" style=""> 有效时间：长期有效</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BfD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BfD" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BfE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BfE" style="">
+                    <view class="list-box__item--user__img" data-sid="_BfF" id="_BfF" style="">
+                      <image class="user-avatar" data-sid="_BfG" id="_BfG" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com:443/public/app/4644/64911362-ba38-438f-b6e7-887bff3db023/1B396253-D289-4D.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BfI" id="_BfI" style="">
+                      <view class="flex-center-between" data-sid="_BfJ" id="_BfJ" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BfK" id="_BfK" style="">
+                          <text data-sid="_BfL" id="_BfL" space="" style=""/>
+                          <view class="h5-view" data-sid="_BfN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BfN" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BfP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BfP" style="">
+                          <image data-sid="_BfQ" id="_BfQ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BfR" id="_BfR" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BfS" id="_BfS" style="">
+                          <text data-sid="_BfT" id="_BfT" space="" style=""/>
+                          <text data-sid="_BfV" id="_BfV" space="" style=""/>
+                          <text data-sid="_BfX" id="_BfX" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BfZ" id="_BfZ" style="">
+                          <text data-sid="_Bfa" id="_Bfa" space="" style=""/>
+                          <text data-sid="_Bfc" id="_Bfc" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Bfe" id="_Bfe" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Bfh" id="_Bfh" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bfi" id="_Bfi" style="">
+                      <image data-sid="_Bfj" id="_Bfj" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260120/b3685d1c863968e1842d241dbc68829cc6727498d16bb66fd4a92c839b9b1ac3.jpg" style="" role="img"/>
+                      <text data-sid="_Bfk" id="_Bfk" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_Bfm" id="_Bfm" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_Bfn" id="_Bfn" style="">不v程度</view>
+                      <view data-sid="_Bfp" id="_Bfp" style="">
+                        <view class="header__info-text" data-sid="_Bfq" id="_Bfq" style=""> 合作区域：北京市/天津市</view>
+                        <view class="header__info-text" data-sid="_Bfs" id="_Bfs" style=""> 需求类型：场地资源</view>
+                        <view class="header__info-text" data-sid="_Bfu" id="_Bfu" style=""> 有效时间：长期有效</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_Bfw" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bfw" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_Bfx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bfx" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bfy" id="_Bfy" style="">
+                      <image class="user-avatar" data-sid="_Bfz" id="_Bfz" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BgB" id="_BgB" style="">
+                      <view class="flex-center-between" data-sid="_BgC" id="_BgC" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BgD" id="_BgD" style="">
+                          <text data-sid="_BgE" id="_BgE" space="" style=""/>
+                          <view class="h5-view" data-sid="_BgG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BgG" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BgI" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BgI" style="">
+                          <image data-sid="_BgJ" id="_BgJ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BgK" id="_BgK" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BgL" id="_BgL" style="">
+                          <text data-sid="_BgM" id="_BgM" space="" style=""/>
+                          <text data-sid="_BgO" id="_BgO" space="" style=""/>
+                          <text data-sid="_BgQ" id="_BgQ" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BgS" id="_BgS" style="">
+                          <text data-sid="_BgT" id="_BgT" space="" style=""/>
+                          <text data-sid="_BgV" id="_BgV" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BgX" id="_BgX" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Bga" id="_Bga" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bgb" id="_Bgb" style="">
+                      <image data-sid="_Bgc" id="_Bgc" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260120/fdbc937274f894402d9935e25beb36c6269a1200dd0955e9f1944c6a28a38b82.jpg" style="" role="img"/>
+                      <text data-sid="_Bgd" id="_Bgd" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_Bgf" id="_Bgf" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_Bgg" id="_Bgg" style="">唱个歌沟沟壑壑好</view>
+                      <view data-sid="_Bgi" id="_Bgi" style="">
+                        <view class="header__info-text" data-sid="_Bgj" id="_Bgj" style=""> 合作区域：北京市/天津市</view>
+                        <view class="header__info-text" data-sid="_Bgl" id="_Bgl" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_Bgn" id="_Bgn" style=""> 有效时间：长期有效</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_Bgp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bgp" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_Bgq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bgq" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bgr" id="_Bgr" style="">
+                      <image class="user-avatar" data-sid="_Bgs" id="_Bgs" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_Bgu" id="_Bgu" style="">
+                      <view class="flex-center-between" data-sid="_Bgv" id="_Bgv" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bgw" id="_Bgw" style="">
+                          <text data-sid="_Bgx" id="_Bgx" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bgz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bgz" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BhB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BhB" style="">
+                          <image data-sid="_BhC" id="_BhC" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BhD" id="_BhD" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BhE" id="_BhE" style="">
+                          <text data-sid="_BhF" id="_BhF" space="" style=""/>
+                          <text data-sid="_BhH" id="_BhH" space="" style=""/>
+                          <text data-sid="_BhJ" id="_BhJ" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BhL" id="_BhL" style="">
+                          <text data-sid="_BhM" id="_BhM" space="" style=""/>
+                          <text data-sid="_BhO" id="_BhO" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BhQ" id="_BhQ" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BhT" id="_BhT" style="">
+                    <view class="list-box__item--header__img" data-sid="_BhU" id="_BhU" style="">
+                      <image data-sid="_BhV" id="_BhV" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                      <text data-sid="_BhW" id="_BhW" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BhY" id="_BhY" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BhZ" id="_BhZ" style="">省劳动法律手段收到快回复可视电话了福建省电力局</view>
+                      <view data-sid="_Bhb" id="_Bhb" style="">
+                        <view class="header__info-text" data-sid="_Bhc" id="_Bhc" style=""> 合作区域：不限区域</view>
+                        <view class="header__info-text" data-sid="_Bhe" id="_Bhe" style=""> 需求类型：项目招商</view>
+                        <view class="header__info-text" data-sid="_Bhg" id="_Bhg" style=""> 有效时间：14天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_Bhi" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bhi" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_Bhj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bhj" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bhk" id="_Bhk" style="">
+                      <image class="user-avatar" data-sid="_Bhl" id="_Bhl" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_Bhn" id="_Bhn" style="">
+                      <view class="flex-center-between" data-sid="_Bho" id="_Bho" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bhp" id="_Bhp" style="">
+                          <text data-sid="_Bhq" id="_Bhq" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bhs" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bhs" style="">
+                            <image data-sid="_Bht" id="_Bht" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bhu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bhu" style="">
+                          <image data-sid="_Bhv" id="_Bhv" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bhw" id="_Bhw" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Bhx" id="_Bhx" style="">
+                          <text data-sid="_Bhy" id="_Bhy" space="" style=""/>
+                          <text data-sid="_BiA" id="_BiA" space="" style=""/>
+                          <text data-sid="_BiC" id="_BiC" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_BiE" id="_BiE" style="">
+                          <text data-sid="_BiF" id="_BiF" space="" style=""/>
+                          <text data-sid="_BiH" id="_BiH" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BiJ" id="_BiJ" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BiM" id="_BiM" style="">
+                    <view class="list-box__item--header__img" data-sid="_BiN" id="_BiN" style="">
+                      <image data-sid="_BiO" id="_BiO" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260120/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                      <text data-sid="_BiP" id="_BiP" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BiR" id="_BiR" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BiS" id="_BiS" style="">目俱x荤嫩宝口下星h锡T秋</view>
+                      <view data-sid="_BiU" id="_BiU" style="">
+                        <view class="header__info-text" data-sid="_BiV" id="_BiV" style=""> 合作区域：北京市/吉林省/浙江省/海南省</view>
+                        <view class="header__info-text" data-sid="_BiX" id="_BiX" style=""> 需求类型：企业服务资源</view>
+                        <view class="header__info-text" data-sid="_BiZ" id="_BiZ" style=""> 有效时间：14天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_Bib" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bib" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_Bic" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bic" style="">
+                    <view class="list-box__item--user__img" data-sid="_Bid" id="_Bid" style="">
+                      <image class="user-avatar" data-sid="_Bie" id="_Bie" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_Big" id="_Big" style="">
+                      <view class="flex-center-between" data-sid="_Bih" id="_Bih" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bii" id="_Bii" style="">
+                          <text data-sid="_Bij" id="_Bij" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bil" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bil" style="">
+                            <image data-sid="_Bim" id="_Bim" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/business/person-auth.png" style="" role="img"/>
+                          </view>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bin" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bin" style="">
+                          <image data-sid="_Bio" id="_Bio" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bip" id="_Bip" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Biq" id="_Biq" style="">
+                          <text data-sid="_Bir" id="_Bir" space="" style=""/>
+                          <text data-sid="_Bit" id="_Bit" space="" style=""/>
+                          <text data-sid="_Biv" id="_Biv" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Bix" id="_Bix" style="">
+                          <text data-sid="_Biy" id="_Biy" space="" style=""/>
+                          <text data-sid="_BjA" id="_BjA" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_BjC" id="_BjC" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_BjF" id="_BjF" style="">
+                    <view class="list-box__item--header__img" data-sid="_BjG" id="_BjG" style="">
+                      <image data-sid="_BjH" id="_BjH" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260120/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                      <text data-sid="_BjI" id="_BjI" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BjK" id="_BjK" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BjL" id="_BjL" style="">糯珠金凉辰木可近脾己w臭j4珠蓝云d灰男小前C</view>
+                      <view data-sid="_BjN" id="_BjN" style="">
+                        <view class="header__info-text" data-sid="_BjO" id="_BjO" style=""> 合作区域：内蒙古自治区/山东省/辽宁省/重庆市/宁夏回族自治区/贵州省/天津市</view>
+                        <view class="header__info-text" data-sid="_BjQ" id="_BjQ" style=""> 需求类型：甲方需求</view>
+                        <view class="header__info-text" data-sid="_BjS" id="_BjS" style=""> 有效时间：14天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BjU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BjU" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BjV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BjV" style="">
+                    <view class="list-box__item--user__img" data-sid="_BjW" id="_BjW" style="">
+                      <image class="user-avatar" data-sid="_BjX" id="_BjX" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com:443/public/app/4644/64911362-ba38-438f-b6e7-887bff3db023/1B396253-D289-4D.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BjZ" id="_BjZ" style="">
+                      <view class="flex-center-between" data-sid="_Bja" id="_Bja" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_Bjb" id="_Bjb" style="">
+                          <text data-sid="_Bjc" id="_Bjc" space="" style=""/>
+                          <view class="h5-view" data-sid="_Bje" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bje" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_Bjg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Bjg" style="">
+                          <image data-sid="_Bjh" id="_Bjh" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bji" id="_Bji" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Bjj" id="_Bjj" style="">
+                          <text data-sid="_Bjk" id="_Bjk" space="" style=""/>
+                          <text data-sid="_Bjm" id="_Bjm" space="" style=""/>
+                          <text data-sid="_Bjo" id="_Bjo" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Bjq" id="_Bjq" style="">
+                          <text data-sid="_Bjr" id="_Bjr" space="" style=""/>
+                          <text data-sid="_Bjt" id="_Bjt" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Bjv" id="_Bjv" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Bjy" id="_Bjy" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bjz" id="_Bjz" style="">
+                      <image data-sid="_BkA" id="_BkA" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260119/3bb356a19e228100bfe788095c00c50c90c1caec5546ebac928cc803ee22fdb4.png" style="" role="img"/>
+                      <text data-sid="_BkB" id="_BkB" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_BkD" id="_BkD" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_BkE" id="_BkE" style="">劲E美甜北金烫香J硬凉春8A腥五辰口云手</view>
+                      <view data-sid="_BkG" id="_BkG" style="">
+                        <view class="header__info-text" data-sid="_BkH" id="_BkH" style=""> 合作区域：浙江省/湖北省/广西壮族自治区/云南省/河北省/重庆市/黑龙江省/江西省</view>
+                        <view class="header__info-text" data-sid="_BkJ" id="_BkJ" style=""> 需求类型：项目招商</view>
+                        <view class="header__info-text" data-sid="_BkL" id="_BkL" style=""> 有效时间：7天</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BkN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BkN" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BkO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BkO" style="">
+                    <view class="list-box__item--user__img" data-sid="_BkP" id="_BkP" style="">
+                      <image class="user-avatar" data-sid="_BkQ" id="_BkQ" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com:443/public/app/4644/64911362-ba38-438f-b6e7-887bff3db023/1B396253-D289-4D.jpg" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BkS" id="_BkS" style="">
+                      <view class="flex-center-between" data-sid="_BkT" id="_BkT" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BkU" id="_BkU" style="">
+                          <text data-sid="_BkV" id="_BkV" space="" style=""/>
+                          <view class="h5-view" data-sid="_BkX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BkX" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BkZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BkZ" style="">
+                          <image data-sid="_Bka" id="_Bka" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_Bkb" id="_Bkb" style="">
+                        <view class="list-box__item--user-tag" data-sid="_Bkc" id="_Bkc" style="">
+                          <text data-sid="_Bkd" id="_Bkd" space="" style=""/>
+                          <text data-sid="_Bkf" id="_Bkf" space="" style=""/>
+                          <text data-sid="_Bkh" id="_Bkh" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Bkj" id="_Bkj" style="">
+                          <text data-sid="_Bkk" id="_Bkk" space="" style=""/>
+                          <text data-sid="_Bkm" id="_Bkm" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Bko" id="_Bko" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Bkr" id="_Bkr" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bks" id="_Bks" style="">
+                      <image data-sid="_Bkt" id="_Bkt" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com:443/public/app/4644/64911362-ba38-438f-b6e7-887bff3db023/1B396253-D289-4D.jpg" style="" role="img"/>
+                      <text data-sid="_Bku" id="_Bku" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_Bkw" id="_Bkw" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_Bkx" id="_Bkx" style="">电云酸辛二T地r弹</view>
+                      <view data-sid="_Bkz" id="_Bkz" style="">
+                        <view class="header__info-text" data-sid="_BlA" id="_BlA" style=""> 合作区域：黑龙江省/海南省</view>
+                        <view class="header__info-text" data-sid="_BlC" id="_BlC" style=""> 需求类型：企业服务资源</view>
+                        <view class="header__info-text" data-sid="_BlE" id="_BlE" style=""> 有效时间：长期有效</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view class="h5-view list-box__item" data-sid="_BlG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BlG" style="">
+                  <view class="h5-view list-box__item--user flex-center" data-sid="_BlH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BlH" style="">
+                    <view class="list-box__item--user__img" data-sid="_BlI" id="_BlI" style="">
+                      <image class="user-avatar" data-sid="_BlJ" id="_BlJ" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                    </view>
+                    <view class="flex-1" data-sid="_BlL" id="_BlL" style="">
+                      <view class="flex-center-between" data-sid="_BlM" id="_BlM" style="">
+                        <view class="list-box__item--user__name flex-center" data-sid="_BlN" id="_BlN" style="">
+                          <text data-sid="_BlO" id="_BlO" space="" style=""/>
+                          <view class="h5-view" data-sid="_BlQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BlQ" style=""/>
+                        </view>
+                        <view class="h5-view more-image" data-sid="_BlS" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_BlS" style="">
+                          <image data-sid="_BlT" id="_BlT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                        </view>
+                      </view>
+                      <view class="tag-time flex-center-between" data-sid="_BlU" id="_BlU" style="">
+                        <view class="list-box__item--user-tag" data-sid="_BlV" id="_BlV" style="">
+                          <text data-sid="_BlW" id="_BlW" space="" style=""/>
+                          <text data-sid="_BlY" id="_BlY" space="" style=""/>
+                          <text data-sid="_Bla" id="_Bla" space="" style=""/>
+                        </view>
+                        <view class="list-box__item--user-time" data-sid="_Blc" id="_Blc" style="">
+                          <text data-sid="_Bld" id="_Bld" space="" style=""/>
+                          <text data-sid="_Blf" id="_Blf" space="" style=""/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="nut-divider nut-divider-hairline" data-sid="_Blh" id="_Blh" style="color:  #f0f0f0;"/>
+                  <view class="list-box__item--header" data-sid="_Blk" id="_Blk" style="">
+                    <view class="list-box__item--header__img" data-sid="_Bll" id="_Bll" style="">
+                      <image data-sid="_Blm" id="_Blm" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/freeu-card/common/default-avatar.png" style="" role="img"/>
+                      <text data-sid="_Bln" id="_Bln" space="" style=""/>
+                    </view>
+                    <view class="list-box__item--header__info" data-sid="_Blp" id="_Blp" style="">
+                      <view class="header__info-title overflow-text-2" data-sid="_Blq" id="_Blq" style="">换行</view>
+                      <view data-sid="_Bls" id="_Bls" style="">
+                        <view class="header__info-text" data-sid="_Blt" id="_Blt" style=""> 合作区域：天津市/河北省/山西省</view>
+                        <view class="header__info-text" data-sid="_Blv" id="_Blv" style=""> 需求类型：营销推广资源</view>
+                        <view class="header__info-text" data-sid="_Blx" id="_Blx" style=""> 有效时间：长期有效</view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+                <view data-sid="_Blz" id="_Blz" style="padding-bottom: 20px;">
+                  <view class="pt-40 flex-center-center" data-sid="_BmA" id="_BmA" style="">
+                    <text class="h5-i nutui-iconfont nut-icon nut-icon-loading" data-sid="_BmB" id="_BmB" space="" style=""/>
+                    <text class="no-more pl-20" data-sid="_BmC" id="_BmC" space="" style=""/>
+                  </view>
+                  <view class="no-more pt-40" data-sid="_BmE" id="_BmE" style="display: none;">没有更多了</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view data-sid="_AtV" id="_AtV" style="display: none;">
+          <view class="find-content" data-sid="_AtW" id="_AtW" style="display: none;"/>
+          <view class="empty-data" data-sid="_AtZ" id="_AtZ" style="display: ;">
+            <view class="nut-empty" data-sid="_Ata" id="_Ata" style="">
+              <view class="nut-empty__box" data-sid="_Atb" id="_Atb" style="">
+                <image data-sid="_Ate" id="_Ate" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/empty-box.png" style="" role="img"/>
+              </view>
+               
+              <view class="nut-empty__description" data-sid="_Ati" id="_Ati" style="">暂无人脉</view>
+               
+            </view>
+            <button app-parameter="" business-id="" class="h5-button primary-btn" data-sid="_Atp" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Atp" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 为TA人创建个人说明书 </button>
+            <view class="empty-data__desc" data-sid="_Atr" id="_Atr" style="">对方领取后 可以与TA匹配商机</view>
+          </view>
+          <view class="mt-30 mb-30" data-sid="_Att" id="_Att" style="padding-bottom: 0px; display: none;">
+            <view class="pt-40 flex-center-center" data-sid="_Atu" id="_Atu" style="display: none;">
+              <text class="h5-i nutui-iconfont nut-icon nut-icon-loading" data-sid="_Atv" id="_Atv" space="" style=""/>
+              <text class="no-more pl-20" data-sid="_Atw" id="_Atw" space="" style=""/>
+            </view>
+            <view class="no-more pt-40" data-sid="_Aty" id="_Aty" style="display: ;">没有更多了</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="tabBar-container" data-sid="_AuA" id="_AuA" style="">
+    <view class="tab-bar-wrapper tab-bar-wrapper-black" data-sid="_AuD" id="tabBar" style="padding-bottom: env(safe-area-inset-bottom);">
+      <view class="h5-view tab-bar flex-column-center" data-sid="_AuG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AuG" style="">
+        <view class="nut-badge" data-sid="_AuH" id="_AuH" style="">
+          <view class="nut-badge__icon" data-sid="_AuI" id="_AuI" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_AuO" id="_AuO" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/businessStatus-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_AuQ" id="_AuQ" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_AuR" id="_AuR" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_AuT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AuT" style="">
+        <view class="nut-badge" data-sid="_AuU" id="_AuU" style="">
+          <view class="nut-badge__icon" data-sid="_AuV" id="_AuV" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_Aub" id="_Aub" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/find-active.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Aud" id="_Aud" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text class="active-text" data-sid="_Aue" id="_Aue" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_Aug" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Aug" style="">
+        <view class="nut-badge" data-sid="_Auh" id="_Auh" style="">
+          <view class="nut-badge__icon" data-sid="_Aui" id="_Aui" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-ai" data-sid="_Auo" id="_Auo" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/create-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_Auq" id="_Auq" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_Aur" id="_Aur" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_Aus" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Aus" style="">
+        <view class="nut-badge" data-sid="_Aut" id="_Aut" style="">
+          <view class="nut-badge__icon" data-sid="_Auu" id="_Auu" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_AvA" id="_AvA" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/card-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_AvC" id="_AvC" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_AvD" id="_AvD" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_AvF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AvF" style="">
+        <view class="nut-badge" data-sid="_AvG" id="_AvG" style="">
+          <view class="nut-badge__icon" data-sid="_AvH" id="_AvH" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_AvN" id="_AvN" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/circle-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_AvP" id="_AvP" style="top: 4px; right: 0px; z-index: 9; background: #F04134;"/>
+        </view>
+        <text data-sid="_AvQ" id="_AvQ" space="" style=""/>
+      </view>
+    </view>
+  </view>
+  <view data-sid="_AvS" id="_AvS" style="">
+    <view class="nut-overlay" data-sid="_AvT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AvT" style="transition-duration: 0.3s; z-index: 2101; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_AvX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AvX" style="z-index: 2101; transition-duration: 0.3s; display: none;">
+      <view class="line-icon" data-sid="_Ava" id="_Ava" style=""/>
+      <view class="control-box" data-sid="_Avd" id="_Avd" style="">
+        <view class="flex-center-between" data-sid="_Avg" id="_Avg" style="border-top: 0;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_Avh" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Avh" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_Avi" id="_Avi" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/business-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_Avj" id="_Avj" style="">
+              <text data-sid="_Avk" id="_Avk" space="" style=""/>
+            </view>
+          </button>
+          <button app-parameter="" business-id="" class="h5-button open-memberPro" data-sid="_Avp" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Avp" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 开通Pro会员 </button>
+        </view>
+        <view class="flex-center-between" data-sid="_Avr" id="_Avr" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_Avs" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Avs" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_Avt" id="_Avt" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/dynamic-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_Avu" id="_Avu" style="">
+              <text data-sid="_Avv" id="_Avv" space="" style=""/>
+            </view>
+          </button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+  <movable-area class="movable-area" data-sid="_AwE" id="_AwE" style="margin-top: calc(78px); margin-bottom: calc(45px); height: calc(100vh - 104px - 45px); display: none;">
+    <movable-view class="movable-view" damping="20" data-sid="_AwF" direction="none" friction="2" id="_AwF" scale-max="10" scale-min="0.5" scale-value="1" style="transform: translateX(0px) translateY(0px) translateZ(0px) scale(1); transform-origin: center center;" x="390" y="810" aria-dropeffect="move" aria-label="可移动">
+      <view class="box" data-sid="_AwG" id="_AwG" style="">
+        <image class="back-top" data-sid="_AwH" id="_AwH" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/back-top.png" style="" role="img"/>
+      </view>
+    </movable-view>
+  </movable-area>
+  <view class="msg-toast" data-sid="_AwI" id="_AwI" style="display: none;">已更新999条动态</view>
+  <view class="nut-overlay fu-bottom-overlay" data-sid="_AwK" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AwK" style="transition-duration: 0.3s; z-index: 2199; display: none;">
+    <view class="bottom-overlay" data-sid="_AwN" id="_AwN" style="">
+      <image class="close-icon" data-sid="_AwO" id="_AwO" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/close-icon.png" style="" role="img"/>
+      <view class="share-title__box" data-sid="_AwR" id="_AwR" style="">
+        <view class="h5-view close-icon" data-sid="_AwS" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_AwS" style="">
+          <image data-sid="_AwT" id="_AwT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/close-icon.png" style="" role="img"/>
+        </view>
+        <view class="share-title" data-sid="_AwU" id="_AwU" style=""> 分享标题 </view>
+        <input auto-fill="" class="h5-input" cursor="null" data-sid="_AwW" id="_AwW" maxlength="140" name="" placeholder="请输入" placeholder-class="input-placeholder" placeholder-style="font-size: 30rpx;color: #C6C6C8;" safe-password-custom-hash="" selection-end="-1" selection-start="-1" style="" type="" value="分享了一个商机/人脉给你~">请输入</input>
+        <view class="share-tips" data-sid="_AwX" id="_AwX" style="">可以编辑分享标题，提高商业曝光率。</view>
+        <button app-parameter="" business-id="" class="h5-button primary-btn" data-sid="_AwZ" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_AwZ" lang="" open-type="share" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 确认分享 </button>
+      </view>
+    </view>
+  </view>
+  <view data-sid="_Awb" id="_Awb" style="">
+    <view class="nut-overlay" data-sid="_Awc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Awc" style="transition-duration: 0.3s; z-index: 2199; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_Awg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Awg" style="z-index: 2199; transition-duration: 0.3s; display: none;">
+      <view class="line-icon" data-sid="_Awj" id="_Awj" style=""/>
+      <view class="control-box" data-sid="_Awm" id="_Awm" style="">
+        <view class="flex-center-between" data-sid="_Awp" id="_Awp" style="border-top: 0;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_Awq" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Awq" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_Awr" id="_Awr" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/circle/share-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_Aws" id="_Aws" style="">
+              <text data-sid="_Awt" id="_Awt" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_Awy" id="_Awy" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_Awz" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_Awz" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_AxA" id="_AxA" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/icon-picture.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_AxB" id="_AxB" style="">
+              <text data-sid="_AxC" id="_AxC" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_AxH" id="_AxH" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_AxI" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_AxI" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_AxJ" id="_AxJ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/edit-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_AxK" id="_AxK" style="">
+              <text data-sid="_AxL" id="_AxL" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_AxQ" id="_AxQ" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item item-delete" data-sid="_AxR" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_AxR" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_AxS" id="_AxS" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/delete-info.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_AxT" id="_AxT" style="">
+              <text data-sid="_AxU" id="_AxU" space="" style=""/>
+            </view>
+          </button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+</view>
