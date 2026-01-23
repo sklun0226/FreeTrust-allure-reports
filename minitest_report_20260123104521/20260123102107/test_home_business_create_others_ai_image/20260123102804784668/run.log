@@ -1,0 +1,31 @@
+[I 2026-01-23 10:28:04,786 minium minitest#432 _miniSetUp] =========Current case: test_home_business_create_others_ai_image=========
+[I 2026-01-23 10:28:04,787 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: HomeTest.test_home_business_create_others_ai_image
+[I 2026-01-23 10:28:04,788 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-23 10:28:04,788 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-23 10:28:04,789 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-23 10:28:04,790 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-23 10:28:04,791 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-23 10:28:04,793 minium.App1088 app#950 relaunch] ReLaunch: /pages/index/index
+[D 2026-01-23 10:28:04,795 minium.Conn1584 connection#427 _safely_send] ASYNC_SEND > [1349830681584]{"id":"c2009c17-20ae-4f9d-ac84-1f935f78dfc0","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-23 10:28:04,799 minium.Conn1584 connection#660 __on_message] RECV < [1349830681584]{"method":"App.bindingCalled","params":{"name":"reLaunch_before_global","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-23 10:28:08,667 minium.Conn1584 connection#660 __on_message] RECV < [1349830681584]{"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"path":"pages/index/index","query":{},"openType":"reLaunch","timeStamp":1769135288501,"webviewId":28,"routeEventId":"28_1769135286282","renderer":"webview"},1769135288507]}}
+[I 2026-01-23 10:28:08,670 minium.App1088 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/index/index', 'query': {}, 'openType': 'reLaunch', 'timeStamp': 1769135288501, 'webviewId': 28, 'routeEventId': '28_1769135286282', 'renderer': 'webview'}, 1769135288507]}
+[D 2026-01-23 10:28:08,695 minium.Conn1584 connection#660 __on_message] RECV < [1349830681584]{"id":"c2009c17-20ae-4f9d-ac84-1f935f78dfc0","result":{"result":{"errMsg":"reLaunch:ok"}}}
+[I 2026-01-23 10:28:08,697 minium.Conn1584 connection#704 _handle_async_msg] received async msg: c2009c17-20ae-4f9d-ac84-1f935f78dfc0
+[I 2026-01-23 10:28:08,700 minium minitest#897 capture] capture setup.png
+[D 2026-01-23 10:28:08,701 minium.Conn1584 connection#427 _safely_send] SEND > [1349830681584]{"id":"a2f81085-e895-4478-81a0-acd58af2e55e","method":"App.captureScreenshot","params":{}}
+[D 2026-01-23 10:28:09,571 minium.Conn1584 connection#660 __on_message] RECV < [1349830681584]{"method":"App.bindingCalled","params":{"name":"switchTab_before_global","args":[{"url":"/pages/home/index"}]}}
+[W 2026-01-23 10:28:10,706 minium.App1088 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[W 2026-01-23 10:28:10,708 minium minitest#929 capture] D:\FreeTrust\FreeU_WX_Minium\outputs\20260123102107\test_home_business_create_others_ai_image\20260123102804784668\images\setup.png not exists
+[I 2026-01-23 10:28:10,708 minium minitest#487 _miniSetUp] =========case: test_home_business_create_others_ai_image start=========
+[I 2026-01-23 10:28:10,709 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-23 10:28:10,710 minium minitest#796 _callTestMethod] end test method
+[D 2026-01-23 10:28:10,711 minium minitest#799 _miniTearDown] =========Current case Down: test_home_business_create_others_ai_image=========
+[I 2026-01-23 10:28:10,713 minium minitest#897 capture] capture teardown.png
+[D 2026-01-23 10:28:10,714 minium.Conn1584 connection#427 _safely_send] SEND > [1349830681584]{"id":"f766cb42-02f1-457e-8c38-b745fcd42fd8","method":"App.captureScreenshot","params":{}}
+[D 2026-01-23 10:28:11,851 minium.Conn1584 connection#660 __on_message] RECV < [1349830681584]{"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"path":"pages/home/index","query":{},"openType":"switchTab","timeStamp":1769135291842,"webviewId":29,"routeEventId":"29_1769135291254","renderer":"webview"},1769135291844]}}
+[I 2026-01-23 10:28:11,853 minium.App1088 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/home/index', 'query': {}, 'openType': 'switchTab', 'timeStamp': 1769135291842, 'webviewId': 29, 'routeEventId': '29_1769135291254', 'renderer': 'webview'}, 1769135291844]}
+[W 2026-01-23 10:28:12,723 minium.App1088 app#682 screen_shot] 截图指令响应失败, 可能因为开发者工具不在前台导致
+[W 2026-01-23 10:28:12,724 minium minitest#929 capture] D:\FreeTrust\FreeU_WX_Minium\outputs\20260123102107\test_home_business_create_others_ai_image\20260123102804784668\images\teardown.png not exists
+[I 2026-01-23 10:28:12,725 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-23 10:28:12,725 minium basenative#63 wrapper] call BaseNative.get_start_up end 
