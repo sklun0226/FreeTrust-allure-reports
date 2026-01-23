@@ -1,0 +1,21 @@
+{"type": "warn", "args": ["hook pageRouter succ"], "dt": "2026-01-23 18:52:03"}
+{"type": "log", "args": ["🚀 ~ result:", {"query": ""}], "dt": "2026-01-23 18:52:03"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:04"}
+{"type": "warn", "args": ["hook pageRouter succ"], "dt": "2026-01-23 18:52:05"}
+{"type": "log", "args": ["🚀 ~ handler ~ params:", "SUPPLY_DEMAND"], "dt": "2026-01-23 18:52:11"}
+{"type": "log", "args": ["🚀 ~ handler ~ currentBans:", null], "dt": "2026-01-23 18:52:11"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "warn", "args": ["[taro warn] Taro 暂未实现 event 的 capture 特性。"], "dt": "2026-01-23 18:52:16"}
+{"type": "error", "args": ["跳转异常:", {"errMsg": "navigateTo:fail timeout"}], "dt": "2026-01-23 18:52:21"}

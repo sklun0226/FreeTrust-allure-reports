@@ -1,0 +1,1803 @@
+
+<view class="layout-container flex-column" data-sid="_EBA" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EBA" style="background: #fff; padding-top: 0;">
+  <view class="status-bar" data-sid="_EBB" id="_EBB" style="padding-top: 47px; background: #fff;">
+    <view class="nav-bar" data-sid="_EBC" id="_EBC" style="height: 40px; color: #000; justify-content: space-between;">
+      <view class="left-space" data-sid="_EBF" id="_EBF" style="">
+        <view class="flex-center" data-sid="_EBG" id="_EBG" style=""/>
+        <view class="page-title" data-sid="_EBM" id="_EBM" style=""> 发现 </view>
+      </view>
+      <view class="title one-line-ellipsis" data-sid="_EBO" id="_EBO" style=""/>
+      <view class="right-icon" data-sid="_EBP" id="_EBP" style="padding-right: 87px;">
+        <button app-parameter="" business-id="" class="h5-button icon-item icon-light" data-sid="_EBS" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EBS" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="border-radius: 50%; width: 33px; padding: 0; z-index: 0;" type="" role="button" aria-disabled="false">
+          <image data-sid="_EBT" id="_EBT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/home/search-icon.png" style="" role="img"/>
+        </button>
+      </view>
+    </view>
+  </view>
+  <scroll-view bounces="" class="layout-content" data-sid="_EBa" id="_EBa" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-enabled="" refresher-threshold="45" scroll-into-view="" scroll-left="" scroll-top="0" scroll-with-animation="" scroll-y="" style="" upper-threshold="50">
+    <view class="find-container" data-sid="_EBd" id="_EBd" style="padding-bottom: 93px;">
+      <view class="find-tab" data-sid="_EBe" id="findTab" style="">
+        <view class="h5-view find-tab-item" data-sid="_EBf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EBf" style="">
+          <view class="find-tab-title" data-sid="_EBg" id="_EBg" style="">商务</view>
+          <view class="find-tab-line" data-sid="_EBi" id="_EBi" style=""/>
+        </view>
+        <view class="h5-view find-tab-item find-tab-active" data-sid="_EBj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EBj" style="">
+          <view class="find-tab-title" data-sid="_EBk" id="_EBk" style="">推荐</view>
+          <view class="find-tab-line" data-sid="_EBm" id="_EBm" style=""/>
+        </view>
+        <view class="h5-view find-tab-item" data-sid="_EBn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EBn" style="">
+          <view data-sid="_EBo" id="_EBo" style="">
+            <view class="nut-badge" data-sid="_EBp" id="_EBp" style="">
+              <view class="nut-badge__icon" data-sid="_EBq" id="_EBq" style="top: 2px; right: 10px; z-index: 9; background: #F04134; display: none;"/>
+               
+              <view class="find-tab-title" data-sid="_EBw" id="_EBw" style="">人脉</view>
+               
+              <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_EBz" id="_EBz" style="top: 2px; right: 10px; z-index: 9; background: #F04134; display: none;"/>
+            </view>
+            <view class="find-tab-line" data-sid="_ECA" id="_ECA" style=""/>
+          </view>
+        </view>
+      </view>
+      <view class="loading-data" data-sid="_ECB" id="_ECB" style="height: auto; background: transparent; padding-top: 156px; display: none;">
+        <text class="h5-i nutui-iconfont nut-icon nut-icon-loading1" data-sid="_ECC" id="_ECC" space="" style="color: #333;"/>
+      </view>
+      <view data-sid="_ECD" id="_ECD" style="display: ;">
+        <view class="business-list" data-sid="_ECE" id="_ECE" style="display: none;">
+          <view class="business-list__box" data-sid="_ECG" id="_ECG" style="">
+            <view class="business-tabs" data-sid="_ECH" id="businessTabs" style="">
+              <scroll-view bounces="" class="top-menu" data-sid="_ECI" enable-flex="" id="_ECI" lower-threshold="50" refresher-background="#FFF" refresher-default-style="black" refresher-threshold="45" scroll-into-view="tabNum1" scroll-left="" scroll-top="" scroll-with-animation="" scroll-x="" style="" upper-threshold="50">
+                <view class="h5-view menu-view" data-sid="_ECL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum1" style="">
+                  <view class="menu-view__box" data-sid="_ECM" id="_ECM" style="">
+                    <view class="menu-text menu-text-active" data-sid="_ECN" id="_ECN" style="">推荐</view>
+                    <view class="menu-bottom" data-sid="_ECP" id="_ECP" style=""/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum2" style="">
+                  <view class="menu-view__box" data-sid="_ECR" id="_ECR" style="">
+                    <view class="menu-text" data-sid="_ECS" id="_ECS" style="">甲方需求</view>
+                    <view class="menu-bottom" data-sid="_ECU" id="_ECU" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum3" style="">
+                  <view class="menu-view__box" data-sid="_ECW" id="_ECW" style="">
+                    <view class="menu-text" data-sid="_ECX" id="_ECX" style="">异业合作</view>
+                    <view class="menu-bottom" data-sid="_ECZ" id="_ECZ" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECa" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum4" style="">
+                  <view class="menu-view__box" data-sid="_ECb" id="_ECb" style="">
+                    <view class="menu-text" data-sid="_ECc" id="_ECc" style="">项目招商</view>
+                    <view class="menu-bottom" data-sid="_ECe" id="_ECe" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum5" style="">
+                  <view class="menu-view__box" data-sid="_ECg" id="_ECg" style="">
+                    <view class="menu-text" data-sid="_ECh" id="_ECh" style="">项目合作</view>
+                    <view class="menu-bottom" data-sid="_ECj" id="_ECj" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECk" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum6" style="">
+                  <view class="menu-view__box" data-sid="_ECl" id="_ECl" style="">
+                    <view class="menu-text" data-sid="_ECm" id="_ECm" style="">找投融资</view>
+                    <view class="menu-bottom" data-sid="_ECo" id="_ECo" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum7" style="">
+                  <view class="menu-view__box" data-sid="_ECq" id="_ECq" style="">
+                    <view class="menu-text" data-sid="_ECr" id="_ECr" style="">找合伙人</view>
+                    <view class="menu-bottom" data-sid="_ECt" id="_ECt" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum8" style="">
+                  <view class="menu-view__box" data-sid="_ECv" id="_ECv" style="">
+                    <view class="menu-text" data-sid="_ECw" id="_ECw" style="">代理加盟</view>
+                    <view class="menu-bottom" data-sid="_ECy" id="_ECy" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_ECz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum9" style="">
+                  <view class="menu-view__box" data-sid="_EDA" id="_EDA" style="">
+                    <view class="menu-text" data-sid="_EDB" id="_EDB" style="">供应链资源</view>
+                    <view class="menu-bottom" data-sid="_EDD" id="_EDD" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_EDE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum10" style="">
+                  <view class="menu-view__box" data-sid="_EDF" id="_EDF" style="">
+                    <view class="menu-text" data-sid="_EDG" id="_EDG" style="">场地资源</view>
+                    <view class="menu-bottom" data-sid="_EDI" id="_EDI" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_EDJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum11" style="">
+                  <view class="menu-view__box" data-sid="_EDK" id="_EDK" style="">
+                    <view class="menu-text" data-sid="_EDL" id="_EDL" style="">企业服务资源</view>
+                    <view class="menu-bottom" data-sid="_EDN" id="_EDN" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="h5-view menu-view" data-sid="_EDO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="tabNum12" style="">
+                  <view class="menu-view__box" data-sid="_EDP" id="_EDP" style="">
+                    <view class="menu-text" data-sid="_EDQ" id="_EDQ" style="">营销推广资源</view>
+                    <view class="menu-bottom" data-sid="_EDS" id="_EDS" style="display: none;"/>
+                  </view>
+                </view>
+                <view class="spacer" data-sid="_EDT" id="_EDT" style=""/>
+              </scroll-view>
+            </view>
+            <view class="list-box" data-sid="_EDU" id="_EDU" style="min-height: 615px;">
+              <view class="nut-empty" data-sid="_EDV" id="_EDV" style="">
+                <view class="nut-empty__box" data-sid="_EDW" id="_EDW" style="">
+                  <image data-sid="_EDZ" id="_EDZ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/empty-box.png" style="" role="img"/>
+                </view>
+                 
+                <view class="empty-text" data-sid="_EDd" id="_EDd" style=""> 暂无需求动态 </view>
+                <button app-parameter="" business-id="" class="h5-button public-btn" data-sid="_EDf" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EDf" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 去发布需求动态 </button>
+                 
+              </view>
+            </view>
+          </view>
+        </view>
+        <view data-sid="_EDk" id="_EDk" style="">
+          <view class="find-content" data-sid="_EDl" id="_EDl" style="display: ;">
+            <view class="h5-view find-list" data-sid="_EHq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EHq" style="">
+              <view class="h5-view find-list__header" data-sid="_EHr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EHr" style="">
+                <view class="find-avatar" data-sid="_EHs" id="_EHs" style="">
+                  <image class="header-avatar" data-sid="_EHt" id="_EHt" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EHv" id="_EHv" style="">
+                  <view data-sid="_EHw" id="_EHw" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EHy" id="_EHy" style="">
+                    <text data-sid="_EHz" id="_EHz" space="" style=""/>
+                    <text data-sid="_EIB" id="_EIB" space="" style=""/>
+                    <text data-sid="_EID" id="_EID" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EIF" id="_EIF" style="">
+                  <image data-sid="_EIG" id="_EIG" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EIH" id="_EIH" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EII" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EII" style="">
+                  <text class="find-list__content--desc overflow-text-3" data-sid="_EIJ" id="_EIJ" space="" style="">
+                    <text data-sid="_EIK" id="_EIK" space="" style=""/>
+                    <text class="content-more" data-sid="_EIM" id="_EIM" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EIN" id="_EIN" style="">
+                  <view class="h5-view" data-sid="_EIO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIO" style="">
+                    <view class="h5-view footer-show" data-sid="_EIP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIP" style="">
+                      <text data-sid="_EIQ" id="_EIQ" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EIU" id="_EIU" style="">
+                      <view class="upload-image size-4" data-sid="_EIV" id="_EIV" style="width: 80%;">
+                        <view class="h5-view upload-image-item size-4" data-sid="_EIY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIY" style="">
+                          <image data-sid="_EIZ" id="_EIZ" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/e3db8116a5b3198656a18bcb017fdf9b9dcf0de934db08c9dea52554e0e8e8d5.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_EIa" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIa" style="">
+                          <image data-sid="_EIb" id="_EIb" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/4bbbdd246b3a7f18d56dde5424e632644d427fc81406b3f0c0d498a7f34dd828.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_EIc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIc" style="">
+                          <image data-sid="_EId" id="_EId" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/ce9bcecee3ac09e97b2bb94cbc67821d7177b8987cc32540a307c949bc72c933.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_EIe" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIe" style="">
+                          <image data-sid="_EIf" id="_EIf" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EIh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIh" style="width: 260px;">
+                      <view class="network-link" data-sid="_EIj" id="_EIj" style="">
+                        <image class="link-image" data-sid="_EIk" id="_EIk" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EIl" id="_EIl" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EIo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIo" style="">
+                    <text data-sid="_EIp" id="_EIp" space="" style=""/>
+                    <text data-sid="_EIr" id="_EIr" space="" style=""/>
+                    <text data-sid="_EIt" id="_EIt" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EIv" id="_EIv" style="">
+                    <view class="find-info__date" data-sid="_EIw" id="_EIw" style="">40分钟 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EIy" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EIy" style="">
+                      <image class="footer-map--icon" data-sid="_EIz" id="_EIz" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EJA" id="_EJA" style="">普陀区人事局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EJC" id="_EJC" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EJD" id="_EJD" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EJE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJE" style="">
+                      <image data-sid="_EJF" id="_EJF" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EJG" id="_EJG" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EJI" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJI" style="">
+                      <image data-sid="_EJJ" id="_EJJ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EJK" id="_EJK" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EJM" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJM" style="">
+                      <image data-sid="_EJN" id="_EJN" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EJO" id="_EJO" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EJQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJQ" style="">
+              <view class="h5-view find-list__header" data-sid="_EJR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJR" style="">
+                <view class="find-avatar" data-sid="_EJS" id="_EJS" style="">
+                  <image class="header-avatar" data-sid="_EJT" id="_EJT" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EJV" id="_EJV" style="">
+                  <view data-sid="_EJW" id="_EJW" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EJY" id="_EJY" style="">
+                    <text data-sid="_EJZ" id="_EJZ" space="" style=""/>
+                    <text data-sid="_EJb" id="_EJb" space="" style=""/>
+                    <text data-sid="_EJd" id="_EJd" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EJf" id="_EJf" style="">
+                  <image data-sid="_EJg" id="_EJg" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EJh" id="_EJh" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EJi" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJi" style="">
+                  <text class="find-list__content--desc overflow-text-3" data-sid="_EJj" id="_EJj" space="" style="">
+                    <text data-sid="_EJk" id="_EJk" space="" style=""/>
+                    <text class="content-more" data-sid="_EJm" id="_EJm" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EJn" id="_EJn" style="">
+                  <view class="h5-view" data-sid="_EJo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJo" style="">
+                    <view class="h5-view footer-show" data-sid="_EJp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJp" style="">
+                      <text data-sid="_EJq" id="_EJq" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EJu" id="_EJu" style="">
+                      <view class="upload-image size-item" data-sid="_EJv" id="_EJv" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_EJy" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EJy" style="">
+                          <image data-sid="_EJz" id="_EJz" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/3bb356a19e228100bfe788095c00c50c90c1caec5546ebac928cc803ee22fdb4.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EKA" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKA" style="">
+                          <image data-sid="_EKB" id="_EKB" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EKC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKC" style="">
+                          <image data-sid="_EKD" id="_EKD" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EKE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKE" style="">
+                          <image data-sid="_EKF" id="_EKF" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/f27211ac25a955cd8010fe0a1d55d53b574bc9ef62a32e6c7d1874e0762daac2.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EKG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKG" style="">
+                          <image data-sid="_EKH" id="_EKH" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EKJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKJ" style="width: 260px;">
+                      <view class="network-link" data-sid="_EKL" id="_EKL" style="">
+                        <image class="link-image" data-sid="_EKM" id="_EKM" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EKN" id="_EKN" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EKQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKQ" style="">
+                    <text data-sid="_EKR" id="_EKR" space="" style=""/>
+                    <text data-sid="_EKT" id="_EKT" space="" style=""/>
+                    <text data-sid="_EKV" id="_EKV" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EKW" id="_EKW" style="">
+                    <view class="find-info__date" data-sid="_EKX" id="_EKX" style="">1小时 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EKZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKZ" style="">
+                      <image class="footer-map--icon" data-sid="_EKa" id="_EKa" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EKb" id="_EKb" style="">上海市普陀区生态环境局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EKd" id="_EKd" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EKe" id="_EKe" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EKf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKf" style="">
+                      <image data-sid="_EKg" id="_EKg" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EKh" id="_EKh" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EKj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKj" style="">
+                      <image data-sid="_EKk" id="_EKk" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EKl" id="_EKl" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EKn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKn" style="">
+                      <image data-sid="_EKo" id="_EKo" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EKp" id="_EKp" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EKr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKr" style="">
+              <view class="h5-view find-list__header" data-sid="_EKs" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EKs" style="">
+                <view class="find-avatar" data-sid="_EKt" id="_EKt" style="">
+                  <image class="header-avatar" data-sid="_EKu" id="_EKu" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EKw" id="_EKw" style="">
+                  <view data-sid="_EKx" id="_EKx" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EKz" id="_EKz" style="">
+                    <text data-sid="_ELA" id="_ELA" space="" style=""/>
+                    <text data-sid="_ELC" id="_ELC" space="" style=""/>
+                    <text data-sid="_ELE" id="_ELE" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_ELG" id="_ELG" style="">
+                  <image data-sid="_ELH" id="_ELH" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_ELI" id="_ELI" style="">
+                <view class="h5-view find-list__content__details" data-sid="_ELJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELJ" style="">
+                  <text class="find-list__content--desc overflow-text-3" data-sid="_ELK" id="_ELK" space="" style="">
+                    <text data-sid="_ELL" id="_ELL" space="" style=""/>
+                    <text class="content-more" data-sid="_ELN" id="_ELN" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_ELO" id="_ELO" style="">
+                  <view class="h5-view" data-sid="_ELP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELP" style="">
+                    <view class="h5-view footer-show" data-sid="_ELQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELQ" style="">
+                      <text data-sid="_ELR" id="_ELR" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_ELV" id="_ELV" style="">
+                      <view class="upload-image size-item" data-sid="_ELW" id="_ELW" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_ELZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELZ" style="">
+                          <image data-sid="_ELa" id="_ELa" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/4bbbdd246b3a7f18d56dde5424e632644d427fc81406b3f0c0d498a7f34dd828.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_ELb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELb" style="">
+                          <image data-sid="_ELc" id="_ELc" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/f27211ac25a955cd8010fe0a1d55d53b574bc9ef62a32e6c7d1874e0762daac2.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_ELd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELd" style="">
+                          <image data-sid="_ELe" id="_ELe" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/a11c813315d39bf780a0b71ecb5841e4d005b094ead1983dc7eb5bafc89a0199.jpg" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_ELg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELg" style="width: 260px;">
+                      <view class="network-link" data-sid="_ELi" id="_ELi" style="">
+                        <image class="link-image" data-sid="_ELj" id="_ELj" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_ELk" id="_ELk" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_ELn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELn" style="">
+                    <text data-sid="_ELo" id="_ELo" space="" style=""/>
+                    <text data-sid="_ELq" id="_ELq" space="" style=""/>
+                    <text data-sid="_ELs" id="_ELs" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_ELu" id="_ELu" style="">
+                    <view class="find-info__date" data-sid="_ELv" id="_ELv" style="">3小时 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_ELx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ELx" style="">
+                      <image class="footer-map--icon" data-sid="_ELy" id="_ELy" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_ELz" id="_ELz" style="">上海海关驻车站办事处</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EMB" id="_EMB" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EMC" id="_EMC" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EMD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMD" style="">
+                      <image data-sid="_EME" id="_EME" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EMF" id="_EMF" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EMH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMH" style="">
+                      <image data-sid="_EMI" id="_EMI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EMJ" id="_EMJ" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EML" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EML" style="">
+                      <image data-sid="_EMM" id="_EMM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EMN" id="_EMN" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EMP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMP" style="">
+              <view class="h5-view find-list__header" data-sid="_EMQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMQ" style="">
+                <view class="find-avatar" data-sid="_EMR" id="_EMR" style="">
+                  <image class="header-avatar" data-sid="_EMS" id="_EMS" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EMU" id="_EMU" style="">
+                  <view data-sid="_EMV" id="_EMV" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EMX" id="_EMX" style="">
+                    <text data-sid="_EMY" id="_EMY" space="" style=""/>
+                    <text data-sid="_EMa" id="_EMa" space="" style=""/>
+                    <text data-sid="_EMc" id="_EMc" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EMe" id="_EMe" style="">
+                  <image data-sid="_EMf" id="_EMf" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EMg" id="_EMg" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EMh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMh" style="">
+                  <text class="find-list__content--desc" data-sid="_EMi" id="_EMi" space="" style="" user-select="">
+                    <text data-sid="_EMj" id="_EMj" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EMm" id="_EMm" style="">
+                  <view class="h5-view" data-sid="_EMn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMn" style="">
+                    <view class="h5-view footer-show" data-sid="_EMo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMo" style="display: none;">
+                      <text data-sid="_EMp" id="_EMp" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EMt" id="_EMt" style="">
+                      <view class="upload-image size-item" data-sid="_EMu" id="_EMu" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_EMx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMx" style="">
+                          <image data-sid="_EMy" id="_EMy" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/3bb356a19e228100bfe788095c00c50c90c1caec5546ebac928cc803ee22fdb4.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EMz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EMz" style="">
+                          <image data-sid="_ENA" id="_ENA" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_ENB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENB" style="">
+                          <image data-sid="_ENC" id="_ENC" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260123/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_ENE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENE" style="width: 260px;">
+                      <view class="network-link" data-sid="_ENG" id="_ENG" style="">
+                        <image class="link-image" data-sid="_ENH" id="_ENH" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_ENI" id="_ENI" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_ENL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENL" style="">
+                    <text data-sid="_ENM" id="_ENM" space="" style=""/>
+                    <text data-sid="_ENO" id="_ENO" space="" style=""/>
+                    <text data-sid="_ENQ" id="_ENQ" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_ENS" id="_ENS" style="">
+                    <view class="find-info__date" data-sid="_ENT" id="_ENT" style="">4小时 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_ENV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENV" style="">
+                      <image class="footer-map--icon" data-sid="_ENW" id="_ENW" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_ENX" id="_ENX" style="">普陀区住房保障和房屋管理局业务受理处</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_ENZ" id="_ENZ" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_ENa" id="_ENa" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_ENb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENb" style="">
+                      <image data-sid="_ENc" id="_ENc" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_ENd" id="_ENd" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_ENf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENf" style="">
+                      <image data-sid="_ENg" id="_ENg" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_ENh" id="_ENh" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_ENj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENj" style="">
+                      <image data-sid="_ENk" id="_ENk" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_ENl" id="_ENl" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_ENn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENn" style="">
+              <view class="h5-view find-list__header" data-sid="_ENo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ENo" style="">
+                <view class="find-avatar" data-sid="_ENp" id="_ENp" style="">
+                  <image class="header-avatar" data-sid="_ENq" id="_ENq" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_ENs" id="_ENs" style="">
+                  <view data-sid="_ENt" id="_ENt" style="">邵昆仑测试环境</view>
+                  <view data-sid="_ENv" id="_ENv" style="">
+                    <text data-sid="_ENw" id="_ENw" space="" style=""/>
+                    <text data-sid="_ENy" id="_ENy" space="" style=""/>
+                    <text data-sid="_EOA" id="_EOA" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EOC" id="_EOC" style="">
+                  <image data-sid="_EOD" id="_EOD" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EOE" id="_EOE" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EOF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOF" style="">
+                  <text class="find-list__content--desc overflow-text-3" data-sid="_EOG" id="_EOG" space="" style="">
+                    <text data-sid="_EOH" id="_EOH" space="" style=""/>
+                    <text class="content-more" data-sid="_EOJ" id="_EOJ" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EOK" id="_EOK" style="">
+                  <view class="h5-view" data-sid="_EOL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOL" style="">
+                    <view class="h5-view footer-show" data-sid="_EOM" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOM" style="">
+                      <text data-sid="_EON" id="_EON" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EOR" id="_EOR" style="">
+                      <view class="upload-image size-item" data-sid="_EOS" id="_EOS" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOV" style="">
+                          <image data-sid="_EOW" id="_EOW" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOX" style="">
+                          <image data-sid="_EOY" id="_EOY" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/179d455b89645fb5e2efa17d4bf605370eed824b123c2e296c3aa91196ecef2a.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOZ" style="">
+                          <image data-sid="_EOa" id="_EOa" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOb" style="">
+                          <image data-sid="_EOc" id="_EOc" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/e86129953eda62b37b2a75dcc8a17d7d0909fee6755f2ea40e50ef80cffc3cce.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOd" style="">
+                          <image data-sid="_EOe" id="_EOe" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/a11c813315d39bf780a0b71ecb5841e4d005b094ead1983dc7eb5bafc89a0199.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOf" style="">
+                          <image data-sid="_EOg" id="_EOg" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/4bbbdd246b3a7f18d56dde5424e632644d427fc81406b3f0c0d498a7f34dd828.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EOh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOh" style="">
+                          <image data-sid="_EOi" id="_EOi" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/e3db8116a5b3198656a18bcb017fdf9b9dcf0de934db08c9dea52554e0e8e8d5.jpg" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EOk" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOk" style="width: 260px;">
+                      <view class="network-link" data-sid="_EOm" id="_EOm" style="">
+                        <image class="link-image" data-sid="_EOn" id="_EOn" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EOo" id="_EOo" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EOr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EOr" style="">
+                    <text data-sid="_EOs" id="_EOs" space="" style=""/>
+                    <text data-sid="_EOu" id="_EOu" space="" style=""/>
+                    <text data-sid="_EOw" id="_EOw" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EOy" id="_EOy" style="">
+                    <view class="find-info__date" data-sid="_EOz" id="_EOz" style="">19小时 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EPB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPB" style="">
+                      <image class="footer-map--icon" data-sid="_EPC" id="_EPC" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EPD" id="_EPD" style="">普陀区总工会(大渡河路)</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EPF" id="_EPF" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EPG" id="_EPG" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EPH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPH" style="">
+                      <image data-sid="_EPI" id="_EPI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_EPJ" id="_EPJ" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EPL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPL" style="">
+                      <image data-sid="_EPM" id="_EPM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EPN" id="_EPN" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EPP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPP" style="">
+                      <image data-sid="_EPQ" id="_EPQ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_EPR" id="_EPR" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EPT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPT" style="">
+              <view class="h5-view find-list__header" data-sid="_EPU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPU" style="">
+                <view class="find-avatar" data-sid="_EPV" id="_EPV" style="">
+                  <image class="header-avatar" data-sid="_EPW" id="_EPW" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EPY" id="_EPY" style="">
+                  <view data-sid="_EPZ" id="_EPZ" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EPb" id="_EPb" style="">
+                    <text data-sid="_EPc" id="_EPc" space="" style=""/>
+                    <text data-sid="_EPe" id="_EPe" space="" style=""/>
+                    <text data-sid="_EPg" id="_EPg" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EPi" id="_EPi" style="">
+                  <image data-sid="_EPj" id="_EPj" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EPk" id="_EPk" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EPl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPl" style="">
+                  <text class="find-list__content--desc" data-sid="_EPm" id="_EPm" space="" style="" user-select="">
+                    <text data-sid="_EPn" id="_EPn" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EPq" id="_EPq" style="">
+                  <view class="h5-view" data-sid="_EPr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPr" style="">
+                    <view class="h5-view footer-show" data-sid="_EPs" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EPs" style="display: none;">
+                      <text data-sid="_EPt" id="_EPt" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EPx" id="_EPx" style="">
+                      <view class="upload-image size-item" data-sid="_EPy" id="_EPy" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_EQB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQB" style="">
+                          <image data-sid="_EQC" id="_EQC" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EQD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQD" style="">
+                          <image data-sid="_EQE" id="_EQE" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/ce9bcecee3ac09e97b2bb94cbc67821d7177b8987cc32540a307c949bc72c933.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EQF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQF" style="">
+                          <image data-sid="_EQG" id="_EQG" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/179d455b89645fb5e2efa17d4bf605370eed824b123c2e296c3aa91196ecef2a.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EQI" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQI" style="width: 260px;">
+                      <view class="network-link" data-sid="_EQK" id="_EQK" style="">
+                        <image class="link-image" data-sid="_EQL" id="_EQL" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EQM" id="_EQM" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EQP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQP" style="">
+                    <text data-sid="_EQQ" id="_EQQ" space="" style=""/>
+                    <text data-sid="_EQS" id="_EQS" space="" style=""/>
+                    <text data-sid="_EQU" id="_EQU" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EQW" id="_EQW" style="">
+                    <view class="find-info__date" data-sid="_EQX" id="_EQX" style="">20小时 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EQZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQZ" style="">
+                      <image class="footer-map--icon" data-sid="_EQa" id="_EQa" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EQb" id="_EQb" style="">普陀区司法局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EQd" id="_EQd" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EQe" id="_EQe" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EQf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQf" style="">
+                      <image data-sid="_EQg" id="_EQg" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EQh" id="_EQh" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EQj" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQj" style="">
+                      <image data-sid="_EQk" id="_EQk" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EQl" id="_EQl" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EQn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQn" style="">
+                      <image data-sid="_EQo" id="_EQo" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EQp" id="_EQp" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EQr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQr" style="">
+              <view class="h5-view find-list__header" data-sid="_EQs" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EQs" style="">
+                <view class="find-avatar" data-sid="_EQt" id="_EQt" style="">
+                  <image class="header-avatar" data-sid="_EQu" id="_EQu" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EQw" id="_EQw" style="">
+                  <view data-sid="_EQx" id="_EQx" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EQz" id="_EQz" style="">
+                    <text data-sid="_ERA" id="_ERA" space="" style=""/>
+                    <text data-sid="_ERC" id="_ERC" space="" style=""/>
+                    <text data-sid="_ERE" id="_ERE" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_ERG" id="_ERG" style="">
+                  <image data-sid="_ERH" id="_ERH" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_ERI" id="_ERI" style="">
+                <view class="h5-view find-list__content__details" data-sid="_ERJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERJ" style="">
+                  <text class="find-list__content--desc" data-sid="_ERK" id="_ERK" space="" style="" user-select="">
+                    <text data-sid="_ERL" id="_ERL" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_ERO" id="_ERO" style="">
+                  <view class="h5-view" data-sid="_ERP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERP" style="">
+                    <view class="h5-view footer-show" data-sid="_ERQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERQ" style="display: none;">
+                      <text data-sid="_ERR" id="_ERR" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_ERV" id="_ERV" style="">
+                      <view class="upload-image size-item" data-sid="_ERW" id="_ERW" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_ERZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERZ" style="">
+                          <image data-sid="_ERa" id="_ERa" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_ERb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERb" style="">
+                          <image data-sid="_ERc" id="_ERc" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/179d455b89645fb5e2efa17d4bf605370eed824b123c2e296c3aa91196ecef2a.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_ERd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERd" style="">
+                          <image data-sid="_ERe" id="_ERe" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260122/ce9bcecee3ac09e97b2bb94cbc67821d7177b8987cc32540a307c949bc72c933.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_ERg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERg" style="width: 260px;">
+                      <view class="network-link" data-sid="_ERi" id="_ERi" style="">
+                        <image class="link-image" data-sid="_ERj" id="_ERj" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_ERk" id="_ERk" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_ERn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERn" style="">
+                    <text data-sid="_ERo" id="_ERo" space="" style=""/>
+                    <text data-sid="_ERq" id="_ERq" space="" style=""/>
+                    <text data-sid="_ERs" id="_ERs" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_ERu" id="_ERu" style="">
+                    <view class="find-info__date" data-sid="_ERv" id="_ERv" style="">1天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_ERx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ERx" style="">
+                      <image class="footer-map--icon" data-sid="_ERy" id="_ERy" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_ERz" id="_ERz" style="">普陀区发展和改革委员会</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_ESB" id="_ESB" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_ESC" id="_ESC" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_ESD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESD" style="">
+                      <image data-sid="_ESE" id="_ESE" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_ESF" id="_ESF" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_ESH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESH" style="">
+                      <image data-sid="_ESI" id="_ESI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_ESJ" id="_ESJ" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_ESL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESL" style="">
+                      <image data-sid="_ESM" id="_ESM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_ESN" id="_ESN" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_ESP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESP" style="">
+              <view class="h5-view find-list__header" data-sid="_ESQ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESQ" style="">
+                <view class="find-avatar" data-sid="_ESR" id="_ESR" style="">
+                  <image class="header-avatar" data-sid="_ESS" id="_ESS" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_ESU" id="_ESU" style="">
+                  <view data-sid="_ESV" id="_ESV" style="">邵昆仑测试环境</view>
+                  <view data-sid="_ESX" id="_ESX" style="">
+                    <text data-sid="_ESY" id="_ESY" space="" style=""/>
+                    <text data-sid="_ESa" id="_ESa" space="" style=""/>
+                    <text data-sid="_ESc" id="_ESc" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_ESe" id="_ESe" style="">
+                  <image data-sid="_ESf" id="_ESf" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_ESg" id="_ESg" style="">
+                <view class="h5-view find-list__content__details" data-sid="_ESh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESh" style="">
+                  <text class="find-list__content--desc" data-sid="_ESi" id="_ESi" space="" style="" user-select="">
+                    <text data-sid="_ESj" id="_ESj" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_ESm" id="_ESm" style="">
+                  <view class="h5-view" data-sid="_ESn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESn" style="">
+                    <view class="h5-view footer-show" data-sid="_ESo" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESo" style="display: none;">
+                      <text data-sid="_ESp" id="_ESp" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_ESt" id="_ESt" style="">
+                      <view class="upload-image size-4" data-sid="_ESu" id="_ESu" style="width: 80%;">
+                        <view class="h5-view upload-image-item size-4" data-sid="_ESx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESx" style="">
+                          <image data-sid="_ESy" id="_ESy" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/e86129953eda62b37b2a75dcc8a17d7d0909fee6755f2ea40e50ef80cffc3cce.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_ESz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ESz" style="">
+                          <image data-sid="_ETA" id="_ETA" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/3bb356a19e228100bfe788095c00c50c90c1caec5546ebac928cc803ee22fdb4.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_ETB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETB" style="">
+                          <image data-sid="_ETC" id="_ETC" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_ETD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETD" style="">
+                          <image data-sid="_ETE" id="_ETE" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/ce9bcecee3ac09e97b2bb94cbc67821d7177b8987cc32540a307c949bc72c933.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_ETG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETG" style="width: 260px;">
+                      <view class="network-link" data-sid="_ETI" id="_ETI" style="">
+                        <image class="link-image" data-sid="_ETJ" id="_ETJ" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_ETK" id="_ETK" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_ETN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETN" style="">
+                    <text data-sid="_ETO" id="_ETO" space="" style=""/>
+                    <text data-sid="_ETQ" id="_ETQ" space="" style=""/>
+                    <text data-sid="_ETS" id="_ETS" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_ETU" id="_ETU" style="">
+                    <view class="find-info__date" data-sid="_ETV" id="_ETV" style="">1天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_ETX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETX" style="">
+                      <image class="footer-map--icon" data-sid="_ETY" id="_ETY" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_ETZ" id="_ETZ" style="">普陀区人事局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_ETb" id="_ETb" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_ETc" id="_ETc" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_ETd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETd" style="">
+                      <image data-sid="_ETe" id="_ETe" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_ETf" id="_ETf" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_ETh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETh" style="">
+                      <image data-sid="_ETi" id="_ETi" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_ETj" id="_ETj" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_ETl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETl" style="">
+                      <image data-sid="_ETm" id="_ETm" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_ETn" id="_ETn" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_ETp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETp" style="">
+              <view class="h5-view find-list__header" data-sid="_ETq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_ETq" style="">
+                <view class="find-avatar" data-sid="_ETr" id="_ETr" style="">
+                  <image class="header-avatar" data-sid="_ETs" id="_ETs" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_ETu" id="_ETu" style="">
+                  <view data-sid="_ETv" id="_ETv" style="">邵昆仑测试环境</view>
+                  <view data-sid="_ETx" id="_ETx" style="">
+                    <text data-sid="_ETy" id="_ETy" space="" style=""/>
+                    <text data-sid="_EUA" id="_EUA" space="" style=""/>
+                    <text data-sid="_EUC" id="_EUC" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EUE" id="_EUE" style="">
+                  <image data-sid="_EUF" id="_EUF" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EUG" id="_EUG" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EUH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUH" style="">
+                  <text class="find-list__content--desc" data-sid="_EUI" id="_EUI" space="" style="" user-select="">
+                    <text data-sid="_EUJ" id="_EUJ" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EUM" id="_EUM" style="">
+                  <view class="h5-view" data-sid="_EUN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUN" style="">
+                    <view class="h5-view footer-show" data-sid="_EUO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUO" style="display: none;">
+                      <text data-sid="_EUP" id="_EUP" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EUT" id="_EUT" style="">
+                      <view class="upload-image size-item" data-sid="_EUU" id="_EUU" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_EUX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUX" style="">
+                          <image data-sid="_EUY" id="_EUY" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/ce9bcecee3ac09e97b2bb94cbc67821d7177b8987cc32540a307c949bc72c933.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EUZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUZ" style="">
+                          <image data-sid="_EUa" id="_EUa" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/a11c813315d39bf780a0b71ecb5841e4d005b094ead1983dc7eb5bafc89a0199.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EUb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUb" style="">
+                          <image data-sid="_EUc" id="_EUc" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EUd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUd" style="">
+                          <image data-sid="_EUe" id="_EUe" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/4bbbdd246b3a7f18d56dde5424e632644d427fc81406b3f0c0d498a7f34dd828.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EUf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUf" style="">
+                          <image data-sid="_EUg" id="_EUg" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_EUh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUh" style="">
+                          <image data-sid="_EUi" id="_EUi" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/e86129953eda62b37b2a75dcc8a17d7d0909fee6755f2ea40e50ef80cffc3cce.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EUk" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUk" style="width: 260px;">
+                      <view class="network-link" data-sid="_EUm" id="_EUm" style="">
+                        <image class="link-image" data-sid="_EUn" id="_EUn" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EUo" id="_EUo" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EUr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EUr" style="">
+                    <text data-sid="_EUs" id="_EUs" space="" style=""/>
+                    <text data-sid="_EUu" id="_EUu" space="" style=""/>
+                    <text data-sid="_EUw" id="_EUw" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EUy" id="_EUy" style="">
+                    <view class="find-info__date" data-sid="_EUz" id="_EUz" style="">1天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EVB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVB" style="">
+                      <image class="footer-map--icon" data-sid="_EVC" id="_EVC" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EVD" id="_EVD" style="">普陀区人事局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EVF" id="_EVF" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EVG" id="_EVG" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EVH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVH" style="">
+                      <image data-sid="_EVI" id="_EVI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EVJ" id="_EVJ" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EVL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVL" style="">
+                      <image data-sid="_EVM" id="_EVM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EVN" id="_EVN" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EVP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVP" style="">
+                      <image data-sid="_EVQ" id="_EVQ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EVR" id="_EVR" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EVT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVT" style="">
+              <view class="h5-view find-list__header" data-sid="_EVU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVU" style="">
+                <view class="find-avatar" data-sid="_EVV" id="_EVV" style="">
+                  <image class="header-avatar" data-sid="_EVW" id="_EVW" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EVY" id="_EVY" style="">
+                  <view data-sid="_EVZ" id="_EVZ" style="">陈光齐</view>
+                  <view data-sid="_EVb" id="_EVb" style="">
+                    <text data-sid="_EVc" id="_EVc" space="" style=""/>
+                    <text data-sid="_EVe" id="_EVe" space="" style=""/>
+                    <text data-sid="_EVg" id="_EVg" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EVi" id="_EVi" style="">
+                  <image data-sid="_EVj" id="_EVj" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EVk" id="_EVk" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EVl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVl" style="">
+                  <text class="find-list__content--desc" data-sid="_EVm" id="_EVm" space="" style="" user-select="">
+                    <text data-sid="_EVn" id="_EVn" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EVq" id="_EVq" style="">
+                  <view class="h5-view" data-sid="_EVr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVr" style="">
+                    <view class="h5-view footer-show" data-sid="_EVs" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EVs" style="display: none;">
+                      <text data-sid="_EVt" id="_EVt" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EVx" id="_EVx" style="display: none;">
+                      <view class="upload-image" data-sid="_EVy" id="_EVy" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EWC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWC" style="width: 260px; display: none;">
+                      <view class="network-link" data-sid="_EWE" id="_EWE" style="">
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EWG" id="_EWG" style=""/>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EWI" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWI" style="">
+                    <text data-sid="_EWJ" id="_EWJ" space="" style=""/>
+                    <text data-sid="_EWL" id="_EWL" space="" style=""/>
+                    <text data-sid="_EWN" id="_EWN" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EWP" id="_EWP" style="">
+                    <view class="find-info__date" data-sid="_EWQ" id="_EWQ" style="">1天 上海市</view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EWT" id="_EWT" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EWU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWU" style="">
+                      <image data-sid="_EWV" id="_EWV" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EWW" id="_EWW" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EWY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWY" style="">
+                      <image data-sid="_EWZ" id="_EWZ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EWa" id="_EWa" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EWc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWc" style="">
+                      <image data-sid="_EWd" id="_EWd" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EWe" id="_EWe" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EWg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWg" style="">
+              <view class="h5-view find-list__header" data-sid="_EWh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWh" style="">
+                <view class="find-avatar" data-sid="_EWi" id="_EWi" style="">
+                  <image class="header-avatar" data-sid="_EWj" id="_EWj" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EWl" id="_EWl" style="">
+                  <view data-sid="_EWm" id="_EWm" style="">陈光齐</view>
+                  <view data-sid="_EWo" id="_EWo" style="">
+                    <text data-sid="_EWp" id="_EWp" space="" style=""/>
+                    <text data-sid="_EWr" id="_EWr" space="" style=""/>
+                    <text data-sid="_EWt" id="_EWt" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EWv" id="_EWv" style="">
+                  <image data-sid="_EWw" id="_EWw" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EWx" id="_EWx" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EWy" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EWy" style="">
+                  <text class="find-list__content--desc" data-sid="_EWz" id="_EWz" space="" style="" user-select="">
+                    <text data-sid="_EXA" id="_EXA" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EXD" id="_EXD" style="">
+                  <view class="h5-view" data-sid="_EXE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXE" style="">
+                    <view class="h5-view footer-show" data-sid="_EXF" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXF" style="display: none;">
+                      <text data-sid="_EXG" id="_EXG" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EXK" id="_EXK" style="display: none;">
+                      <view class="upload-image" data-sid="_EXL" id="_EXL" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EXP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXP" style="width: 260px; display: none;">
+                      <view class="network-link" data-sid="_EXR" id="_EXR" style="">
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EXT" id="_EXT" style=""/>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EXV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXV" style="">
+                    <text data-sid="_EXW" id="_EXW" space="" style=""/>
+                    <text data-sid="_EXY" id="_EXY" space="" style=""/>
+                    <text data-sid="_EXa" id="_EXa" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EXc" id="_EXc" style="">
+                    <view class="find-info__date" data-sid="_EXd" id="_EXd" style="">2天 上海市</view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EXg" id="_EXg" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EXh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXh" style="">
+                      <image data-sid="_EXi" id="_EXi" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_EXj" id="_EXj" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EXl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXl" style="">
+                      <image data-sid="_EXm" id="_EXm" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EXn" id="_EXn" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EXp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXp" style="">
+                      <image data-sid="_EXq" id="_EXq" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_EXr" id="_EXr" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EXt" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXt" style="">
+              <view class="h5-view find-list__header" data-sid="_EXu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EXu" style="">
+                <view class="find-avatar" data-sid="_EXv" id="_EXv" style="">
+                  <image class="header-avatar" data-sid="_EXw" id="_EXw" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EXy" id="_EXy" style="">
+                  <view data-sid="_EXz" id="_EXz" style="">陈光齐</view>
+                  <view data-sid="_EYB" id="_EYB" style="">
+                    <text data-sid="_EYC" id="_EYC" space="" style=""/>
+                    <text data-sid="_EYE" id="_EYE" space="" style=""/>
+                    <text data-sid="_EYG" id="_EYG" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EYI" id="_EYI" style="">
+                  <image data-sid="_EYJ" id="_EYJ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EYK" id="_EYK" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EYL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYL" style="">
+                  <text class="find-list__content--desc" data-sid="_EYM" id="_EYM" space="" style="" user-select="">
+                    <text data-sid="_EYN" id="_EYN" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EYQ" id="_EYQ" style="">
+                  <view class="h5-view" data-sid="_EYR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYR" style="">
+                    <view class="h5-view footer-show" data-sid="_EYS" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYS" style="display: none;">
+                      <text data-sid="_EYT" id="_EYT" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EYX" id="_EYX" style="display: none;">
+                      <view class="upload-image" data-sid="_EYY" id="_EYY" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EYc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYc" style="width: 260px; display: none;">
+                      <view class="network-link" data-sid="_EYe" id="_EYe" style="">
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EYg" id="_EYg" style=""/>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EYi" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYi" style="">
+                    <text data-sid="_EYj" id="_EYj" space="" style=""/>
+                    <text data-sid="_EYl" id="_EYl" space="" style=""/>
+                    <text data-sid="_EYn" id="_EYn" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EYp" id="_EYp" style="">
+                    <view class="find-info__date" data-sid="_EYq" id="_EYq" style="">2天 上海市</view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EYt" id="_EYt" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EYu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYu" style="">
+                      <image data-sid="_EYv" id="_EYv" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_EYw" id="_EYw" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EYy" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EYy" style="">
+                      <image data-sid="_EYz" id="_EYz" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EZA" id="_EZA" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EZC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZC" style="">
+                      <image data-sid="_EZD" id="_EZD" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_EZE" id="_EZE" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EZG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZG" style="">
+              <view class="h5-view find-list__header" data-sid="_EZH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZH" style="">
+                <view class="find-avatar" data-sid="_EZI" id="_EZI" style="">
+                  <image class="header-avatar" data-sid="_EZJ" id="_EZJ" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/public/app/5142/17bab372-b7b1-4626-b5b0-ae6e76dda046/1000008848.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EZL" id="_EZL" style="">
+                  <view data-sid="_EZM" id="_EZM" style="">陈光齐</view>
+                  <view data-sid="_EZO" id="_EZO" style="">
+                    <text data-sid="_EZP" id="_EZP" space="" style=""/>
+                    <text data-sid="_EZR" id="_EZR" space="" style=""/>
+                    <text data-sid="_EZT" id="_EZT" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EZV" id="_EZV" style="">
+                  <image data-sid="_EZW" id="_EZW" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EZX" id="_EZX" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EZY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZY" style="">
+                  <text class="find-list__content--desc" data-sid="_EZZ" id="_EZZ" space="" style="" user-select="">
+                    <text data-sid="_EZa" id="_EZa" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EZd" id="_EZd" style="">
+                  <view class="h5-view" data-sid="_EZe" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZe" style="">
+                    <view class="h5-view footer-show" data-sid="_EZf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZf" style="display: none;">
+                      <text data-sid="_EZg" id="_EZg" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EZk" id="_EZk" style="display: none;">
+                      <view class="upload-image" data-sid="_EZl" id="_EZl" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EZp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZp" style="width: 260px; display: none;">
+                      <view class="network-link" data-sid="_EZr" id="_EZr" style="">
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EZt" id="_EZt" style=""/>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EZv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EZv" style="">
+                    <text data-sid="_EZw" id="_EZw" space="" style=""/>
+                    <text data-sid="_EZy" id="_EZy" space="" style=""/>
+                    <text data-sid="_EaA" id="_EaA" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EaC" id="_EaC" style="">
+                    <view class="find-info__date" data-sid="_EaD" id="_EaD" style="">2天 上海市</view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EaG" id="_EaG" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EaH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EaH" style="">
+                      <image data-sid="_EaI" id="_EaI" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_EaJ" id="_EaJ" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EaL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EaL" style="">
+                      <image data-sid="_EaM" id="_EaM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EaN" id="_EaN" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EaP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EaP" style="">
+                      <image data-sid="_EaQ" id="_EaQ" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_EaR" id="_EaR" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EaT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EaT" style="">
+              <view class="h5-view find-list__header" data-sid="_EaU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EaU" style="">
+                <view class="find-avatar" data-sid="_EaV" id="_EaV" style="">
+                  <image class="header-avatar" data-sid="_EaW" id="_EaW" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EaY" id="_EaY" style="">
+                  <view data-sid="_EaZ" id="_EaZ" style="">邵昆仑测试环境</view>
+                  <view data-sid="_Eab" id="_Eab" style="">
+                    <text data-sid="_Eac" id="_Eac" space="" style=""/>
+                    <text data-sid="_Eae" id="_Eae" space="" style=""/>
+                    <text data-sid="_Eag" id="_Eag" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_Eai" id="_Eai" style="">
+                  <image data-sid="_Eaj" id="_Eaj" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_Eak" id="_Eak" style="">
+                <view class="h5-view find-list__content__details" data-sid="_Eal" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eal" style="">
+                  <text class="find-list__content--desc" data-sid="_Eam" id="_Eam" space="" style="" user-select="">
+                    <text data-sid="_Ean" id="_Ean" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_Eaq" id="_Eaq" style="">
+                  <view class="h5-view" data-sid="_Ear" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ear" style="">
+                    <view class="h5-view footer-show" data-sid="_Eas" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eas" style="display: none;">
+                      <text data-sid="_Eat" id="_Eat" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_Eax" id="_Eax" style="">
+                      <view class="upload-image" data-sid="_Eay" id="_Eay" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-2" data-sid="_EbB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EbB" style="">
+                          <image data-sid="_EbC" id="_EbC" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/4bbbdd246b3a7f18d56dde5424e632644d427fc81406b3f0c0d498a7f34dd828.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-2" data-sid="_EbD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EbD" style="">
+                          <image data-sid="_EbE" id="_EbE" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/a6f696077435b28525f7130a09e7094787f5c4aac6c942eebffc41b96b6b9bd8.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EbG" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EbG" style="width: 260px;">
+                      <view class="network-link" data-sid="_EbI" id="_EbI" style="">
+                        <image class="link-image" data-sid="_EbJ" id="_EbJ" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EbK" id="_EbK" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EbN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EbN" style="">
+                    <text data-sid="_EbO" id="_EbO" space="" style=""/>
+                    <text data-sid="_EbQ" id="_EbQ" space="" style=""/>
+                    <text data-sid="_EbS" id="_EbS" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EbU" id="_EbU" style="">
+                    <view class="find-info__date" data-sid="_EbV" id="_EbV" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EbX" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EbX" style="">
+                      <image class="footer-map--icon" data-sid="_EbY" id="_EbY" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EbZ" id="_EbZ" style="">上海海关驻车站办事处</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_Ebb" id="_Ebb" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_Ebc" id="_Ebc" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_Ebd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ebd" style="">
+                      <image data-sid="_Ebe" id="_Ebe" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_Ebf" id="_Ebf" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Ebh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ebh" style="">
+                      <image data-sid="_Ebi" id="_Ebi" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_Ebj" id="_Ebj" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Ebl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ebl" style="">
+                      <image data-sid="_Ebm" id="_Ebm" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_Ebn" id="_Ebn" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_Ebp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ebp" style="">
+              <view class="h5-view find-list__header" data-sid="_Ebq" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ebq" style="">
+                <view class="find-avatar" data-sid="_Ebr" id="_Ebr" style="">
+                  <image class="header-avatar" data-sid="_Ebs" id="_Ebs" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_Ebu" id="_Ebu" style="">
+                  <view data-sid="_Ebv" id="_Ebv" style="">邵昆仑测试环境</view>
+                  <view data-sid="_Ebx" id="_Ebx" style="">
+                    <text data-sid="_Eby" id="_Eby" space="" style=""/>
+                    <text data-sid="_EcA" id="_EcA" space="" style=""/>
+                    <text data-sid="_EcC" id="_EcC" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EcE" id="_EcE" style="">
+                  <image data-sid="_EcF" id="_EcF" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EcG" id="_EcG" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EcH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EcH" style="">
+                  <text class="find-list__content--desc" data-sid="_EcI" id="_EcI" space="" style="" user-select="">
+                    <text data-sid="_EcJ" id="_EcJ" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EcM" id="_EcM" style="">
+                  <view class="h5-view" data-sid="_EcN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EcN" style="">
+                    <view class="h5-view footer-show" data-sid="_EcO" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EcO" style="display: none;">
+                      <text data-sid="_EcP" id="_EcP" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EcT" id="_EcT" style="display: none;">
+                      <view class="upload-image" data-sid="_EcU" id="_EcU" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EcY" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EcY" style="width: 260px;">
+                      <view class="network-link" data-sid="_Eca" id="_Eca" style="">
+                        <image class="link-image" data-sid="_Ecb" id="_Ecb" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_Ecc" id="_Ecc" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_Ecf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ecf" style="">
+                    <text data-sid="_Ecg" id="_Ecg" space="" style=""/>
+                    <text data-sid="_Eci" id="_Eci" space="" style=""/>
+                    <text data-sid="_Eck" id="_Eck" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_Ecm" id="_Ecm" style="">
+                    <view class="find-info__date" data-sid="_Ecn" id="_Ecn" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_Ecp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ecp" style="">
+                      <image class="footer-map--icon" data-sid="_Ecq" id="_Ecq" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_Ecr" id="_Ecr" style="">普陀区财政局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_Ect" id="_Ect" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_Ecu" id="_Ecu" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_Ecv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ecv" style="">
+                      <image data-sid="_Ecw" id="_Ecw" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_Ecx" id="_Ecx" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Ecz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ecz" style="">
+                      <image data-sid="_EdA" id="_EdA" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EdB" id="_EdB" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EdD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EdD" style="">
+                      <image data-sid="_EdE" id="_EdE" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_EdF" id="_EdF" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EdH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EdH" style="">
+              <view class="h5-view find-list__header" data-sid="_EdI" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EdI" style="">
+                <view class="find-avatar" data-sid="_EdJ" id="_EdJ" style="">
+                  <image class="header-avatar" data-sid="_EdK" id="_EdK" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EdM" id="_EdM" style="">
+                  <view data-sid="_EdN" id="_EdN" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EdP" id="_EdP" style="">
+                    <text data-sid="_EdQ" id="_EdQ" space="" style=""/>
+                    <text data-sid="_EdS" id="_EdS" space="" style=""/>
+                    <text data-sid="_EdU" id="_EdU" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EdW" id="_EdW" style="">
+                  <image data-sid="_EdX" id="_EdX" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EdY" id="_EdY" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EdZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EdZ" style="">
+                  <text class="find-list__content--desc" data-sid="_Eda" id="_Eda" space="" style="" user-select="">
+                    <text data-sid="_Edb" id="_Edb" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_Ede" id="_Ede" style="">
+                  <view class="h5-view" data-sid="_Edf" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edf" style="">
+                    <view class="h5-view footer-show" data-sid="_Edg" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edg" style="display: none;">
+                      <text data-sid="_Edh" id="_Edh" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_Edl" id="_Edl" style="">
+                      <view class="upload-image size-item" data-sid="_Edm" id="_Edm" style="width: 100%;">
+                        <view class="h5-view upload-image-item size-item" data-sid="_Edp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edp" style="">
+                          <image data-sid="_Edq" id="_Edq" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_Edr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edr" style="">
+                          <image data-sid="_Eds" id="_Eds" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_Edt" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edt" style="">
+                          <image data-sid="_Edu" id="_Edu" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/f27211ac25a955cd8010fe0a1d55d53b574bc9ef62a32e6c7d1874e0762daac2.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_Edv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edv" style="">
+                          <image data-sid="_Edw" id="_Edw" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/e3db8116a5b3198656a18bcb017fdf9b9dcf0de934db08c9dea52554e0e8e8d5.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_Edx" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edx" style="">
+                          <image data-sid="_Edy" id="_Edy" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/ce9bcecee3ac09e97b2bb94cbc67821d7177b8987cc32540a307c949bc72c933.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-item" data-sid="_Edz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Edz" style="">
+                          <image data-sid="_EeA" id="_EeA" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EeC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EeC" style="width: 260px;">
+                      <view class="network-link" data-sid="_EeE" id="_EeE" style="">
+                        <image class="link-image" data-sid="_EeF" id="_EeF" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EeG" id="_EeG" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EeJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EeJ" style="">
+                    <text data-sid="_EeK" id="_EeK" space="" style=""/>
+                    <text data-sid="_EeM" id="_EeM" space="" style=""/>
+                    <text data-sid="_EeO" id="_EeO" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EeQ" id="_EeQ" style="">
+                    <view class="find-info__date" data-sid="_EeR" id="_EeR" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EeT" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EeT" style="">
+                      <image class="footer-map--icon" data-sid="_EeU" id="_EeU" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EeV" id="_EeV" style="">普陀区财政局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EeX" id="_EeX" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EeY" id="_EeY" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EeZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EeZ" style="">
+                      <image data-sid="_Eea" id="_Eea" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_Eeb" id="_Eeb" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Eed" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eed" style="">
+                      <image data-sid="_Eee" id="_Eee" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_Eef" id="_Eef" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Eeh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eeh" style="">
+                      <image data-sid="_Eei" id="_Eei" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_Eej" id="_Eej" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_Eel" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eel" style="">
+              <view class="h5-view find-list__header" data-sid="_Eem" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eem" style="">
+                <view class="find-avatar" data-sid="_Een" id="_Een" style="">
+                  <image class="header-avatar" data-sid="_Eeo" id="_Eeo" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_Eeq" id="_Eeq" style="">
+                  <view data-sid="_Eer" id="_Eer" style="">邵昆仑测试环境</view>
+                  <view data-sid="_Eet" id="_Eet" style="">
+                    <text data-sid="_Eeu" id="_Eeu" space="" style=""/>
+                    <text data-sid="_Eew" id="_Eew" space="" style=""/>
+                    <text data-sid="_Eey" id="_Eey" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EfA" id="_EfA" style="">
+                  <image data-sid="_EfB" id="_EfB" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EfC" id="_EfC" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EfD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EfD" style="">
+                  <text class="find-list__content--desc" data-sid="_EfE" id="_EfE" space="" style="" user-select="">
+                    <text data-sid="_EfF" id="_EfF" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EfI" id="_EfI" style="">
+                  <view class="h5-view" data-sid="_EfJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EfJ" style="">
+                    <view class="h5-view footer-show" data-sid="_EfK" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EfK" style="display: none;">
+                      <text data-sid="_EfL" id="_EfL" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EfP" id="_EfP" style="display: none;">
+                      <view class="upload-image" data-sid="_EfQ" id="_EfQ" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EfU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EfU" style="width: 260px;">
+                      <view class="network-link" data-sid="_EfW" id="_EfW" style="">
+                        <image class="link-image" data-sid="_EfX" id="_EfX" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EfY" id="_EfY" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_Efb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Efb" style="">
+                    <text data-sid="_Efc" id="_Efc" space="" style=""/>
+                    <text data-sid="_Efe" id="_Efe" space="" style=""/>
+                    <text data-sid="_Efg" id="_Efg" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_Efi" id="_Efi" style="">
+                    <view class="find-info__date" data-sid="_Efj" id="_Efj" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_Efl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Efl" style="">
+                      <image class="footer-map--icon" data-sid="_Efm" id="_Efm" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_Efn" id="_Efn" style="">普陀区人事局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_Efp" id="_Efp" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_Efq" id="_Efq" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_Efr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Efr" style="">
+                      <image data-sid="_Efs" id="_Efs" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_Eft" id="_Eft" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Efv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Efv" style="">
+                      <image data-sid="_Efw" id="_Efw" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_Efx" id="_Efx" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Efz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Efz" style="">
+                      <image data-sid="_EgA" id="_EgA" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EgB" id="_EgB" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EgD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EgD" style="">
+              <view class="h5-view find-list__header" data-sid="_EgE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EgE" style="">
+                <view class="find-avatar" data-sid="_EgF" id="_EgF" style="">
+                  <image class="header-avatar" data-sid="_EgG" id="_EgG" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EgI" id="_EgI" style="">
+                  <view data-sid="_EgJ" id="_EgJ" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EgL" id="_EgL" style="">
+                    <text data-sid="_EgM" id="_EgM" space="" style=""/>
+                    <text data-sid="_EgO" id="_EgO" space="" style=""/>
+                    <text data-sid="_EgQ" id="_EgQ" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EgS" id="_EgS" style="">
+                  <image data-sid="_EgT" id="_EgT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EgU" id="_EgU" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EgV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EgV" style="">
+                  <text class="find-list__content--desc overflow-text-3" data-sid="_EgW" id="_EgW" space="" style="">
+                    <text data-sid="_EgX" id="_EgX" space="" style=""/>
+                    <text class="content-more" data-sid="_EgZ" id="_EgZ" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_Ega" id="_Ega" style="">
+                  <view class="h5-view" data-sid="_Egb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egb" style="">
+                    <view class="h5-view footer-show" data-sid="_Egc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egc" style="">
+                      <text data-sid="_Egd" id="_Egd" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_Egh" id="_Egh" style="">
+                      <view class="upload-image size-4" data-sid="_Egi" id="_Egi" style="width: 80%;">
+                        <view class="h5-view upload-image-item size-4" data-sid="_Egl" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egl" style="">
+                          <image data-sid="_Egm" id="_Egm" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/6f7bdd5b29436f7b5a0c5c80d33eacea9c3c21a55e2018e5875b495c1533a912.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_Egn" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egn" style="">
+                          <image data-sid="_Ego" id="_Ego" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/e3db8116a5b3198656a18bcb017fdf9b9dcf0de934db08c9dea52554e0e8e8d5.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_Egp" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egp" style="">
+                          <image data-sid="_Egq" id="_Egq" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/179d455b89645fb5e2efa17d4bf605370eed824b123c2e296c3aa91196ecef2a.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_Egr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egr" style="">
+                          <image data-sid="_Egs" id="_Egs" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/e86129953eda62b37b2a75dcc8a17d7d0909fee6755f2ea40e50ef80cffc3cce.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_Egu" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Egu" style="width: 260px;">
+                      <view class="network-link" data-sid="_Egw" id="_Egw" style="">
+                        <image class="link-image" data-sid="_Egx" id="_Egx" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_Egy" id="_Egy" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_EhB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EhB" style="">
+                    <text data-sid="_EhC" id="_EhC" space="" style=""/>
+                    <text data-sid="_EhE" id="_EhE" space="" style=""/>
+                    <text data-sid="_EhG" id="_EhG" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EhI" id="_EhI" style="">
+                    <view class="find-info__date" data-sid="_EhJ" id="_EhJ" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EhL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EhL" style="">
+                      <image class="footer-map--icon" data-sid="_EhM" id="_EhM" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EhN" id="_EhN" style="">普陀区人大</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EhP" id="_EhP" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EhQ" id="_EhQ" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EhR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EhR" style="">
+                      <image data-sid="_EhS" id="_EhS" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_EhT" id="_EhT" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EhV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EhV" style="">
+                      <image data-sid="_EhW" id="_EhW" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EhX" id="_EhX" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EhZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EhZ" style="">
+                      <image data-sid="_Eha" id="_Eha" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_Ehb" id="_Ehb" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_Ehd" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ehd" style="">
+              <view class="h5-view find-list__header" data-sid="_Ehe" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ehe" style="">
+                <view class="find-avatar" data-sid="_Ehf" id="_Ehf" style="">
+                  <image class="header-avatar" data-sid="_Ehg" id="_Ehg" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_Ehi" id="_Ehi" style="">
+                  <view data-sid="_Ehj" id="_Ehj" style="">邵昆仑测试环境</view>
+                  <view data-sid="_Ehl" id="_Ehl" style="">
+                    <text data-sid="_Ehm" id="_Ehm" space="" style=""/>
+                    <text data-sid="_Eho" id="_Eho" space="" style=""/>
+                    <text data-sid="_Ehq" id="_Ehq" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_Ehs" id="_Ehs" style="">
+                  <image data-sid="_Eht" id="_Eht" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_Ehu" id="_Ehu" style="">
+                <view class="h5-view find-list__content__details" data-sid="_Ehv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ehv" style="">
+                  <text class="find-list__content--desc overflow-text-3" data-sid="_Ehw" id="_Ehw" space="" style="">
+                    <text data-sid="_Ehx" id="_Ehx" space="" style=""/>
+                    <text class="content-more" data-sid="_Ehz" id="_Ehz" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_EiA" id="_EiA" style="">
+                  <view class="h5-view" data-sid="_EiB" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiB" style="">
+                    <view class="h5-view footer-show" data-sid="_EiC" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiC" style="">
+                      <text data-sid="_EiD" id="_EiD" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_EiH" id="_EiH" style="">
+                      <view class="upload-image size-4" data-sid="_EiI" id="_EiI" style="width: 80%;">
+                        <view class="h5-view upload-image-item size-4" data-sid="_EiL" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiL" style="">
+                          <image data-sid="_EiM" id="_EiM" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/0ceb0a6917036971c849fb674d26a77aa033da5e115e1c38cab62cf22fa15a52.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_EiN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiN" style="">
+                          <image data-sid="_EiO" id="_EiO" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/a6f696077435b28525f7130a09e7094787f5c4aac6c942eebffc41b96b6b9bd8.png" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_EiP" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiP" style="">
+                          <image data-sid="_EiQ" id="_EiQ" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/a11c813315d39bf780a0b71ecb5841e4d005b094ead1983dc7eb5bafc89a0199.jpg" style="" role="img"/>
+                        </view>
+                        <view class="h5-view upload-image-item size-4" data-sid="_EiR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiR" style="">
+                          <image data-sid="_EiS" id="_EiS" lazy-load="" mode="aspectFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/test/20260121/861664987ccd7f5a323208aec510adb39337a7e928add63285036ed257867131.png" style="" role="img"/>
+                        </view>
+                      </view>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_EiU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EiU" style="width: 260px;">
+                      <view class="network-link" data-sid="_EiW" id="_EiW" style="">
+                        <image class="link-image" data-sid="_EiX" id="_EiX" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_EiY" id="_EiY" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_Eib" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eib" style="">
+                    <text data-sid="_Eic" id="_Eic" space="" style=""/>
+                    <text data-sid="_Eie" id="_Eie" space="" style=""/>
+                    <text data-sid="_Eig" id="_Eig" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_Eii" id="_Eii" style="">
+                    <view class="find-info__date" data-sid="_Eij" id="_Eij" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_Eil" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eil" style="">
+                      <image class="footer-map--icon" data-sid="_Eim" id="_Eim" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_Ein" id="_Ein" style="">上海市普陀区政府采购中心</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_Eip" id="_Eip" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_Eiq" id="_Eiq" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_Eir" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eir" style="">
+                      <image data-sid="_Eis" id="_Eis" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-active.png" style="" role="img"/>
+                      <text data-sid="_Eit" id="_Eit" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Eiv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eiv" style="">
+                      <image data-sid="_Eiw" id="_Eiw" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_Eix" id="_Eix" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_Eiz" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Eiz" style="">
+                      <image data-sid="_EjA" id="_EjA" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-active.png" style="" role="img"/>
+                      <text data-sid="_EjB" id="_EjB" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="h5-view find-list" data-sid="_EjD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EjD" style="">
+              <view class="h5-view find-list__header" data-sid="_EjE" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EjE" style="">
+                <view class="find-avatar" data-sid="_EjF" id="_EjF" style="">
+                  <image class="header-avatar" data-sid="_EjG" id="_EjG" mode="scaleToFill" src="https://freeuuu.obs.cn-east-3.myhuaweicloud.com/stag/20251205/8c5377eea4f77e6b92207929d13a552f08e2d58145d7a6e04b4182f84ece5b39.jpg" style="" role="img"/>
+                </view>
+                <view class="find-header__info" data-sid="_EjI" id="_EjI" style="">
+                  <view data-sid="_EjJ" id="_EjJ" style="">邵昆仑测试环境</view>
+                  <view data-sid="_EjL" id="_EjL" style="">
+                    <text data-sid="_EjM" id="_EjM" space="" style=""/>
+                    <text data-sid="_EjO" id="_EjO" space="" style=""/>
+                    <text data-sid="_EjQ" id="_EjQ" space="" style=""/>
+                  </view>
+                </view>
+                <view class="header-more" data-sid="_EjS" id="_EjS" style="">
+                  <image data-sid="_EjT" id="_EjT" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/more-icon.png" style="" role="img"/>
+                </view>
+              </view>
+              <view class="find-list__content" data-sid="_EjU" id="_EjU" style="">
+                <view class="h5-view find-list__content__details" data-sid="_EjV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EjV" style="">
+                  <text class="find-list__content--desc" data-sid="_EjW" id="_EjW" space="" style="" user-select="">
+                    <text data-sid="_EjX" id="_EjX" space="" style=""/>
+                  </text>
+                </view>
+                <view class="find-list__content--footer" data-sid="_Eja" id="_Eja" style="">
+                  <view class="h5-view" data-sid="_Ejb" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ejb" style="">
+                    <view class="h5-view footer-show" data-sid="_Ejc" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ejc" style="display: none;">
+                      <text data-sid="_Ejd" id="_Ejd" space="" style=""/>
+                    </view>
+                    <view class="upload-image-box" data-sid="_Ejh" id="_Ejh" style="display: none;">
+                      <view class="upload-image" data-sid="_Eji" id="_Eji" style="width: 100%;"/>
+                    </view>
+                    <view class="h5-view pt-24" data-sid="_Ejm" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ejm" style="width: 260px;">
+                      <view class="network-link" data-sid="_Ejo" id="_Ejo" style="">
+                        <image class="link-image" data-sid="_Ejp" id="_Ejp" mode="aspectFill" src="https://www.baidu.com/favicon.ico" style="" role="img"/>
+                        <view class="network-link__text one-line-ellipsis" data-sid="_Ejq" id="_Ejq" style="">百度一下，你就知道</view>
+                      </view>
+                    </view>
+                  </view>
+                  <view class="h5-view footer-labels" data-sid="_Ejt" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_Ejt" style="">
+                    <text data-sid="_Eju" id="_Eju" space="" style=""/>
+                    <text data-sid="_Ejw" id="_Ejw" space="" style=""/>
+                    <text data-sid="_Ejy" id="_Ejy" space="" style=""/>
+                  </view>
+                  <view class="flex-center" data-sid="_EkA" id="_EkA" style="">
+                    <view class="find-info__date" data-sid="_EkB" id="_EkB" style="">2天 上海市</view>
+                    <view class="h5-view footer-map" data-sid="_EkD" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EkD" style="">
+                      <image class="footer-map--icon" data-sid="_EkE" id="_EkE" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/location-icon1.png" style="" role="img"/>
+                      <view class="footer-map__name" data-sid="_EkF" id="_EkF" style="">普陀区司法局</view>
+                      <text class="h5-i nutui-iconfont nut-icon nut-icon-rect-right" data-sid="_EkH" id="_EkH" space="" style="color: #c0c0c0; font-size: 9px; width: 9px; height: 9px; margin-top: 1px;"/>
+                    </view>
+                  </view>
+                  <view class="footer-controls flex-center" data-sid="_EkI" id="_EkI" style="">
+                    <view class="h5-view footer-controls__item" data-sid="_EkJ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EkJ" style="">
+                      <image data-sid="_EkK" id="_EkK" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/like-icon.png" style="" role="img"/>
+                      <text data-sid="_EkL" id="_EkL" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EkN" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EkN" style="">
+                      <image data-sid="_EkO" id="_EkO" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/comment-icon.png" style="" role="img"/>
+                      <text data-sid="_EkP" id="_EkP" space="" style=""/>
+                    </view>
+                    <view class="h5-view footer-controls__item" data-sid="_EkR" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EkR" style="">
+                      <image data-sid="_EkS" id="_EkS" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/collect-icon.png" style="" role="img"/>
+                      <text data-sid="_EkT" id="_EkT" space="" style=""/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="empty-data" data-sid="_EDo" id="_EDo" style="display: none;">
+            <view class="nut-empty" data-sid="_EDp" id="_EDp" style="">
+              <view class="nut-empty__box" data-sid="_EDq" id="_EDq" style="">
+                <image data-sid="_EDt" id="_EDt" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/empty-box.png" style="" role="img"/>
+              </view>
+               
+              <view class="nut-empty__description" data-sid="_EDx" id="_EDx" style="">暂无人脉</view>
+               
+            </view>
+            <button app-parameter="" business-id="" class="h5-button primary-btn" data-sid="_EEE" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EEE" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 为TA人创建个人说明书 </button>
+            <view class="empty-data__desc" data-sid="_EEG" id="_EEG" style="">对方领取后 可以与TA匹配商机</view>
+          </view>
+          <view class="mt-30 mb-30" data-sid="_EEI" id="_EEI" style="padding-bottom: 0px; display: none;">
+            <view class="pt-40 flex-center-center" data-sid="_EEJ" id="_EEJ" style="display: ;">
+              <text class="h5-i nutui-iconfont nut-icon nut-icon-loading" data-sid="_EEK" id="_EEK" space="" style=""/>
+              <text class="no-more pl-20" data-sid="_EEL" id="_EEL" space="" style=""/>
+            </view>
+            <view class="no-more pt-40" data-sid="_EEN" id="_EEN" style="display: none;">没有更多了</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="tabBar-container" data-sid="_EEP" id="_EEP" style="">
+    <view class="tab-bar-wrapper tab-bar-wrapper-black" data-sid="_EES" id="tabBar" style="padding-bottom: env(safe-area-inset-bottom);">
+      <view class="h5-view tab-bar flex-column-center" data-sid="_EEV" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EEV" style="">
+        <view class="nut-badge" data-sid="_EEW" id="_EEW" style="">
+          <view class="nut-badge__icon" data-sid="_EEX" id="_EEX" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_EEd" id="_EEd" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/businessStatus-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_EEf" id="_EEf" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_EEg" id="_EEg" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_EEi" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EEi" style="">
+        <view class="nut-badge" data-sid="_EEj" id="_EEj" style="">
+          <view class="nut-badge__icon" data-sid="_EEk" id="_EEk" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_EEq" id="_EEq" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/find-active.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_EEs" id="_EEs" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text class="active-text" data-sid="_EEt" id="_EEt" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_EEv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EEv" style="">
+        <view class="nut-badge" data-sid="_EEw" id="_EEw" style="">
+          <view class="nut-badge__icon" data-sid="_EEx" id="_EEx" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-ai" data-sid="_EFD" id="_EFD" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/create-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_EFF" id="_EFF" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_EFG" id="_EFG" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_EFH" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EFH" style="">
+        <view class="nut-badge" data-sid="_EFI" id="_EFI" style="">
+          <view class="nut-badge__icon" data-sid="_EFJ" id="_EFJ" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_EFP" id="_EFP" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/card-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_EFR" id="_EFR" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+        </view>
+        <text data-sid="_EFS" id="_EFS" space="" style=""/>
+      </view>
+      <view class="h5-view tab-bar flex-column-center" data-sid="_EFU" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EFU" style="">
+        <view class="nut-badge" data-sid="_EFV" id="_EFV" style="">
+          <view class="nut-badge__icon" data-sid="_EFW" id="_EFW" style="top: 4px; right: 0px; z-index: 9; background: #F04134; display: none;"/>
+           
+          <image class="tab-icon" data-sid="_EFc" id="_EFc" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/new-tabs/circle-icon.png" style="" role="img"/>
+           
+          <view class="nut-badge__content nut-badge__content--sup nut-badge__content--dot" data-sid="_EFe" id="_EFe" style="top: 4px; right: 0px; z-index: 9; background: #F04134;"/>
+        </view>
+        <text data-sid="_EFf" id="_EFf" space="" style=""/>
+      </view>
+    </view>
+  </view>
+  <view data-sid="_EFh" id="_EFh" style="">
+    <view class="h5-view nut-overlay" data-sid="_EFi" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EFi" style="transition-duration: 0.3s; z-index: 2102; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_EFm" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EFm" style="z-index: 2102; transition-duration: 0.3s; display: none;"> </view>
+  </view>
+  <movable-area class="movable-area" data-sid="_EGT" id="_EGT" style="margin-top: calc(78px); margin-bottom: calc(45px); height: calc(100vh - 104px - 45px); display: none;">
+    <movable-view class="movable-view" damping="20" data-sid="_EGU" direction="none" friction="2" id="_EGU" scale-max="10" scale-min="0.5" scale-value="1" style="transform: translateX(0px) translateY(0px) translateZ(0px) scale(1); transform-origin: center center;" x="390" y="810" aria-dropeffect="move" aria-label="可移动">
+      <view class="box" data-sid="_EGV" id="_EGV" style="">
+        <image class="back-top" data-sid="_EGW" id="_EGW" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/back-top.png" style="" role="img"/>
+      </view>
+    </movable-view>
+  </movable-area>
+  <view class="msg-toast" data-sid="_EGX" id="_EGX" style="display: none;">已更新999条动态</view>
+  <view class="nut-overlay fu-bottom-overlay" data-sid="_EGZ" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EGZ" style="transition-duration: 0.3s; z-index: 2199; display: none;">
+    <view class="bottom-overlay" data-sid="_EGc" id="_EGc" style="">
+      <image class="close-icon" data-sid="_EGd" id="_EGd" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/close-icon.png" style="" role="img"/>
+      <view class="share-title__box" data-sid="_EGg" id="_EGg" style="">
+        <view class="h5-view close-icon" data-sid="_EGh" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EGh" style="">
+          <image data-sid="_EGi" id="_EGi" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/close-icon.png" style="" role="img"/>
+        </view>
+        <view class="share-title" data-sid="_EGj" id="_EGj" style=""> 分享标题 </view>
+        <input auto-fill="" class="h5-input" cursor="null" data-sid="_EGl" id="_EGl" maxlength="140" name="" placeholder="请输入" placeholder-class="input-placeholder" placeholder-style="font-size: 30rpx;color: #C6C6C8;" safe-password-custom-hash="" selection-end="-1" selection-start="-1" style="" type="" value="分享了一个商机/人脉给你~">请输入</input>
+        <view class="share-tips" data-sid="_EGm" id="_EGm" style="">可以编辑分享标题，提高商业曝光率。</view>
+        <button app-parameter="" business-id="" class="h5-button primary-btn" data-sid="_EGo" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EGo" lang="" open-type="share" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false"> 确认分享 </button>
+      </view>
+    </view>
+  </view>
+  <view data-sid="_EGq" id="_EGq" style="">
+    <view class="nut-overlay" data-sid="_EGr" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EGr" style="transition-duration: 0.3s; z-index: 2199; display: none;"/>
+     
+    <view class="h5-view nut-popup round nut-popup--bottom find-control-popup" data-sid="_EGv" hover-class="none" hover-start-time="50" hover-stay-time="400" id="_EGv" style="z-index: 2199; transition-duration: 0.3s; display: none;">
+      <view class="line-icon" data-sid="_EGy" id="_EGy" style=""/>
+      <view class="control-box" data-sid="_EHB" id="_EHB" style="">
+        <view class="flex-center-between" data-sid="_EHE" id="_EHE" style="border-top: 0;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_EHF" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EHF" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_EHG" id="_EHG" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/circle/share-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_EHH" id="_EHH" style="">
+              <text data-sid="_EHI" id="_EHI" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_EHN" id="_EHN" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_EHO" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EHO" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_EHP" id="_EHP" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/common/icon-picture.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_EHQ" id="_EHQ" style="">
+              <text data-sid="_EHR" id="_EHR" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_EHW" id="_EHW" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item" data-sid="_EHX" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EHX" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_EHY" id="_EHY" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/find/edit-icon.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_EHZ" id="_EHZ" style="">
+              <text data-sid="_EHa" id="_EHa" space="" style=""/>
+            </view>
+          </button>
+        </view>
+        <view class="flex-center-between" data-sid="_EHf" id="_EHf" style="border-top: 1px solid #efefef;">
+          <button app-parameter="" business-id="" class="h5-button control-box__item item-delete" data-sid="_EHg" form-type="" hover-class="button-hover" hover-start-time="20" hover-stay-time="70" id="_EHg" lang="" open-type="" send-message-img="" send-message-path="" send-message-title="" session-from="" size="default" style="" type="" role="button" aria-disabled="false">
+            <image data-sid="_EHh" id="_EHh" mode="scaleToFill" src="https://obs.freeuuu.com/public/freeu-card/public/delete-info.png" style="" role="img"/>
+            <view class="control-box__item-text flex-center" data-sid="_EHi" id="_EHi" style="">
+              <text data-sid="_EHj" id="_EHj" space="" style=""/>
+            </view>
+          </button>
+        </view>
+      </view>
+       
+    </view>
+  </view>
+</view>
