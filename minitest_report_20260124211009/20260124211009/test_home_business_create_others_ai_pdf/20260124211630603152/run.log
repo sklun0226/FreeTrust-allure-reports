@@ -1,0 +1,27 @@
+[I 2026-01-24 21:16:30,605 minium minitest#432 _miniSetUp] =========Current case: test_home_business_create_others_ai_pdf=========
+[I 2026-01-24 21:16:30,606 minium minitest#435 _miniSetUp] package info: D:.FreeTrust.FreeU_WX_Minium.test.test_home_page, case info: HomeTest.test_home_business_create_others_ai_pdf
+[I 2026-01-24 21:16:30,607 minium basenative#59 wrapper] call BaseNative.check_connection
+[I 2026-01-24 21:16:30,607 minium basenative#63 wrapper] call BaseNative.check_connection end True
+[I 2026-01-24 21:16:30,608 minium basenative#59 wrapper] call BaseNative.back_to_miniprogram
+[I 2026-01-24 21:16:30,609 minium basenative#794 back_to_miniprogram] try back_to_miniprogram 3
+[I 2026-01-24 21:16:30,609 minium basenative#63 wrapper] call BaseNative.back_to_miniprogram end 
+[I 2026-01-24 21:16:30,610 minium.App5200 app#950 relaunch] ReLaunch: /pages/index/index
+[D 2026-01-24 21:16:30,611 minium.Conn7088 connection#427 _safely_send] ASYNC_SEND > [2415684067088]{"id":"81dbe60b-ad8a-4756-92a9-9f8daac1a63c","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-24 21:16:30,615 minium.Conn7088 connection#660 __on_message] RECV < [2415684067088]{"method":"App.bindingCalled","params":{"name":"reLaunch_before_global","args":[{"url":"/pages/index/index"}]}}
+[D 2026-01-24 21:16:30,900 minium.Conn7088 connection#660 __on_message] RECV < [2415684067088]{"method":"App.bindingCalled","params":{"name":"switchTab_before_global","args":[{"url":"/pages/home/index"}]}}
+[D 2026-01-24 21:16:31,789 minium.Conn7088 connection#660 __on_message] RECV < [2415684067088]{"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"path":"pages/index/index","query":{},"openType":"reLaunch","timeStamp":1769260591781,"webviewId":27,"routeEventId":"","renderer":"webview"},1769260591783]}}
+[I 2026-01-24 21:16:31,791 minium.App5200 app#1226 _on_route_changed] Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/index/index', 'query': {}, 'openType': 'reLaunch', 'timeStamp': 1769260591781, 'webviewId': 27, 'routeEventId': '', 'renderer': 'webview'}, 1769260591783]}
+[D 2026-01-24 21:16:31,793 minium.Conn7088 connection#660 __on_message] RECV < [2415684067088]{"id":"81dbe60b-ad8a-4756-92a9-9f8daac1a63c","result":{"result":{"errMsg":"reLaunch:ok"}}}
+[I 2026-01-24 21:16:31,794 minium.Conn7088 connection#704 _handle_async_msg] received async msg: 81dbe60b-ad8a-4756-92a9-9f8daac1a63c
+[I 2026-01-24 21:16:31,795 minium minitest#897 capture] capture setup.png
+[D 2026-01-24 21:16:31,796 minium.Conn7088 connection#427 _safely_send] SEND > [2415684067088]{"id":"8d97ad7f-1765-4fe6-ad53-9c96e3579c6c","method":"App.captureScreenshot","params":{}}
+[D 2026-01-24 21:16:31,850 minium.Conn7088 connection#660 __on_message] RECV < [2415684067088]{"id":"8d97ad7f-1765-4fe6-ad53-9c96e3579c6c","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAYYAAANMCAIAAADXDp1JAAAAAXNSR0IArs4c6QAAD3tJREFUeJzt3c+L1fWjx/F7zjg6M/6aUvyRipiOqFlS1iKKaiG0qF1tg/6D1u36L9q0rUVtQhDaCCG0kIrUykRKA0mNlELNX82Zcxcuvndxb2rcmKfyeKw/A6/F4Tmf95nPOTMYj8f/BdAwXOwBAP8hSUCIJAEhkgSESBIQIklAiCQBIZIEhEgSECJJQIgkASGSBIRIEhAiSUCIJAEhkgSESBIQIklAiCQBIZIEhEgSECJJQIgkASGSBIRIEhAiSUCIJAEhkgSESBIQIklAiCQBIZIEhEgSECJJQIgkASGSBIRIEhAiSUCIJAEhkgSESBIQIklAiCQBIZIEhEgSECJJQIgkASGSBIRIEhAiSUCIJAEhkgSESBIQIklAiCQBI
+[I 2026-01-24 21:16:31,852 minium minitest#487 _miniSetUp] =========case: test_home_business_create_others_ai_pdf start=========
+[I 2026-01-24 21:16:31,853 minium minitest#788 _callTestMethod] call test method
+[I 2026-01-24 21:16:31,854 minium minitest#796 _callTestMethod] end test method
+[D 2026-01-24 21:16:31,854 minium minitest#799 _miniTearDown] =========Current case Down: test_home_business_create_others_ai_pdf=========
+[I 2026-01-24 21:16:31,855 minium minitest#897 capture] capture teardown.png
+[D 2026-01-24 21:16:31,855 minium.Conn7088 connection#427 _safely_send] SEND > [2415684067088]{"id":"bafb4b83-d191-46f1-9730-6d58b6866263","method":"App.captureScreenshot","params":{}}
+[D 2026-01-24 21:16:31,904 minium.Conn7088 connection#660 __on_message] RECV < [2415684067088]{"id":"bafb4b83-d191-46f1-9730-6d58b6866263","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAYYAAANMCAIAAADXDp1JAAAAAXNSR0IArs4c6QAAD19JREFUeJzt3cuL1nXfwPGuOdwzjs6o6OCJsFQoESUrRBdBEIREVKsW0f/Rtn8maNtCIZIO0AEpkSCU1LCmAx5SU/Mwo+P1LITnuTdPo3V3+zZer+UwF3xW7/l9D79rBsPh8BGAhpEHPQDA/5EkIESSgBBJAkIkCQiRJCBEkoAQSQJCJAkIkSQgRJKAEEkCQiQJCJEkIESSgBBJAkIkCQiRJCBEkoAQSQJCJAkIkSQgRJKAEEkCQiQJCJEkIESSgBBJAkIkCQiRJCBEkoAQSQJCJAkIkSQgRJKAEEkCQiQJCJEkIESSgBBJAkIkCQiRJCBEkoAQSQJCJAkIkSQgRJKAEEkCQiQJCJEkIESSgBBJAkIkCQiRJCBEkoAQSQJCJ
+[I 2026-01-24 21:16:31,906 minium basenative#59 wrapper] call BaseNative.get_start_up
+[I 2026-01-24 21:16:31,906 minium basenative#63 wrapper] call BaseNative.get_start_up end 
